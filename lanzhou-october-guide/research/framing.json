@@ -1,0 +1,48 @@
+{
+  "destination": "Lanzhou",
+  "display_name": "兰州",
+  "country": "中国",
+  "year": "2026",
+  "trip": {
+    "start_date": "pending",
+    "end_date": "pending",
+    "days": 5,
+    "rhythm": "轻松",
+    "travelers": "2",
+    "interests": ["兰州与西北美食", "寺庙与宗教建筑", "城市与黄河摄影"],
+    "constraints": ["计划在2026年10月出行，具体日期待确认", "每天保留午间休息与机动时间", "避免连续安排高强度爬坡"]
+  },
+  "cover": {
+    "kicker": "LANZHOU · ALONG THE YELLOW RIVER",
+    "title": "沿河慢慢吃",
+    "summary": "把黄河两岸、山寺晨光和一碗碗热汤串成五天：少赶路，多留时间给味道、光线与安静的院落。",
+    "image": "assets/cover-lanzhou.jpg",
+    "download_url": "https://img.wayschina.com/travel-guid/articles/lanzhou-complete-guide/v1/img-1.webp?v=1782022248",
+    "source_page": "https://wayschina.com/ko/articles/xining-and-qinghai-lake-guide",
+    "source_type": "established_publication",
+    "media_class": "real_photo",
+    "original_media_class": "real_photo",
+    "visual_subject_type": "landscape",
+    "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+    "source_identity_bound": true,
+    "visually_confirmed": true,
+    "watermark_checked": true,
+    "visual_confirmation_note": "下载后检查黄河、中山桥、白塔山与城市天际线均可辨识，并确认无水印",
+    "subject_verified": true,
+    "tags": ["黄河散步", "寺庙建筑", "牛肉面与夜市", "轻松摄影"]
+  },
+  "transport": {
+    "status": "pending",
+    "legs": []
+  },
+  "stays": [
+    {
+      "status": "pending",
+      "place_id": null,
+      "check_in": null,
+      "check_out": null,
+      "notes": "住宿待确认；建议最终选择城关区、张掖路或东方红广场附近，以减少五天路线的往返。"
+    }
+  ],
+  "render_bindings_file": "render-bindings.json"
+}

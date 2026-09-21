@@ -1,0 +1,929 @@
+{
+  "places": [
+    {
+      "id": "r0",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "楼外楼孤山路店",
+      "local_name": "楼外楼孤山路店",
+      "description": "位于孤山一带的传统杭帮菜餐饮选择，可与孤山文化路线衔接。选择这里是为了理解杭州宴席菜式，具体供应与排队状况仍需到店前确认。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%A5%BC%E5%A4%96%E6%A5%BC%E5%AD%A4%E5%B1%B1%E8%B7%AF%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "传统杭帮菜",
+      "signature_dishes": "东坡肉、龙井虾仁",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "楼外楼孤山路店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant",
+        "mountain",
+        "national_park",
+        "natural_scenic",
+        "outdoor_activity",
+        "landscape_photography"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.3,
+        "food": 0.9,
+        "natural_scenery": 0.1,
+        "photo_atmosphere": 0.3,
+        "outdoor": 0.1
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "food": "medium",
+        "natural_scenery": "high",
+        "photo_atmosphere": "high",
+        "outdoor": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "national_park"
+        ],
+        "food": [
+          "restaurant"
+        ],
+        "natural_scenery": [
+          "mountain",
+          "national_park",
+          "natural_scenic"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "mountain",
+          "national_park",
+          "natural_scenic",
+          "outdoor_activity"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r1",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "知味观仁和路总店",
+      "local_name": "知味观仁和路总店",
+      "description": "湖滨附近的传统点心选择，适合把正餐缩小为按食量点选的小吃组合。同行人对甜咸偏好不同可分别选择，菜单与门店营业需复核。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E7%9F%A5%E5%91%B3%E8%A7%82%E4%BB%81%E5%92%8C%E8%B7%AF%E6%80%BB%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "小吃点心",
+      "signature_dishes": "小笼、猫耳朵",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "知味观仁和路总店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9,
+        "natural_scenery": 0.1,
+        "city_walk": 0.3,
+        "photo_atmosphere": 0.3,
+        "outdoor": 0.1
+      },
+      "semantic_confidence": {
+        "food": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r2",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "奎元馆解放路总店",
+      "local_name": "奎元馆解放路总店",
+      "description": "以杭州面食为主题的一餐，可以与城市中心的步行安排结合。汤面适合作为清晰的用餐停靠，鳝鱼或虾等配料过敏者应先与店员确认。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E5%A5%8E%E5%85%83%E9%A6%86%E8%A7%A3%E6%94%BE%E8%B7%AF%E6%80%BB%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "传统面馆",
+      "signature_dishes": "片儿川、虾爆鳝面",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "奎元馆解放路总店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r3",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "新白鹿龙游路店",
+      "local_name": "新白鹿龙游路店",
+      "description": "选择家常菜作为同行人共享的一餐，适合在湖滨北侧活动后按实际体力前往。菜式可能变化，先看当前菜单再按人数点菜，避免用套餐价格推算预算。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%96%B0%E7%99%BD%E9%B9%BF%E9%BE%99%E6%B8%B8%E8%B7%AF%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "家常杭菜",
+      "signature_dishes": "蛋黄鸡翅、糖醋排骨",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "新白鹿龙游路店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9,
+        "natural_scenery": 0.1,
+        "city_walk": 0.3,
+        "photo_atmosphere": 0.3,
+        "outdoor": 0.1
+      },
+      "semantic_confidence": {
+        "food": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r4",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "杭州酒家延安路店",
+      "local_name": "杭州酒家延安路店",
+      "description": "在延安路一带安排杭州风味正餐，适合把地方菜与城市日常生活放在同一天认识。先确认鱼类、肉类和调味偏好，再决定实际点菜组合。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%9D%AD%E5%B7%9E%E9%85%92%E5%AE%B6%E5%BB%B6%E5%AE%89%E8%B7%AF%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "杭州风味正餐",
+      "signature_dishes": "东坡肉、宋嫂鱼羹",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "杭州酒家延安路店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r5",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "咬不得高祖生煎高银街店",
+      "local_name": "咬不得高祖生煎高银街店",
+      "description": "以生煎作为南宋御街周边活动时的简便用餐候选，适合不想安排长时间正餐的时段。刚出锅的馅汁可能烫口，应放凉后小口食用并复核门店状态。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E5%92%AC%E4%B8%8D%E5%BE%97%E9%AB%98%E7%A5%96%E7%94%9F%E7%85%8E%E9%AB%98%E9%93%B6%E8%A1%97%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "生煎简餐",
+      "signature_dishes": "生煎、汤品",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "咬不得高祖生煎高银街店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "c0",
+      "type": "chain",
+      "city": "杭州",
+      "display_name": "老娘舅",
+      "local_name": "老娘舅",
+      "description": "老娘舅作为杭州用餐时的连锁备选，仅在附近有营业门店且菜单适合同行人时使用。具体分店不在离线档案中指定，请按当天位置核对，不为寻找门店额外绕行。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%80%81%E5%A8%98%E8%88%85&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "日常简餐",
+      "signature_dishes": "按实际门店菜单选择",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "老娘舅",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "chain",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "c1",
+      "type": "chain",
+      "city": "杭州",
+      "display_name": "新丰小吃",
+      "local_name": "新丰小吃",
+      "description": "新丰小吃作为杭州用餐时的连锁备选，仅在附近有营业门店且菜单适合同行人时使用。具体分店不在离线档案中指定，请按当天位置核对，不为寻找门店额外绕行。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%96%B0%E4%B8%B0%E5%B0%8F%E5%90%83&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "日常简餐",
+      "signature_dishes": "按实际门店菜单选择",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "新丰小吃",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "chain",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    }
+  ]
+}

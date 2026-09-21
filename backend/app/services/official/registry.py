@@ -1,0 +1,48 @@
+"""Small manually reviewed registry; entries are evidence, not guessed URLs."""
+
+OFFICIAL_SOURCE_REGISTRY=(
+    {
+        'canonical_name':'上海博物馆','aliases':['上海博物馆','上海博物馆人民广场馆','上海博物馆东馆'],
+        'city':'上海','categories':['博物馆','科教文化服务'],
+        'official_url':'https://www.shanghaimuseum.cn/',
+        'pages':{
+            'homepage':'https://www.shanghaimuseum.cn/',
+            'opening_hours':'https://www.shanghaimuseum.cn/mu/frontend/pg/service/visit-east',
+            'reservation':'https://www.shanghaimuseum.cn/mu/frontend/pg/service/visit-east',
+            'visitor_notice':'https://www.shanghaimuseum.cn/mu/frontend/pg/service/visit-east',
+        },
+        'domains':['shanghaimuseum.cn'],
+    },
+    {
+        'canonical_name':'上海迪士尼乐园','aliases':['上海迪士尼乐园','上海迪士尼度假区'],
+        'city':'上海','categories':['主题公园','风景名胜','体育休闲服务'],
+        'official_url':'https://www.shanghaidisneyresort.com/zh-cn/',
+        'pages':{
+            'homepage':'https://www.shanghaidisneyresort.com/zh-cn/',
+            'ticket':'https://www.shanghaidisneyresort.com/zh-cn/',
+            'reservation':'https://www.shanghaidisneyresort.com/zh-cn/',
+            'visitor_notice':'https://www.shanghaidisneyresort.com/zh-cn/',
+        },
+        'domains':['shanghaidisneyresort.com'],
+    },
+    {
+        'canonical_name':'东方明珠广播电视塔','aliases':['东方明珠','东方明珠广播电视塔','东方明珠塔'],
+        'city':'上海','categories':['风景名胜','观景点','电视塔'],
+        'official_url':'https://www.orientalpearltower.com/',
+        'pages':{'homepage':'https://www.orientalpearltower.com/'},
+        'domains':['orientalpearltower.com'],
+    },
+    {
+        'canonical_name':'豫园','aliases':['豫园','上海豫园'],
+        'city':'上海','categories':['风景名胜','园林'],
+        'official_url':'https://www.yugarden.com.cn/',
+        'pages':{
+            'homepage':'https://www.yugarden.com.cn/',
+            'opening_hours':'https://www.yugarden.com.cn/page/articleview/message.html',
+            'ticket':'https://www.yugarden.com.cn/page/articleview/message.html',
+            'reservation':'https://www.yugarden.com.cn/page/articleview/message.html',
+            'visitor_notice':'https://www.yugarden.com.cn/page/articleView/index.html',
+        },
+        'domains':['yugarden.com.cn'],
+    },
+)

@@ -1,0 +1,4487 @@
+{
+  "schema_version": "seven-v1",
+  "id": "contract-fixture",
+  "destination": "杭州",
+  "display_name": "杭州旅行手记",
+  "country": "中国",
+  "year": "2026",
+  "trip": {
+    "origin": "上海",
+    "destinations": [
+      "杭州"
+    ],
+    "mainDestination": "杭州",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-04",
+    "adults": 2,
+    "children": 0,
+    "seniors": 0,
+    "travelStyle": "朋友出行",
+    "budget": {
+      "total": 6000.0,
+      "accommodation": 0.0,
+      "food": 0.0,
+      "transportation": 0.0,
+      "activities": 0.0,
+      "shopping": 0.0,
+      "other": 0.0
+    },
+    "preferences": {
+      "pace": "balanced",
+      "interests": [
+        "历史文化",
+        "自然风景"
+      ],
+      "budgetLevel": "agent",
+      "mustGo": "",
+      "avoid": "",
+      "constraints": "",
+      "longDistance": "agent",
+      "localTransport": [
+        "transit"
+      ],
+      "accommodation": ""
+    },
+    "notes": "",
+    "outboundPeriod": "flexible",
+    "returnPeriod": "flexible"
+  },
+  "generation": {
+    "mode": "offline",
+    "degraded": true,
+    "warnings": [
+      "该地点尚未可靠绑定真实 POI，名称与位置需要复核。",
+      "9 段路线缺少可靠坐标或路线结果，出发前请复核。",
+      "72 项开放时间、票价或预约事实仍需出发前复核。"
+    ],
+    "model": null,
+    "created_at": "2026-09-15T07:25:38.898632+00:00",
+    "validation_version": "seven-v1",
+    "manifest": null
+  },
+  "itinerary": [
+    {
+      "date": "2026-10-02",
+      "city": "杭州",
+      "theme": "西湖湖滨 · 知味观仁和路总店 · 断桥残雪",
+      "summary": "围绕西湖湖滨 · 知味观仁和路总店 · 断桥残雪安排当天节奏，依次考虑西湖湖滨、岳王庙、楼外楼孤山路店、西湖湖滨慢行；现场开放、用餐与交通条件出发前请复核。",
+      "periods": {
+        "morning": {
+          "title": "上午安排",
+          "description": "以主锚点为核心开始当天行程，根据抵达时间和现场情况调整停留。"
+        },
+        "afternoon": {
+          "title": "午后安排",
+          "description": "固定用餐后衔接同日候选地点，优先减少折返并保留休息缓冲。"
+        },
+        "evening": {
+          "title": "晚间安排",
+          "description": "根据体力与返程要求灵活收尾，不额外承诺未经核实的夜间开放。"
+        }
+      },
+      "stops": [
+        {
+          "place_id": "s0",
+          "arrival_time": "09:00",
+          "dwell_minutes": 90,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        },
+        {
+          "place_id": "s3",
+          "arrival_time": "11:00",
+          "dwell_minutes": 90,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        },
+        {
+          "place_id": "r0",
+          "arrival_time": "13:00",
+          "dwell_minutes": 60,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        },
+        {
+          "place_id": "e0-0",
+          "arrival_time": "14:30",
+          "dwell_minutes": 90,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        }
+      ],
+      "photo_advice": [
+        {
+          "title": "光线与取景",
+          "note": "根据现场光线与人流选择安全位置，遵守场所拍摄规定。"
+        },
+        {
+          "title": "设备与礼仪",
+          "note": "轻装拍摄并避免影响通行，室内是否允许摄影请现场确认。"
+        }
+      ],
+      "derived_interests": [
+        "history_culture",
+        "natural_scenery"
+      ],
+      "day_interest_strength": {
+        "history_culture": 1.0,
+        "natural_scenery": 1.0
+      },
+      "total_travel_minutes": 0,
+      "total_visit_minutes": 0,
+      "schedule_warnings": [],
+      "density_evaluation": null
+    },
+    {
+      "date": "2026-10-03",
+      "city": "杭州",
+      "theme": "浙江省博物馆孤山馆区 · 楼外楼孤山路店 · 岳王庙",
+      "summary": "围绕浙江省博物馆孤山馆区 · 楼外楼孤山路店 · 岳王庙安排当天节奏，依次考虑断桥残雪、曲院风荷、知味观仁和路总店、孤山馆区文化参观；现场开放、用餐与交通条件出发前请复核。",
+      "periods": {
+        "morning": {
+          "title": "上午安排",
+          "description": "以主锚点为核心开始当天行程，根据抵达时间和现场情况调整停留。"
+        },
+        "afternoon": {
+          "title": "午后安排",
+          "description": "固定用餐后衔接同日候选地点，优先减少折返并保留休息缓冲。"
+        },
+        "evening": {
+          "title": "晚间安排",
+          "description": "根据体力与返程要求灵活收尾，不额外承诺未经核实的夜间开放。"
+        }
+      },
+      "stops": [
+        {
+          "place_id": "s1",
+          "arrival_time": "09:00",
+          "dwell_minutes": 90,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        },
+        {
+          "place_id": "s4",
+          "arrival_time": "11:00",
+          "dwell_minutes": 90,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        },
+        {
+          "place_id": "r1",
+          "arrival_time": "13:00",
+          "dwell_minutes": 60,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        },
+        {
+          "place_id": "e1-0",
+          "arrival_time": "14:30",
+          "dwell_minutes": 90,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        }
+      ],
+      "photo_advice": [
+        {
+          "title": "光线与取景",
+          "note": "根据现场光线与人流选择安全位置，遵守场所拍摄规定。"
+        },
+        {
+          "title": "设备与礼仪",
+          "note": "轻装拍摄并避免影响通行，室内是否允许摄影请现场确认。"
+        }
+      ],
+      "derived_interests": [
+        "history_culture",
+        "natural_scenery"
+      ],
+      "day_interest_strength": {
+        "history_culture": 1.0,
+        "natural_scenery": 1.0
+      },
+      "total_travel_minutes": 0,
+      "total_visit_minutes": 0,
+      "schedule_warnings": [],
+      "density_evaluation": null
+    },
+    {
+      "date": "2026-10-04",
+      "city": "杭州",
+      "theme": "曲院风荷 · 新白鹿龙游路店 · 花港观鱼",
+      "summary": "围绕曲院风荷 · 新白鹿龙游路店 · 花港观鱼安排当天节奏，依次考虑浙江省博物馆孤山馆区、花港观鱼、奎元馆解放路总店、雷峰塔；现场开放、用餐与交通条件出发前请复核。",
+      "periods": {
+        "morning": {
+          "title": "上午安排",
+          "description": "以主锚点为核心开始当天行程，根据抵达时间和现场情况调整停留。"
+        },
+        "afternoon": {
+          "title": "午后安排",
+          "description": "固定用餐后衔接同日候选地点，优先减少折返并保留休息缓冲。"
+        },
+        "evening": {
+          "title": "晚间安排",
+          "description": "根据体力与返程要求灵活收尾，不额外承诺未经核实的夜间开放。"
+        }
+      },
+      "stops": [
+        {
+          "place_id": "s2",
+          "arrival_time": "09:00",
+          "dwell_minutes": 90,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        },
+        {
+          "place_id": "s5",
+          "arrival_time": "11:00",
+          "dwell_minutes": 90,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        },
+        {
+          "place_id": "r2",
+          "arrival_time": "13:00",
+          "dwell_minutes": 60,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        },
+        {
+          "place_id": "s6",
+          "arrival_time": "14:30",
+          "dwell_minutes": 90,
+          "transport_mode": "步行或公共交通，具体路线出发前请复核",
+          "transfer_minutes": null,
+          "distance_km": null,
+          "estimated_cost": null,
+          "route_status": "unresolved",
+          "route_provider": null,
+          "route_queried_at": null,
+          "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+          "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+          "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+        }
+      ],
+      "photo_advice": [
+        {
+          "title": "光线与取景",
+          "note": "根据现场光线与人流选择安全位置，遵守场所拍摄规定。"
+        },
+        {
+          "title": "设备与礼仪",
+          "note": "轻装拍摄并避免影响通行，室内是否允许摄影请现场确认。"
+        }
+      ],
+      "derived_interests": [
+        "history_culture",
+        "natural_scenery"
+      ],
+      "day_interest_strength": {
+        "history_culture": 1.0,
+        "natural_scenery": 1.0
+      },
+      "total_travel_minutes": 0,
+      "total_visit_minutes": 0,
+      "schedule_warnings": [],
+      "density_evaluation": null
+    }
+  ],
+  "places": [
+    {
+      "id": "s0",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "西湖湖滨",
+      "local_name": "西湖湖滨",
+      "description": "沿湖滨步道观察湖面与城市的关系，选择相邻的一段慢行即可。带老人或儿童时就近休息，不必为了绕湖而连续步行。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%A5%BF%E6%B9%96%E6%B9%96%E6%BB%A8&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "西湖湖滨",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "temple",
+        "heritage",
+        "historic_architecture",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "family_friendly",
+        "interactive"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "natural_scenery": 0.93,
+        "history_culture": 0.97,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.99,
+        "special_experience": 0.72,
+        "family": 0.96,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "family": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "heritage"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "history_culture": [
+          "temple",
+          "heritage",
+          "historic_architecture"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "historic_architecture",
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "special_experience": [
+          "interactive"
+        ],
+        "family": [
+          "family_friendly",
+          "interactive"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s1",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "断桥残雪",
+      "local_name": "断桥残雪",
+      "description": "从断桥看白堤与湖岸展开的层次，适合结合北山街安排短距离漫步。桥面拥挤时先让行，不在桥中央停留拍摄。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%96%AD%E6%A1%A5%E6%AE%8B%E9%9B%AA&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "断桥残雪",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "mountain",
+        "national_park",
+        "outdoor_activity"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.78,
+        "natural_scenery": 1.0,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.96,
+        "outdoor": 0.99
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "outdoor": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "national_park"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic",
+          "mountain",
+          "national_park"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "natural_scenic",
+          "mountain",
+          "national_park",
+          "outdoor_activity"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s2",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "浙江省博物馆孤山馆区",
+      "local_name": "浙江省博物馆孤山馆区",
+      "description": "以孤山馆区为文化停靠点，了解浙江历史与西湖文化的联系。展览及馆区开放安排可能调整，先核对具体展厅再决定参观路线。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%B5%99%E6%B1%9F%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E5%AD%A4%E5%B1%B1%E9%A6%86%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "浙江省博物馆孤山馆区",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "museum",
+        "heritage",
+        "design_exhibition",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "mountain",
+        "national_park",
+        "outdoor_activity",
+        "art_district"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.87,
+        "natural_scenery": 1.0,
+        "history_culture": 0.96,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.99,
+        "special_experience": 0.58,
+        "outdoor": 0.99,
+        "design_exhibition": 0.99
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "outdoor": "high",
+        "design_exhibition": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "museum",
+          "heritage",
+          "national_park"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic",
+          "mountain",
+          "national_park"
+        ],
+        "history_culture": [
+          "museum",
+          "heritage"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography",
+          "art_district"
+        ],
+        "special_experience": [
+          "art_district"
+        ],
+        "outdoor": [
+          "natural_scenic",
+          "mountain",
+          "national_park",
+          "outdoor_activity"
+        ],
+        "design_exhibition": [
+          "museum",
+          "design_exhibition",
+          "art_district"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s3",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "岳王庙",
+      "local_name": "岳王庙",
+      "description": "围绕岳飞纪念建筑了解杭州的人文叙事，参观时注意碑刻与院落的关系。纪念场所保持安静，具体入口和开放安排以公告为准。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E5%B2%B3%E7%8E%8B%E5%BA%99&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "岳王庙",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "temple",
+        "heritage",
+        "historic_architecture"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "history_culture": 0.97,
+        "photo_atmosphere": 0.72
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "history_culture": "high",
+        "photo_atmosphere": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "heritage"
+        ],
+        "history_culture": [
+          "temple",
+          "heritage",
+          "historic_architecture"
+        ],
+        "photo_atmosphere": [
+          "historic_architecture"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s4",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "曲院风荷",
+      "local_name": "曲院风荷",
+      "description": "在曲院风荷选择临水步道观察园林布局与水面倒影，适合与西湖北岸同区安排。荷花具有季节性，不把花期景观作为全年保证。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%9B%B2%E9%99%A2%E9%A3%8E%E8%8D%B7&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "曲院风荷",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "temple",
+        "heritage",
+        "historic_architecture",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "natural_scenery": 0.93,
+        "history_culture": 0.97,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.99,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "heritage"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "history_culture": [
+          "temple",
+          "heritage",
+          "historic_architecture"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "historic_architecture",
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s5",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "花港观鱼",
+      "local_name": "花港观鱼",
+      "description": "结合西湖南侧路线走访园林与水边步道，选择可随时折返的一段。不要投喂或攀越护栏，带儿童时先约定集合地点。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%8A%B1%E6%B8%AF%E8%A7%82%E9%B1%BC&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "花港观鱼",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "family_friendly",
+        "interactive"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.72,
+        "natural_scenery": 0.93,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.96,
+        "special_experience": 0.72,
+        "family": 0.96,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "family": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "special_experience": [
+          "interactive"
+        ],
+        "family": [
+          "family_friendly",
+          "interactive"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s6",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "雷峰塔",
+      "local_name": "雷峰塔",
+      "description": "从雷峰塔一带理解西湖南岸的景观层次，也可只安排外围步行。登塔条件和收费需要另行确认，不默认老人儿童都适合登高。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E9%9B%B7%E5%B3%B0%E5%A1%94&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "雷峰塔",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "temple",
+        "heritage",
+        "historic_architecture",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "family_friendly",
+        "interactive"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "natural_scenery": 0.93,
+        "history_culture": 0.97,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.99,
+        "special_experience": 0.72,
+        "family": 0.96,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "family": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "heritage"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "history_culture": [
+          "temple",
+          "heritage",
+          "historic_architecture"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "historic_architecture",
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "special_experience": [
+          "interactive"
+        ],
+        "family": [
+          "family_friendly",
+          "interactive"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s7",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "中国丝绸博物馆",
+      "local_name": "中国丝绸博物馆",
+      "description": "通过丝绸与服饰相关展览理解杭州的工艺传统，适合作为天气不佳时的文化备选。先核对当期展览与开放馆舍，按体力选择展区。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E4%B8%AD%E5%9B%BD%E4%B8%9D%E7%BB%B8%E5%8D%9A%E7%89%A9%E9%A6%86&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "中国丝绸博物馆",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "museum",
+        "heritage",
+        "design_exhibition",
+        "art_district"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.87,
+        "history_culture": 0.96,
+        "photo_atmosphere": 0.76,
+        "special_experience": 0.58,
+        "design_exhibition": 0.99
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "history_culture": "high",
+        "photo_atmosphere": "medium",
+        "special_experience": "medium",
+        "design_exhibition": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "museum",
+          "heritage"
+        ],
+        "history_culture": [
+          "museum",
+          "heritage"
+        ],
+        "photo_atmosphere": [
+          "art_district"
+        ],
+        "special_experience": [
+          "art_district"
+        ],
+        "design_exhibition": [
+          "museum",
+          "design_exhibition",
+          "art_district"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s8",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "中国茶叶博物馆双峰馆区",
+      "local_name": "中国茶叶博物馆双峰馆区",
+      "description": "从茶叶与茶文化展示认识杭州和龙井茶的关系，参观以展陈和周边环境为主。不要默认提供现场制茶课程或试饮，活动需单独确认。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E4%B8%AD%E5%9B%BD%E8%8C%B6%E5%8F%B6%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%8C%E5%B3%B0%E9%A6%86%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "中国茶叶博物馆双峰馆区",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "museum",
+        "heritage",
+        "design_exhibition"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.87,
+        "history_culture": 0.96,
+        "design_exhibition": 0.96
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "history_culture": "high",
+        "design_exhibition": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "museum",
+          "heritage"
+        ],
+        "history_culture": [
+          "museum",
+          "heritage"
+        ],
+        "design_exhibition": [
+          "museum",
+          "design_exhibition"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s9",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "西溪国家湿地公园",
+      "local_name": "西溪国家湿地公园",
+      "description": "选择西溪湿地的一片区域观察水网与植被，不把整个湿地压缩成匆忙打卡。入口、游线及船行安排需核对，雨天注意湿滑路面。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%A5%BF%E6%BA%AA%E5%9B%BD%E5%AE%B6%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "西溪国家湿地公园",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "urban_park",
+        "green_space"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.72,
+        "natural_scenery": 0.93,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.96,
+        "family": 0.4,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "family": "medium",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic",
+          "urban_park",
+          "green_space"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "family": [
+          "urban_park"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "e0-0",
+      "type": "experience",
+      "city": "杭州",
+      "display_name": "西湖湖滨慢行",
+      "local_name": "西湖湖滨慢行",
+      "description": "沿湖滨选择一段可折返的步道，停下观察湖面与城市交界。它适合摄影和亲子同行，也便于按体力随时结束；不要求环湖，不承诺特定天气或日落景观。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%A5%BF%E6%B9%96%E6%B9%96%E6%BB%A8%E6%85%A2%E8%A1%8C&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "nature",
+      "entity_kind": "experience_concept",
+      "linked_place_id": "s0",
+      "booking_status": "unverified",
+      "name_source": "offline_reference",
+      "canonical_name": "西湖湖滨慢行",
+      "english_name": null,
+      "experience_title": "西湖湖滨慢行",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "experience",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "experience",
+        "natural_scenic",
+        "outdoor_activity",
+        "lake",
+        "waterfront",
+        "landscape_photography",
+        "family_friendly",
+        "interactive"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "natural_scenery": 0.93,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.96,
+        "special_experience": 0.84,
+        "family": 0.96,
+        "outdoor": 0.96
+      },
+      "semantic_confidence": {
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "family": "high",
+        "outdoor": "high"
+      },
+      "affinity_reasons": {
+        "natural_scenery": [
+          "natural_scenic",
+          "lake",
+          "waterfront"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "special_experience": [
+          "experience",
+          "interactive"
+        ],
+        "family": [
+          "family_friendly",
+          "interactive"
+        ],
+        "outdoor": [
+          "natural_scenic",
+          "outdoor_activity"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "e0-1",
+      "type": "experience",
+      "city": "杭州",
+      "display_name": "西溪湿地观察",
+      "local_name": "西溪湿地观察",
+      "description": "在西溪湿地已开放的步道观察水边植物与鸟类，保持距离，不投喂野生动物。这个选项适合自然兴趣者，是否乘船另行确认，不把船班和票价当作已知事实。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%A5%BF%E6%BA%AA%E6%B9%BF%E5%9C%B0%E8%A7%82%E5%AF%9F&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "nature",
+      "entity_kind": "experience_concept",
+      "linked_place_id": "s9",
+      "booking_status": "unverified",
+      "name_source": "offline_reference",
+      "canonical_name": "西溪湿地观察",
+      "english_name": null,
+      "experience_title": "西溪湿地观察",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "experience",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "experience",
+        "natural_scenic",
+        "outdoor_activity",
+        "temple",
+        "heritage",
+        "historic_architecture",
+        "lake",
+        "waterfront",
+        "landscape_photography"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.78,
+        "natural_scenery": 0.93,
+        "history_culture": 0.97,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.99,
+        "special_experience": 0.78,
+        "outdoor": 0.96
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "outdoor": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "heritage"
+        ],
+        "natural_scenery": [
+          "natural_scenic",
+          "lake",
+          "waterfront"
+        ],
+        "history_culture": [
+          "temple",
+          "heritage",
+          "historic_architecture"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "historic_architecture",
+          "landscape_photography"
+        ],
+        "special_experience": [
+          "experience"
+        ],
+        "outdoor": [
+          "natural_scenic",
+          "outdoor_activity"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "e1-0",
+      "type": "experience",
+      "city": "杭州",
+      "display_name": "孤山馆区文化参观",
+      "local_name": "孤山馆区文化参观",
+      "description": "到浙江省博物馆孤山馆区了解当地文化，以当期实际开放展厅为准。先选最感兴趣的主题，再根据同行人的注意力与体力扩展参观，不假定有固定讲解场次。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E5%AD%A4%E5%B1%B1%E9%A6%86%E5%8C%BA%E6%96%87%E5%8C%96%E5%8F%82%E8%A7%82&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "culture",
+      "entity_kind": "experience_concept",
+      "linked_place_id": "s2",
+      "booking_status": "unverified",
+      "name_source": "offline_reference",
+      "canonical_name": "孤山馆区文化参观",
+      "english_name": null,
+      "experience_title": "孤山馆区文化参观",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "experience",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "experience",
+        "heritage",
+        "special_experience",
+        "museum",
+        "design_exhibition",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "mountain",
+        "national_park",
+        "outdoor_activity"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.87,
+        "natural_scenery": 1.0,
+        "history_culture": 0.96,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.96,
+        "special_experience": 0.78,
+        "outdoor": 0.99,
+        "design_exhibition": 0.96
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "outdoor": "high",
+        "design_exhibition": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "heritage",
+          "museum",
+          "national_park"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic",
+          "mountain",
+          "national_park"
+        ],
+        "history_culture": [
+          "heritage",
+          "museum"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "special_experience": [
+          "experience"
+        ],
+        "outdoor": [
+          "natural_scenic",
+          "mountain",
+          "national_park",
+          "outdoor_activity"
+        ],
+        "design_exhibition": [
+          "museum",
+          "design_exhibition"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "e1-1",
+      "type": "experience",
+      "city": "杭州",
+      "display_name": "丝绸文化参观",
+      "local_name": "丝绸文化参观",
+      "description": "在中国丝绸博物馆观察服饰、材料与工艺的关系，适合文化和设计兴趣者。参观以展览为主，不默认包含手工课程；儿童可先寻找不同纹样，再由同行成人帮助理解。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E4%B8%9D%E7%BB%B8%E6%96%87%E5%8C%96%E5%8F%82%E8%A7%82&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "culture",
+      "entity_kind": "experience_concept",
+      "linked_place_id": "s7",
+      "booking_status": "unverified",
+      "name_source": "offline_reference",
+      "canonical_name": "丝绸文化参观",
+      "english_name": null,
+      "experience_title": "丝绸文化参观",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "experience",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "experience",
+        "heritage",
+        "special_experience",
+        "museum",
+        "design_exhibition",
+        "art_district",
+        "family_friendly",
+        "interactive"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "history_culture": 0.96,
+        "photo_atmosphere": 0.76,
+        "special_experience": 0.87,
+        "family": 0.96,
+        "design_exhibition": 0.99
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "history_culture": "high",
+        "photo_atmosphere": "medium",
+        "special_experience": "medium",
+        "family": "high",
+        "design_exhibition": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "heritage",
+          "museum"
+        ],
+        "history_culture": [
+          "heritage",
+          "museum"
+        ],
+        "photo_atmosphere": [
+          "art_district"
+        ],
+        "special_experience": [
+          "experience",
+          "art_district",
+          "interactive"
+        ],
+        "family": [
+          "family_friendly",
+          "interactive"
+        ],
+        "design_exhibition": [
+          "museum",
+          "design_exhibition",
+          "art_district"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "e2-0",
+      "type": "experience",
+      "city": "杭州",
+      "display_name": "双峰馆区茶文化学习",
+      "local_name": "双峰馆区茶文化学习",
+      "description": "在中国茶叶博物馆双峰馆区通过展陈了解茶的类别和制作背景，适合想认识龙井文化的初访者。这里的体验是自主参观学习，试饮和课程是否提供需事先确认。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E5%8F%8C%E5%B3%B0%E9%A6%86%E5%8C%BA%E8%8C%B6%E6%96%87%E5%8C%96%E5%AD%A6%E4%B9%A0&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "food_workshop",
+      "entity_kind": "experience_concept",
+      "linked_place_id": "s8",
+      "booking_status": "unverified",
+      "name_source": "offline_reference",
+      "canonical_name": "双峰馆区茶文化学习",
+      "english_name": null,
+      "experience_title": "双峰馆区茶文化学习",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "experience",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "experience",
+        "food_workshop",
+        "food_experience",
+        "museum",
+        "heritage",
+        "design_exhibition"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "food": 1.0,
+        "history_culture": 0.96,
+        "special_experience": 0.96,
+        "design_exhibition": 0.96
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "food": "high",
+        "history_culture": "high",
+        "special_experience": "high",
+        "design_exhibition": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "museum",
+          "heritage"
+        ],
+        "food": [
+          "food_workshop",
+          "food_experience"
+        ],
+        "history_culture": [
+          "museum",
+          "heritage"
+        ],
+        "special_experience": [
+          "experience",
+          "food_workshop"
+        ],
+        "design_exhibition": [
+          "museum",
+          "design_exhibition"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "e2-1",
+      "type": "experience",
+      "city": "杭州",
+      "display_name": "奎元馆杭州面食体验",
+      "local_name": "奎元馆杭州面食体验",
+      "description": "在奎元馆解放路总店尝试理解片儿川等杭州面食的配料组合，点餐前询问食材。这里的体验是用餐观察，不是烹饪课程；对海鲜或其他食材敏感的同行人应另选合适菜品。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E5%A5%8E%E5%85%83%E9%A6%86%E6%9D%AD%E5%B7%9E%E9%9D%A2%E9%A3%9F%E4%BD%93%E9%AA%8C&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "food_workshop",
+      "entity_kind": "experience_concept",
+      "linked_place_id": "r2",
+      "booking_status": "unverified",
+      "name_source": "offline_reference",
+      "canonical_name": "奎元馆杭州面食体验",
+      "english_name": null,
+      "experience_title": "奎元馆杭州面食体验",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "experience",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "experience",
+        "food_workshop",
+        "food_experience"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 1.0,
+        "special_experience": 0.96
+      },
+      "semantic_confidence": {
+        "food": "high",
+        "special_experience": "high"
+      },
+      "affinity_reasons": {
+        "food": [
+          "food_workshop",
+          "food_experience"
+        ],
+        "special_experience": [
+          "experience",
+          "food_workshop"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r0",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "楼外楼孤山路店",
+      "local_name": "楼外楼孤山路店",
+      "description": "位于孤山一带的传统杭帮菜餐饮选择，可与孤山文化路线衔接。选择这里是为了理解杭州宴席菜式，具体供应与排队状况仍需到店前确认。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%A5%BC%E5%A4%96%E6%A5%BC%E5%AD%A4%E5%B1%B1%E8%B7%AF%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "传统杭帮菜",
+      "signature_dishes": "东坡肉、龙井虾仁",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "楼外楼孤山路店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant",
+        "mountain",
+        "national_park",
+        "natural_scenic",
+        "outdoor_activity",
+        "landscape_photography"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.3,
+        "food": 0.9,
+        "natural_scenery": 0.1,
+        "photo_atmosphere": 0.3,
+        "outdoor": 0.1
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "food": "medium",
+        "natural_scenery": "high",
+        "photo_atmosphere": "high",
+        "outdoor": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "national_park"
+        ],
+        "food": [
+          "restaurant"
+        ],
+        "natural_scenery": [
+          "mountain",
+          "national_park",
+          "natural_scenic"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "mountain",
+          "national_park",
+          "natural_scenic",
+          "outdoor_activity"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r1",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "知味观仁和路总店",
+      "local_name": "知味观仁和路总店",
+      "description": "湖滨附近的传统点心选择，适合把正餐缩小为按食量点选的小吃组合。同行人对甜咸偏好不同可分别选择，菜单与门店营业需复核。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E7%9F%A5%E5%91%B3%E8%A7%82%E4%BB%81%E5%92%8C%E8%B7%AF%E6%80%BB%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "小吃点心",
+      "signature_dishes": "小笼、猫耳朵",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "知味观仁和路总店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9,
+        "natural_scenery": 0.1,
+        "city_walk": 0.3,
+        "photo_atmosphere": 0.3,
+        "outdoor": 0.1
+      },
+      "semantic_confidence": {
+        "food": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r2",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "奎元馆解放路总店",
+      "local_name": "奎元馆解放路总店",
+      "description": "以杭州面食为主题的一餐，可以与城市中心的步行安排结合。汤面适合作为清晰的用餐停靠，鳝鱼或虾等配料过敏者应先与店员确认。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E5%A5%8E%E5%85%83%E9%A6%86%E8%A7%A3%E6%94%BE%E8%B7%AF%E6%80%BB%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "传统面馆",
+      "signature_dishes": "片儿川、虾爆鳝面",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "奎元馆解放路总店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r3",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "新白鹿龙游路店",
+      "local_name": "新白鹿龙游路店",
+      "description": "选择家常菜作为同行人共享的一餐，适合在湖滨北侧活动后按实际体力前往。菜式可能变化，先看当前菜单再按人数点菜，避免用套餐价格推算预算。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%96%B0%E7%99%BD%E9%B9%BF%E9%BE%99%E6%B8%B8%E8%B7%AF%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "家常杭菜",
+      "signature_dishes": "蛋黄鸡翅、糖醋排骨",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "新白鹿龙游路店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9,
+        "natural_scenery": 0.1,
+        "city_walk": 0.3,
+        "photo_atmosphere": 0.3,
+        "outdoor": 0.1
+      },
+      "semantic_confidence": {
+        "food": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r4",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "杭州酒家延安路店",
+      "local_name": "杭州酒家延安路店",
+      "description": "在延安路一带安排杭州风味正餐，适合把地方菜与城市日常生活放在同一天认识。先确认鱼类、肉类和调味偏好，再决定实际点菜组合。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%9D%AD%E5%B7%9E%E9%85%92%E5%AE%B6%E5%BB%B6%E5%AE%89%E8%B7%AF%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "杭州风味正餐",
+      "signature_dishes": "东坡肉、宋嫂鱼羹",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "杭州酒家延安路店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "r5",
+      "type": "restaurant",
+      "city": "杭州",
+      "display_name": "咬不得高祖生煎高银街店",
+      "local_name": "咬不得高祖生煎高银街店",
+      "description": "以生煎作为南宋御街周边活动时的简便用餐候选，适合不想安排长时间正餐的时段。刚出锅的馅汁可能烫口，应放凉后小口食用并复核门店状态。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E5%92%AC%E4%B8%8D%E5%BE%97%E9%AB%98%E7%A5%96%E7%94%9F%E7%85%8E%E9%AB%98%E9%93%B6%E8%A1%97%E5%BA%97&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "生煎简餐",
+      "signature_dishes": "生煎、汤品",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "咬不得高祖生煎高银街店",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "restaurant",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "c0",
+      "type": "chain",
+      "city": "杭州",
+      "display_name": "老娘舅",
+      "local_name": "老娘舅",
+      "description": "老娘舅作为杭州用餐时的连锁备选，仅在附近有营业门店且菜单适合同行人时使用。具体分店不在离线档案中指定，请按当天位置核对，不为寻找门店额外绕行。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%80%81%E5%A8%98%E8%88%85&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "日常简餐",
+      "signature_dishes": "按实际门店菜单选择",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "老娘舅",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "chain",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "c1",
+      "type": "chain",
+      "city": "杭州",
+      "display_name": "新丰小吃",
+      "local_name": "新丰小吃",
+      "description": "新丰小吃作为杭州用餐时的连锁备选，仅在附近有营业门店且菜单适合同行人时使用。具体分店不在离线档案中指定，请按当天位置核对，不为寻找门店额外绕行。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%96%B0%E4%B8%B0%E5%B0%8F%E5%90%83&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "日常简餐",
+      "signature_dishes": "按实际门店菜单选择",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "新丰小吃",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "chain",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "restaurant"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "food": 0.9
+      },
+      "semantic_confidence": {
+        "food": "medium"
+      },
+      "affinity_reasons": {
+        "food": [
+          "restaurant"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    }
+  ],
+  "module_groups": {
+    "sights": {
+      "scheduled": [
+        {
+          "place_id": "s0"
+        },
+        {
+          "place_id": "s1"
+        },
+        {
+          "place_id": "s2"
+        },
+        {
+          "place_id": "s3"
+        },
+        {
+          "place_id": "s4"
+        },
+        {
+          "place_id": "s5"
+        },
+        {
+          "place_id": "s6"
+        }
+      ],
+      "optional": [
+        {
+          "place_id": "s7"
+        },
+        {
+          "place_id": "s8"
+        },
+        {
+          "place_id": "s9"
+        }
+      ]
+    },
+    "experiences": [
+      {
+        "title": "湖畔与园林",
+        "items": [
+          {
+            "place_id": "e0-0"
+          },
+          {
+            "place_id": "e0-1"
+          }
+        ]
+      },
+      {
+        "title": "博物馆里的杭州",
+        "items": [
+          {
+            "place_id": "e1-0"
+          },
+          {
+            "place_id": "e1-1"
+          }
+        ]
+      },
+      {
+        "title": "茶与面食",
+        "items": [
+          {
+            "place_id": "e2-0"
+          },
+          {
+            "place_id": "e2-1"
+          }
+        ]
+      }
+    ],
+    "food": {
+      "menu_guide": {
+        "title": "先认菜名，再按食量点餐",
+        "intro": "杭州面食、点心与杭帮菜可以分餐体验。菜单供应、食材和价格以实际门店为准，出发前请复核。",
+        "cards": [
+          {
+            "title": "先问配料",
+            "note": "片儿川、虾爆鳝面等名称不能覆盖所有配料信息。点餐前说明过敏与忌口，请店员逐项确认后再选择。"
+          },
+          {
+            "title": "点心分量",
+            "note": "小笼、糕点和面食的份量随店家变化，不用固定人数套用套餐。先少量点选，再按同行人的食量补充。"
+          },
+          {
+            "title": "地方菜搭配",
+            "note": "杭帮菜可以结合鱼虾、肉类和蔬菜共同点选，不必一餐尝遍所有招牌。依据同行人的口味选择，并确认实际供应。"
+          },
+          {
+            "title": "排队与备选",
+            "note": "热门门店是否排队要以当天情况为准，不承诺立即入座。等待影响下一个活动时，就近选择已确认营业的替代门店。"
+          }
+        ],
+        "dictionary": [
+          {
+            "term": "片儿川",
+            "meaning": "杭州汤面的一种",
+            "ordering_note": "确认配料、份量与实际供应后再点单。"
+          },
+          {
+            "term": "虾爆鳝面",
+            "meaning": "含虾和鳝鱼的面食",
+            "ordering_note": "确认配料、份量与实际供应后再点单。"
+          },
+          {
+            "term": "宋嫂鱼羹",
+            "meaning": "杭州传统鱼羹菜式",
+            "ordering_note": "确认配料、份量与实际供应后再点单。"
+          },
+          {
+            "term": "龙井虾仁",
+            "meaning": "以茶香搭配虾仁的菜式",
+            "ordering_note": "确认配料、份量与实际供应后再点单。"
+          }
+        ]
+      },
+      "local_snacks": [
+        {
+          "name": "葱包桧",
+          "description": "薄饼裹入葱段等食材后压制的小吃，口感和配料以实际摊店为准。",
+          "where_to_find": "杭州传统小吃店或点心店，按当天营业情况选择。",
+          "ordering_note": "先询问配料与份量，价格出发前请复核。"
+        },
+        {
+          "name": "定胜糕",
+          "description": "米粉蒸制的传统糕点，适合少量尝试，甜度与馅料应现场询问。",
+          "where_to_find": "杭州传统小吃店或点心店，按当天营业情况选择。",
+          "ordering_note": "先询问配料与份量，价格出发前请复核。"
+        },
+        {
+          "name": "西湖藕粉",
+          "description": "以藕粉冲调的小食，稠度与添加配料不同，点单时说明个人偏好。",
+          "where_to_find": "杭州传统小吃店或点心店，按当天营业情况选择。",
+          "ordering_note": "先询问配料与份量，价格出发前请复核。"
+        },
+        {
+          "name": "猫耳朵",
+          "description": "形似猫耳的面点，可搭配不同汤底和配料，适合了解杭州点心。",
+          "where_to_find": "杭州传统小吃店或点心店，按当天营业情况选择。",
+          "ordering_note": "先询问配料与份量，价格出发前请复核。"
+        }
+      ],
+      "dedicated_trip": [
+        {
+          "place_id": "r0"
+        },
+        {
+          "place_id": "r1"
+        },
+        {
+          "place_id": "r2"
+        },
+        {
+          "place_id": "r3"
+        },
+        {
+          "place_id": "r4"
+        },
+        {
+          "place_id": "r5"
+        }
+      ],
+      "reliable_chains": [
+        {
+          "place_id": "c0"
+        },
+        {
+          "place_id": "c1"
+        }
+      ]
+    },
+    "preparation": {
+      "essentials": [
+        {
+          "id": "pack-0",
+          "title": "身份证件",
+          "note": "结合杭州步行与2位同行人的实际需要准备身份证件，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-1",
+          "title": "证件电子备份",
+          "note": "结合杭州步行与2位同行人的实际需要准备证件电子备份，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-2",
+          "title": "手机充电线",
+          "note": "结合杭州步行与2位同行人的实际需要准备手机充电线，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-3",
+          "title": "充电宝",
+          "note": "结合杭州步行与2位同行人的实际需要准备充电宝，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-4",
+          "title": "防滑步行鞋",
+          "note": "结合杭州步行与2位同行人的实际需要准备防滑步行鞋，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-5",
+          "title": "便携雨具",
+          "note": "结合杭州步行与2位同行人的实际需要准备便携雨具，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-6",
+          "title": "适合日期的外套",
+          "note": "结合杭州步行与2位同行人的实际需要准备适合日期的外套，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-7",
+          "title": "饮水杯",
+          "note": "结合杭州步行与2位同行人的实际需要准备饮水杯，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-8",
+          "title": "纸巾湿巾",
+          "note": "结合杭州步行与2位同行人的实际需要准备纸巾湿巾，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-9",
+          "title": "个人常用药",
+          "note": "结合杭州步行与2位同行人的实际需要准备个人常用药，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-10",
+          "title": "离线联系方式",
+          "note": "结合杭州步行与2位同行人的实际需要准备离线联系方式，随身物品以便携为主。"
+        },
+        {
+          "id": "pack-11",
+          "title": "轻便随身包",
+          "note": "结合杭州步行与2位同行人的实际需要准备轻便随身包，随身物品以便携为主。"
+        }
+      ],
+      "confirm_ahead": [
+        {
+          "id": "confirm-0",
+          "title": "抵达车站核对",
+          "note": "按本次杭州行程逐项完成抵达车站核对；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-1",
+          "title": "返程地点核对",
+          "note": "按本次杭州行程逐项完成返程地点核对；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-2",
+          "title": "住宿地址核对",
+          "note": "按本次杭州行程逐项完成住宿地址核对；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-3",
+          "title": "馆区开放核对",
+          "note": "按本次杭州行程逐项完成馆区开放核对；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-4",
+          "title": "展览预约核对",
+          "note": "按本次杭州行程逐项完成展览预约核对；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-5",
+          "title": "景点入口核对",
+          "note": "按本次杭州行程逐项完成景点入口核对；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-6",
+          "title": "湿地游线核对",
+          "note": "按本次杭州行程逐项完成湿地游线核对；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-7",
+          "title": "餐厅营业核对",
+          "note": "按本次杭州行程逐项完成餐厅营业核对；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-8",
+          "title": "用餐忌口确认",
+          "note": "按本次杭州行程逐项完成用餐忌口确认；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-9",
+          "title": "天气预报复核",
+          "note": "按本次杭州行程逐项完成天气预报复核；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-10",
+          "title": "支付方式确认",
+          "note": "按本次杭州行程逐项完成支付方式确认；使用实际订单或官方信息，出发前请复核。"
+        },
+        {
+          "id": "confirm-11",
+          "title": "同行集合点确认",
+          "note": "按本次杭州行程逐项完成同行集合点确认；使用实际订单或官方信息，出发前请复核。"
+        }
+      ]
+    },
+    "language": {
+      "edition": "普通话与杭州当地用语",
+      "keyword_groups": [
+        {
+          "title": "地名与方位",
+          "items": [
+            {
+              "text": "湖滨",
+              "meaning": "西湖东侧临湖区域",
+              "pronunciation": ""
+            },
+            {
+              "text": "孤山",
+              "meaning": "西湖北侧的人文游览区域",
+              "pronunciation": ""
+            },
+            {
+              "text": "白堤",
+              "meaning": "连接西湖北部景观的堤岸",
+              "pronunciation": ""
+            },
+            {
+              "text": "南山路",
+              "meaning": "西湖东南侧道路名称",
+              "pronunciation": ""
+            },
+            {
+              "text": "双峰",
+              "meaning": "茶文化馆区所在片区名称",
+              "pronunciation": ""
+            }
+          ]
+        },
+        {
+          "title": "面食与点心",
+          "items": [
+            {
+              "text": "片儿川",
+              "meaning": "杭州常见的一种汤面",
+              "pronunciation": ""
+            },
+            {
+              "text": "虾爆鳝面",
+              "meaning": "含虾与鳝鱼的面食，过敏者先询问",
+              "pronunciation": ""
+            },
+            {
+              "text": "猫耳朵",
+              "meaning": "形似猫耳的面点",
+              "pronunciation": ""
+            },
+            {
+              "text": "小笼",
+              "meaning": "带馅蒸制点心，注意馅汁温度",
+              "pronunciation": ""
+            },
+            {
+              "text": "葱包桧",
+              "meaning": "杭州传统街头小吃名称",
+              "pronunciation": ""
+            }
+          ]
+        },
+        {
+          "title": "交通与入口",
+          "items": [
+            {
+              "text": "进站口",
+              "meaning": "进入车站的入口",
+              "pronunciation": ""
+            },
+            {
+              "text": "出站口",
+              "meaning": "离开车站的出口",
+              "pronunciation": ""
+            },
+            {
+              "text": "换乘",
+              "meaning": "从一条线路转往另一条线路",
+              "pronunciation": ""
+            },
+            {
+              "text": "步行入口",
+              "meaning": "适合步行进入的入口",
+              "pronunciation": ""
+            },
+            {
+              "text": "无障碍通道",
+              "meaning": "有需要时优先询问的通行路径",
+              "pronunciation": ""
+            }
+          ]
+        },
+        {
+          "title": "点餐与支付",
+          "items": [
+            {
+              "text": "少辣",
+              "meaning": "希望减少辣味",
+              "pronunciation": ""
+            },
+            {
+              "text": "忌口",
+              "meaning": "不能吃或不愿吃的食材",
+              "pronunciation": ""
+            },
+            {
+              "text": "分餐",
+              "meaning": "希望分开食用或使用公筷",
+              "pronunciation": ""
+            },
+            {
+              "text": "账单",
+              "meaning": "确认消费明细",
+              "pronunciation": ""
+            },
+            {
+              "text": "打包",
+              "meaning": "把剩余食物妥善带走",
+              "pronunciation": ""
+            }
+          ]
+        },
+        {
+          "title": "参观与求助",
+          "items": [
+            {
+              "text": "预约",
+              "meaning": "提前登记参观或用餐",
+              "pronunciation": ""
+            },
+            {
+              "text": "闭馆",
+              "meaning": "场馆暂停对外开放",
+              "pronunciation": ""
+            },
+            {
+              "text": "寄存",
+              "meaning": "暂时存放随身物品",
+              "pronunciation": ""
+            },
+            {
+              "text": "服务台",
+              "meaning": "向工作人员咨询的位置",
+              "pronunciation": ""
+            },
+            {
+              "text": "集合点",
+              "meaning": "走散后按约定会合的位置",
+              "pronunciation": ""
+            }
+          ]
+        }
+      ],
+      "phrase_groups": [
+        {
+          "title": "问路",
+          "items": [
+            {
+              "text": "请问步行入口在哪里？",
+              "meaning": "请工作人员指明入口",
+              "pronunciation": ""
+            },
+            {
+              "text": "这里可以从哪边回到湖滨？",
+              "meaning": "确认返程方向",
+              "pronunciation": ""
+            },
+            {
+              "text": "最近的地铁入口怎么走？",
+              "meaning": "问清入口再导航",
+              "pronunciation": ""
+            },
+            {
+              "text": "有没有不用走楼梯的路线？",
+              "meaning": "表达无障碍需求",
+              "pronunciation": ""
+            },
+            {
+              "text": "这个地点是在同一个馆区吗？",
+              "meaning": "避免走错场馆",
+              "pronunciation": ""
+            }
+          ]
+        },
+        {
+          "title": "点餐",
+          "items": [
+            {
+              "text": "这道菜包含哪些食材？",
+              "meaning": "确认主要原料",
+              "pronunciation": ""
+            },
+            {
+              "text": "我对这些食材过敏，请帮我确认。",
+              "meaning": "展示自己的过敏信息",
+              "pronunciation": ""
+            },
+            {
+              "text": "可以少辣少油吗？",
+              "meaning": "询问是否能够调整",
+              "pronunciation": ""
+            },
+            {
+              "text": "这一份适合几个人分享？",
+              "meaning": "根据实际食量点餐",
+              "pronunciation": ""
+            },
+            {
+              "text": "请帮我看看账单明细。",
+              "meaning": "核对消费内容",
+              "pronunciation": ""
+            }
+          ]
+        },
+        {
+          "title": "交通",
+          "items": [
+            {
+              "text": "这班车经过这个站吗？",
+              "meaning": "上车前确认方向",
+              "pronunciation": ""
+            },
+            {
+              "text": "请问应该在哪一站换乘？",
+              "meaning": "确认换乘位置",
+              "pronunciation": ""
+            },
+            {
+              "text": "我们有老人，想少走一点路。",
+              "meaning": "说明同行需求",
+              "pronunciation": ""
+            },
+            {
+              "text": "这里能安全上下车吗？",
+              "meaning": "确认上下车位置",
+              "pronunciation": ""
+            },
+            {
+              "text": "请按这个地图地点导航。",
+              "meaning": "用完整名称减少误会",
+              "pronunciation": ""
+            }
+          ]
+        },
+        {
+          "title": "参观",
+          "items": [
+            {
+              "text": "今天哪些展厅开放？",
+              "meaning": "确认实际开放范围",
+              "pronunciation": ""
+            },
+            {
+              "text": "这个展览需要提前预约吗？",
+              "meaning": "询问预约要求",
+              "pronunciation": ""
+            },
+            {
+              "text": "这里可以拍照吗？",
+              "meaning": "先确认拍摄规则",
+              "pronunciation": ""
+            },
+            {
+              "text": "附近哪里可以坐下休息？",
+              "meaning": "主动安排休息",
+              "pronunciation": ""
+            },
+            {
+              "text": "请问行李可以在哪里寄存？",
+              "meaning": "了解寄存条件",
+              "pronunciation": ""
+            }
+          ]
+        },
+        {
+          "title": "需要帮助",
+          "items": [
+            {
+              "text": "我们走散了，请帮忙联系同行人。",
+              "meaning": "向现场工作人员求助",
+              "pronunciation": ""
+            },
+            {
+              "text": "我不舒服，需要找工作人员帮忙。",
+              "meaning": "表达身体不适",
+              "pronunciation": ""
+            },
+            {
+              "text": "我的手机没有电了，能帮我联系家人吗？",
+              "meaning": "请求联系协助",
+              "pronunciation": ""
+            },
+            {
+              "text": "请把地点名称写下来。",
+              "meaning": "保留可出示的信息",
+              "pronunciation": ""
+            },
+            {
+              "text": "我没有听清楚，请慢一点说。",
+              "meaning": "请求清晰沟通",
+              "pronunciation": ""
+            }
+          ]
+        }
+      ]
+    },
+    "travel_notes": [
+      {
+        "category": "weather",
+        "title": "天气",
+        "summary": "围绕杭州的天气安排做出具体选择，结合同行人体力和实际情况调整，出发前请复核。",
+        "items": [
+          {
+            "title": "湖边风雨",
+            "note": "西湖岸边风雨会直接影响步行舒适度，季节印象不能代替当天预报。出发前请复核天气，并把室内参观留作雨天备选。"
+          },
+          {
+            "title": "湿地路面",
+            "note": "西溪湿地的户外步道在降雨后可能湿滑，鞋底抓地力会影响体验。出发前请复核开放情况，选择防滑鞋并减少连续步行。"
+          },
+          {
+            "title": "室内备选",
+            "note": "孤山与丝绸相关馆区可以作为天气变化时的文化候选，但并非随时开放。出发前请复核馆区公告，再交换当天的户外活动。"
+          },
+          {
+            "title": "衣物调整",
+            "note": "杭州的季节变化和室内外温差需要结合出行日期判断，不能预先给出确定温度。出发前请复核预报，以便穿脱的衣物安排为主。"
+          }
+        ]
+      },
+      {
+        "category": "culture",
+        "title": "文化礼仪",
+        "summary": "围绕杭州的文化礼仪安排做出具体选择，结合同行人体力和实际情况调整，出发前请复核。",
+        "items": [
+          {
+            "title": "纪念场所",
+            "note": "岳王庙等纪念场所适合安静参观，拍摄时避免挡住他人视线和通道。先阅读现场说明，对限制拍摄的区域主动收起相机。"
+          },
+          {
+            "title": "展厅秩序",
+            "note": "博物馆展厅需要照顾其他观众的参观体验，儿童也可以先了解规则。进入展厅前确认拍摄要求，把讨论和休息安排在合适位置。"
+          },
+          {
+            "title": "湖岸共享",
+            "note": "西湖岸边既是游览空间也是市民日常生活的地方，窄路上停留会影响通行。合影时先让出通道，拍摄陌生人前征得对方同意。"
+          },
+          {
+            "title": "茶文化学习",
+            "note": "茶文化展示可以帮助理解地方生活，但不同活动的接待方式并不一致。参观前说明自己的兴趣，试饮或讲解安排以现场回复为准。"
+          }
+        ]
+      },
+      {
+        "category": "transport",
+        "title": "交通",
+        "summary": "围绕杭州的交通安排做出具体选择，结合同行人体力和实际情况调整，出发前请复核。",
+        "items": [
+          {
+            "title": "湖区慢行",
+            "note": "西湖周边可以按片区步行游览，但地图上的相邻地点不等于体力消耗很小。先选择短段路线，同行人疲劳时就近折返或休息。"
+          },
+          {
+            "title": "车站边界",
+            "note": "杭州的出发和到达地点需要用完整站名确认，不应仅凭城市名称判断。按自己的已购票信息核对车站，并预留进出站缓冲。"
+          },
+          {
+            "title": "湿地入口",
+            "note": "西溪湿地的入口与所选游线相关，错误入口可能造成额外折返。出发前请复核目的入口，把完整地点名称交给导航或司机。"
+          },
+          {
+            "title": "换乘判断",
+            "note": "公共交通线路和道路通行情况会变化，离线行程不能提供实时换乘结论。出发前请复核导航结果，按实际情况选择公交或打车。"
+          }
+        ]
+      },
+      {
+        "category": "safety",
+        "title": "安全",
+        "summary": "围绕杭州的安全安排做出具体选择，结合同行人体力和实际情况调整，出发前请复核。",
+        "items": [
+          {
+            "title": "临水活动",
+            "note": "西湖与湿地游览常靠近水边，拍摄倒影时容易忽略脚下和护栏。与岸边保持安全距离，照看儿童并避免为了取景翻越围挡。"
+          },
+          {
+            "title": "走散预案",
+            "note": "湖滨和热门场馆可能出现人流集中，同行人应提前约定可识别的集合点。把联系方式保存在可离线查看的位置，走散时先联系工作人员。"
+          },
+          {
+            "title": "饮食沟通",
+            "note": "地方菜和点心可能含有不容易从名称判断的配料，不能凭菜名排除过敏风险。点餐时明确说明忌口，请店员确认后再决定是否食用。"
+          },
+          {
+            "title": "体力安排",
+            "note": "老人和儿童的连续步行耐受不同，完成所有停靠点不应成为固定要求。出现疲劳就减少活动，身体不适时及时向现场人员寻求帮助。"
+          }
+        ]
+      },
+      {
+        "category": "payment",
+        "title": "支付",
+        "summary": "围绕杭州的支付安排做出具体选择，结合同行人体力和实际情况调整，出发前请复核。",
+        "items": [
+          {
+            "title": "核对金额",
+            "note": "不同门店的支付方式和账单构成可能不同，菜单上的描述也可能调整。付款前核对实际金额与消费明细，不按攻略估计价格结账。"
+          },
+          {
+            "title": "备用方式",
+            "note": "手机网络或电量不足可能影响扫码支付，旅途中应保留合适的备用方式。出发前确认自己可用的支付工具，避免全部依赖一部手机。"
+          },
+          {
+            "title": "预约渠道",
+            "note": "景点与场馆的预约入口可能变化，陌生链接不应直接当作官方渠道使用。出发前请复核官网或现场公告，再提交必要的预约信息。"
+          },
+          {
+            "title": "保留凭证",
+            "note": "门票与餐饮消费的确认信息有助于核对订单，临时调整时尤其需要留存。保存实际支付凭证和商家回复，离店前确认金额没有重复扣取。"
+          }
+        ]
+      }
+    ]
+  },
+  "preference_evaluation": {
+    "selected_interest_ids": [
+      "history_culture",
+      "natural_scenery"
+    ],
+    "interest_coverage": 1.0,
+    "interest_strength": {
+      "history_culture": 1.0,
+      "natural_scenery": 1.0
+    },
+    "interest_diversity": 1.0,
+    "preference_fit_score": 100.0,
+    "warnings": []
+  },
+  "quality_evaluation": {
+    "food": {
+      "recommended_scene_target": 2,
+      "actual_scene_count": 6,
+      "food_city_coverage": 1.0,
+      "food_scene_diversity": 1.0,
+      "local_food_relevance": 1.0,
+      "food_interest_match": 0.9,
+      "meal_schedule_coverage": 1.0,
+      "food_quality_score": 98.0
+    },
+    "warnings": []
+  },
+  "fact_verification": {
+    "version": "official-fact-resolution-v1",
+    "verified_place_count": 0,
+    "partially_verified_place_count": 0,
+    "unverified_place_count": 24,
+    "generated_experience_count": 0,
+    "verified_place_rate": 0.0,
+    "route_leg_count": 9,
+    "verified_route_count": 0,
+    "estimated_route_count": 0,
+    "unresolved_route_count": 9,
+    "verified_route_rate": 0.0,
+    "official_source_count": 0,
+    "verified_dynamic_fact_count": 0,
+    "conflicting_dynamic_fact_count": 0,
+    "unavailable_dynamic_fact_count": 72,
+    "medium_facts_needing_recheck": 72,
+    "hard_fact_errors": [],
+    "warnings": [
+      {
+        "pointer": "/places/s0",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/s1",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/s2",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/s3",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/s4",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/s5",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/s6",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/s7",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/s8",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/s9",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/e0-0",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/e0-1",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/e1-0",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/e1-1",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/e2-0",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/e2-1",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/r0",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/r1",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/r2",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/r3",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/r4",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/r5",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/c0",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/places/c1",
+        "code": "POI_FACTS_UNVERIFIED",
+        "message": "该地点尚未可靠绑定真实 POI，名称与位置需要复核。"
+      },
+      {
+        "pointer": "/itinerary",
+        "code": "ROUTE_UNRESOLVED",
+        "message": "9 段路线缺少可靠坐标或路线结果，出发前请复核。"
+      },
+      {
+        "pointer": "/places",
+        "code": "DYNAMIC_FACTS_NEED_RECHECK",
+        "message": "72 项开放时间、票价或预约事实仍需出发前复核。"
+      }
+    ],
+    "verified_at": "2026-09-15T07:25:38.898632+00:00"
+  },
+  "enrichment": {
+    "practical": "complete",
+    "language_notes": "complete",
+    "pending_packs": []
+  }
+}

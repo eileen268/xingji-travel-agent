@@ -1,0 +1,31 @@
+{
+  "task_id": "places-food",
+  "target_file": "research/places/restaurants.json",
+  "purpose": "专程餐厅与本地稳定连锁兜底；每家保留一张可核对门店图",
+  "required_fields": [
+    "dedicated restaurant and dependable local-chain fallback inventory; delivery and hotel-proximity groups are omitted",
+    "id/type/local_name/english_name/display_name/map_query/source_url",
+    "description >=45 chars explaining why worth visiting",
+    "hours/closed_days/cuisine/signature_dishes as researched display copy naming 2+ specific dishes/price_per_person",
+    "when Google is accessible, look up every restaurant once and attempt both score and review count; retain a verified score when count is absent",
+    "only two different venue access failures may establish that Google is unavailable for the run; never use stop-loss to sample only part of an accessible inventory",
+    "do not retry one venue with alternate languages, keyword variants, mirrors or network workarounds",
+    "a batch with zero ratings is complete only when Google is unavailable or no queried venue exposes a reliable score",
+    "each final restaurant declares one exact-venue image from the bounded entity/coordinates/official/listing ladder; replace a venue when no usable image is available",
+    "use references/research-data-shapes.md for exact containers"
+  ],
+  "suggested_sources": [
+    "official venue page",
+    "Google Maps for identity and directions",
+    "official social account"
+  ],
+  "search_queries": [
+    "兰州 best restaurants Google Maps",
+    "兰州 destination cuisine types",
+    "兰州 dependable local restaurant chains exact branches"
+  ],
+  "contract_schema": "assets/research-pack-contract.json",
+  "neutral_json_example": null,
+  "completion_rule": "Save researched JSON to target_file. Completion means this exact required_fields list is satisfied; file existence alone is not completion. Before closing an image-bearing pack, each declaration must either point to a local file that already decodes or pass direct URL, image MIME and minimum-dimension probing; source-page or guessed filename alone is incomplete. Image file may omit download_url only when that local file already exists and decodes.",
+  "execution_rule": "Work only within the current bounded batch. For named venues, perform cheap identity, coordinate and image URL/MIME/dimension feasibility before freezing the place. Do not download final assets yet. Write and validate this pack before expanding scope. Generated requirements and named JSON-pointer errors are sufficient; do not read validator source unless an error remains unexplained."
+}

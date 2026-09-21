@@ -1,0 +1,13 @@
+{
+  "media_pass": true,
+  "counts": {
+    "real_photo": 26,
+    "official_photo": 2,
+    "licensed_photo": 2,
+    "generated_editorial": 0,
+    "illustration": 0,
+    "placeholder": 0,
+    "other": 0
+  },
+  "failures": []
+}

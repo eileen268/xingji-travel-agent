@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "destination": "兰州",
+  "days": 5,
+  "batch_size": 2,
+  "status": "complete",
+  "packs": [
+    {
+      "id": "framing",
+      "file": "research/framing.json",
+      "purpose": "封面、交通、住宿与行程分段",
+      "status": "complete",
+      "task_file": "research/tasks/framing.json"
+    },
+    {
+      "id": "places-core",
+      "file": "research/places/core.json",
+      "purpose": "8+ 景点及机场、车站、酒店等支持节点",
+      "status": "complete",
+      "task_file": "research/tasks/places-core.json"
+    },
+    {
+      "id": "places-shopping",
+      "file": "research/places/shopping.json",
+      "purpose": "店铺与伴手礼；默认只为最终视觉短名单配置图片",
+      "status": "complete",
+      "task_file": "research/tasks/places-shopping.json"
+    },
+    {
+      "id": "places-experiences",
+      "file": "research/places/experiences.json",
+      "purpose": "优先 6 个主流体验（3 类×2）；仅在一整类无法通过限次的真实性、坐标和图片校验时降为 2 类×2",
+      "status": "complete",
+      "task_file": "research/tasks/places-experiences.json"
+    },
+    {
+      "id": "places-food",
+      "file": "research/places/restaurants.json",
+      "purpose": "专程餐厅与本地稳定连锁兜底；每家保留一张可核对门店图",
+      "status": "complete",
+      "task_file": "research/tasks/places-food.json"
+    },
+    {
+      "id": "itinerary",
+      "file": "research/itinerary.json",
+      "purpose": "从已冻结的合格地点中编排全部 5 天时段、停留、路线与 Trip Mode 建议",
+      "status": "complete",
+      "task_file": "research/tasks/itinerary.json"
+    },
+    {
+      "id": "modules-discovery",
+      "file": "research/modules/discovery.json",
+      "purpose": "购物与体验分组和行程关联",
+      "status": "complete",
+      "task_file": "research/tasks/modules-discovery.json"
+    },
+    {
+      "id": "modules-practical",
+      "file": "research/modules/practical.json",
+      "purpose": "餐饮菜单与出发前准备",
+      "status": "complete",
+      "task_file": "research/tasks/modules-practical.json"
+    },
+    {
+      "id": "modules-language-notes",
+      "file": "research/modules/language-notes.json",
+      "purpose": "当地语言、英语备用及天气/礼仪/交通/安全/支付贴士",
+      "status": "complete",
+      "task_file": "research/tasks/modules-language-notes.json"
+    }
+  ],
+  "rules": [
+    "每个地点必须来自目标目的地研究，不得复制参考目的地记录。",
+    "每张地点图片必须声明本地文件、来源页、来源类型和检索日期。",
+    "只完成当前最多两个相互独立的 pack，每个立即校验；单包重复失败时改用 --batch-size 1。"
+  ]
+}

@@ -1,0 +1,26 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.mypy_cache/
+
+# Environment files（只保留 .env.example）
+.env
+.env.*
+!.env.example
+
+# 本地真实数据库、备份与运行产物
+data/backups/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/benchmark-*.db
+data/travel*.db
+data/llm-verification.json
+data/*.log
+
+# 脱敏示例库（仅 2 个示例任务及 Replay / POI / 重规划数据，允许入库）
+!data/sample_travel.db

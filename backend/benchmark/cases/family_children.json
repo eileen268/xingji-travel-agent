@@ -1,0 +1,45 @@
+{
+  "name": "family_children",
+  "input": {
+    "origin": "上海",
+    "destinations": [
+      "杭州"
+    ],
+    "mainDestination": "杭州",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-05",
+    "adults": 2,
+    "children": 2,
+    "seniors": 0,
+    "travelStyle": "亲子旅行",
+    "budget": {
+      "total": 12000
+    },
+    "preferences": {
+      "pace": "balanced",
+      "interests": [
+        "亲子",
+        "自然风景"
+      ],
+      "budgetLevel": "comfort",
+      "mustGo": "",
+      "avoid": "",
+      "constraints": "儿童同行，安排午休与卫生间便利的地点",
+      "longDistance": "agent",
+      "localTransport": [
+        "transit",
+        "taxi"
+      ],
+      "accommodation": ""
+    },
+    "notes": "",
+    "outboundPeriod": "flexible",
+    "returnPeriod": "flexible"
+  },
+  "expectations": [
+    "valid_input",
+    "no_unknown_place_reference",
+    "no_cross_day_sight_or_experience_duplicate",
+    "terminal_state"
+  ]
+}

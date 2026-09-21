@@ -1,0 +1,49 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-02",
+      "city": "杭州",
+      "area_labels": [
+        "西湖湖滨 · 知味观仁和路总店 · 断桥残雪"
+      ],
+      "primary_anchor_id": "s0",
+      "candidate_place_ids": [
+        "s3"
+      ],
+      "backup_candidate_ids": [],
+      "fixed_meal_stop_id": "r0",
+      "intent": "西湖湖滨 · 知味观仁和路总店 · 断桥残雪"
+    },
+    {
+      "day": 2,
+      "date": "2026-10-03",
+      "city": "杭州",
+      "area_labels": [
+        "浙江省博物馆孤山馆区 · 楼外楼孤山路店 · 岳王庙"
+      ],
+      "primary_anchor_id": "s1",
+      "candidate_place_ids": [
+        "s4"
+      ],
+      "backup_candidate_ids": [],
+      "fixed_meal_stop_id": "r1",
+      "intent": "浙江省博物馆孤山馆区 · 楼外楼孤山路店 · 岳王庙"
+    },
+    {
+      "day": 3,
+      "date": "2026-10-04",
+      "city": "杭州",
+      "area_labels": [
+        "曲院风荷 · 新白鹿龙游路店 · 花港观鱼"
+      ],
+      "primary_anchor_id": "s2",
+      "candidate_place_ids": [
+        "s5"
+      ],
+      "backup_candidate_ids": [],
+      "fixed_meal_stop_id": "r2",
+      "intent": "曲院风荷 · 新白鹿龙游路店 · 花港观鱼"
+    }
+  ]
+}

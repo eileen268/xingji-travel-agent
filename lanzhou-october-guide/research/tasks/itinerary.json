@@ -1,0 +1,106 @@
+{
+  "task_id": "itinerary",
+  "target_file": "research/itinerary.json",
+  "purpose": "从已冻结的合格地点中编排全部 5 天时段、停留、路线与 Trip Mode 建议",
+  "required_fields": [
+    "JSON array with exactly 5 day objects",
+    "date",
+    "theme",
+    "summary",
+    "periods.morning",
+    "periods.afternoon",
+    "periods.evening",
+    "stops",
+    "shopping_advice",
+    "photo_advice",
+    "2+ stops (3+ on non-arrival/departure days)",
+    "each stop has place_id/arrival_time/dwell_minutes/transport_mode/transfer_minutes/distance_km/estimated_cost"
+  ],
+  "suggested_sources": [
+    "official tourism board",
+    "Google Maps routing",
+    "operator timetable"
+  ],
+  "search_queries": [
+    "兰州 daily itinerary route"
+  ],
+  "contract_schema": "assets/research-pack-contract.json",
+  "neutral_json_example": {
+    "date": "2026-11-10",
+    "theme": "老城与河岸",
+    "summary": "上午进入老城，下午沿河步行，晚间在同区用餐。",
+    "periods": {
+      "morning": {
+        "title": "老城",
+        "description": "从中央市场步行到古城门。"
+      },
+      "afternoon": {
+        "title": "河岸",
+        "description": "沿河参观寺院并预留咖啡休息。"
+      },
+      "evening": {
+        "title": "夜市",
+        "description": "在河岸夜市用餐后返回住宿区。"
+      }
+    },
+    "stops": [
+      {
+        "place_id": "place-01",
+        "arrival_time": "09:00",
+        "dwell_minutes": 60,
+        "transport_mode": "步行",
+        "transfer_minutes": 0,
+        "distance_km": 0,
+        "estimated_cost": "免费",
+        "practical_note": "从主入口沿树荫步道进入，先看核心景观再到河岸休息。",
+        "time_guard": "10:10 前离开，排队超过 20 分钟就跳过"
+      },
+      {
+        "place_id": "place-02",
+        "arrival_time": "11:00",
+        "dwell_minutes": 60,
+        "transport_mode": "步行",
+        "transfer_minutes": 15,
+        "distance_km": 1.0,
+        "estimated_cost": "待核对",
+        "practical_note": "先参观主展厅，再根据体力选择户外区域，避免重复折返。",
+        "time_guard": "12:15 作为收尾线，预留 15 分钟步行换乘"
+      }
+    ],
+    "shopping_advice": {
+      "title": "按路线购买",
+      "description": "只买便携物品。",
+      "url": "https://example.invalid/",
+      "link_label": "查看指南"
+    },
+    "photo_advice": {
+      "title": "河岸光线",
+      "lighting": "日落前侧光。",
+      "suitable_shots": [
+        "从桥头拍河道纵深",
+        "用寺院屋檐框住街景"
+      ],
+      "portrait_tip": "避开礼拜动线。",
+      "shooting_plan": [
+        {
+          "time": "09:30",
+          "title": "古城门·侧光",
+          "note": "站在门洞阴影边缘，让城墙和街道同时进入画面。"
+        },
+        {
+          "time": "17:20",
+          "title": "河岸·蓝调",
+          "note": "日落后多等十五分钟，用栏杆作前景保留水面倒影。"
+        }
+      ]
+    }
+  },
+  "completion_rule": "Save researched JSON to target_file. Completion means this exact required_fields list is satisfied; file existence alone is not completion. Before closing an image-bearing pack, each declaration must either point to a local file that already decodes or pass direct URL, image MIME and minimum-dimension probing; source-page or guessed filename alone is incomplete. Image file may omit download_url only when that local file already exists and decodes.",
+  "execution_rule": "Work only within the current bounded batch. For named venues, perform cheap identity, coordinate and image URL/MIME/dimension feasibility before freezing the place. Do not download final assets yet. Write and validate this pack before expanding scope. Generated requirements and named JSON-pointer errors are sufficient; do not read validator source unless an error remains unexplained.",
+  "writing_rules": [
+    "Apply references/itinerary-selection-logic.md over the existing candidate pool before writing prose.",
+    "Explicit preferences outrank defaults; roughly two thirds of discretionary scheduled stops should match selected interests.",
+    "Use one geographic area and one primary anchor per full day, then compatible secondary places, meal/rest time and at most one optional evening extension.",
+    "Run one final coherence check for repetition, backtracking, hours, meals/rest and late-to-early transitions; do not launch a new broad search for this check."
+  ]
+}

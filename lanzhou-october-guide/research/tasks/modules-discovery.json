@@ -1,0 +1,27 @@
+{
+  "task_id": "modules-discovery",
+  "target_file": "research/modules/discovery.json",
+  "purpose": "购物与体验分组和行程关联",
+  "required_fields": [
+    "object with shopping and experiences module payloads",
+    "all items use wrapped {place_id: stable-id} references",
+    "use experience_mode=standard for 3 groups×2; use experience_mode=constrained for 2 groups×2 only when the candidate ledger records why a third qualified type was unavailable"
+  ],
+  "suggested_sources": [
+    "verified place records from this research workspace",
+    "official destination guidance"
+  ],
+  "search_queries": [
+    "兰州 shopping guide itinerary areas",
+    "兰州 local experience categories"
+  ],
+  "contract_schema": "assets/research-pack-contract.json",
+  "neutral_json_example": null,
+  "completion_rule": "Save researched JSON to target_file. Completion means this exact required_fields list is satisfied; file existence alone is not completion. Before closing an image-bearing pack, each declaration must either point to a local file that already decodes or pass direct URL, image MIME and minimum-dimension probing; source-page or guessed filename alone is incomplete. Image file may omit download_url only when that local file already exists and decodes.",
+  "execution_rule": "Work only within the current bounded batch. For named venues, perform cheap identity, coordinate and image URL/MIME/dimension feasibility before freezing the place. Do not download final assets yet. Write and validate this pack before expanding scope. Generated requirements and named JSON-pointer errors are sufficient; do not read validator source unless an error remains unexplained.",
+  "writing_rules": [
+    "At least four of six Standard-mode experiences directly match selected interests.",
+    "Every selected experience must explain both why it is distinctive here and why it fits this traveler; reject generic filler.",
+    "Do not pad a failed category. After bounded failure, use constrained mode with four strong options and preserve the failure reason in the candidate ledger."
+  ]
+}

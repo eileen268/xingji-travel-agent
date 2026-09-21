@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-09-15T10:01:54.617609+00:00",
+  "google_execution_status": "configuration_missing",
+  "serper_execution_status": "completed",
+  "providers": {
+    "google_places": {
+      "poc_count": 20,
+      "official_url_coverage": null,
+      "verified_official_rate": null,
+      "ambiguous_rate": null,
+      "wrong_binding": "not_reviewed",
+      "average_latency_ms": null,
+      "api_calls": null,
+      "estimated_cost_usd": null
+    },
+    "serper": {
+      "poc_count": 20,
+      "candidate_url_coverage": 0.5,
+      "verified_official_rate": 0.4,
+      "auto_verified_official_rate": 0.05,
+      "ambiguous_rate": 0.0,
+      "wrong_binding": 2,
+      "average_latency_ms": 2236.5,
+      "api_calls": 38,
+      "estimated_cost_usd": 0.038
+    }
+  },
+  "recommendation": "serper_viable_as_discovery_primary_with_strict_resolution_and_fetch_verification"
+}

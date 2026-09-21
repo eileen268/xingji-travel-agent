@@ -1,0 +1,81 @@
+{
+  "task_id": "framing",
+  "target_file": "research/framing.json",
+  "purpose": "封面、交通、住宿与行程分段",
+  "required_fields": [
+    "destination",
+    "display_name",
+    "country",
+    "year",
+    "trip.start_date",
+    "trip.end_date",
+    "trip.days",
+    "trip.rhythm",
+    "trip.travelers",
+    "trip.interests",
+    "trip.constraints",
+    "cover.kicker",
+    "cover.title",
+    "cover.summary",
+    "cover.image",
+    "cover.tags",
+    "transport.status",
+    "transport.legs",
+    "stays",
+    "render_bindings_file"
+  ],
+  "suggested_sources": [
+    "user-supplied booking evidence",
+    "official source for a supplied transport or property identity"
+  ],
+  "search_queries": [
+    "兰州 official travel guide",
+    "兰州 airport transport",
+    "兰州 where to stay"
+  ],
+  "contract_schema": "assets/research-pack-contract.json",
+  "neutral_json_example": {
+    "destination": "Sample City",
+    "display_name": "示例城市",
+    "country": "Sample Country",
+    "year": "2026",
+    "trip": {
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-14",
+      "days": 5,
+      "rhythm": "relaxed",
+      "travelers": "2",
+      "interests": [],
+      "constraints": []
+    },
+    "cover": {
+      "kicker": "SAMPLE CITY · FIVE DAYS",
+      "title": "示例城市五日行",
+      "summary": "用一条清晰主轴串联城市与周边。",
+      "image": "assets/cover-sample.jpg",
+      "tags": [
+        "城市",
+        "文化"
+      ]
+    },
+    "transport": {
+      "status": "pending",
+      "legs": []
+    },
+    "stays": [
+      {
+        "status": "pending",
+        "place_id": null,
+        "check_in": null,
+        "check_out": null,
+        "notes": "住宿待确认"
+      }
+    ],
+    "render_bindings_file": "render-bindings.json"
+  },
+  "completion_rule": "Save researched JSON to target_file. Completion means this exact required_fields list is satisfied; file existence alone is not completion. Before closing an image-bearing pack, each declaration must either point to a local file that already decodes or pass direct URL, image MIME and minimum-dimension probing; source-page or guessed filename alone is incomplete. Image file may omit download_url only when that local file already exists and decodes.",
+  "execution_rule": "Work only within the current bounded batch. For named venues, perform cheap identity, coordinate and image URL/MIME/dimension feasibility before freezing the place. Do not download final assets yet. Write and validate this pack before expanding scope. Generated requirements and named JSON-pointer errors are sufficient; do not read validator source unless an error remains unexplained.",
+  "writing_rules": [
+    "Cover title/title_lines are short editorial phrases and never repeat city, dates, duration or traveler count."
+  ]
+}

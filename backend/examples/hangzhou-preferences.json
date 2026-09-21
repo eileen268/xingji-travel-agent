@@ -1,0 +1,16 @@
+{
+  "origin": "上海",
+  "destinations": ["杭州"],
+  "mainDestination": "杭州",
+  "startDate": "2026-10-02",
+  "endDate": "2026-10-06",
+  "adults": 2,
+  "children": 1,
+  "seniors": 1,
+  "travelStyle": "家庭旅行",
+  "budget": {"total": 12000, "accommodation": 3000, "food": 2000, "transportation": 1500, "activities": 1000, "shopping": 0, "other": 500},
+  "preferences": {"pace": "balanced", "interests": ["人文古迹", "亲子", "美食", "摄影"], "longDistance": "high_speed_rail", "localTransport": ["transit", "taxi"], "accommodation": "已自行安排，靠近步行区域"},
+  "notes": "老人需要中途休息，儿童午后需要休息。",
+  "outboundPeriod": "morning",
+  "returnPeriod": "evening"
+}

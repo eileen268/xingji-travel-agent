@@ -1,0 +1,23 @@
+{
+  "task_id": "modules-practical",
+  "target_file": "research/modules/practical.json",
+  "purpose": "餐饮菜单与出发前准备",
+  "required_fields": [
+    "object with food and preparation payloads",
+    "food has a destination-authored menu_primer, exactly 4 local_snacks, 6+ dedicated_trip restaurants across 4+ cuisine/scene labels, and 2-4 reliable_chains that are established local chains suitable as low-effort fallbacks; delivery and near_stay are omitted",
+    "for trips of 3+ days, at least 3 dedicated_trip restaurant place_ids must also appear in itinerary stops; choose branches compatible with that day's route and opening hours",
+    "preparation essentials and confirm_ahead total 24+ practical items"
+  ],
+  "suggested_sources": [
+    "verified place records from this research workspace",
+    "official destination guidance"
+  ],
+  "search_queries": [
+    "兰州 menu terms dining etiquette",
+    "兰州 entry requirements packing payment transport"
+  ],
+  "contract_schema": "assets/research-pack-contract.json",
+  "neutral_json_example": null,
+  "completion_rule": "Save researched JSON to target_file. Completion means this exact required_fields list is satisfied; file existence alone is not completion. Before closing an image-bearing pack, each declaration must either point to a local file that already decodes or pass direct URL, image MIME and minimum-dimension probing; source-page or guessed filename alone is incomplete. Image file may omit download_url only when that local file already exists and decodes.",
+  "execution_rule": "Work only within the current bounded batch. For named venues, perform cheap identity, coordinate and image URL/MIME/dimension feasibility before freezing the place. Do not download final assets yet. Write and validate this pack before expanding scope. Generated requirements and named JSON-pointer errors are sufficient; do not read validator source unless an error remains unexplained."
+}

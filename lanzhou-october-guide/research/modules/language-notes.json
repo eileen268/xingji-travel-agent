@@ -1,0 +1,341 @@
+{
+  "_draft": false,
+  "language": {
+    "_draft": false,
+    "_review_required": "已按兰州旅行场景复核。",
+    "keyword_groups": [
+      {
+          "title": "交通与定位",
+          "items": [{"term":"中山桥","pronunciation":"Zhōngshān Qiáo","meaning":"黄河铁桥"},{"term":"白塔山","pronunciation":"Báitǎ Shān","meaning":"中山桥北侧山地公园"},{"term":"南滨河路","pronunciation":"Nán Bīnhé Lù","meaning":"黄河南岸滨河路"},{"term":"兰州西站","pronunciation":"Lánzhōu Xīzhàn","meaning":"主要高铁站"},{"term":"中川机场","pronunciation":"Zhōngchuān Jīchǎng","meaning":"兰州机场"}]
+      },
+      {
+          "title": "餐厅与菜单",
+          "items": [{"term":"二细","pronunciation":"èr xì","meaning":"中等偏细圆面"},{"term":"毛细","pronunciation":"máo xì","meaning":"很细的圆面"},{"term":"韭叶","pronunciation":"jiǔ yè","meaning":"韭菜叶宽扁面"},{"term":"大宽","pronunciation":"dà kuān","meaning":"宽面带"},{"term":"单切","pronunciation":"dān qiē","meaning":"另点一份熟牛肉"}]
+      },
+      {
+          "title": "购物与支付",
+          "items": [{"term":"百合干","pronunciation":"bǎi hé gān","meaning":"干制兰州百合"},{"term":"三炮台","pronunciation":"sān pào tái","meaning":"西北盖碗茶料"},{"term":"刻葫芦","pronunciation":"kè hú lu","meaning":"兰州传统雕刻工艺"},{"term":"密封包装","pronunciation":"mì fēng bāo zhuāng","meaning":"适合长途携带的包装"},{"term":"收据","pronunciation":"shōu jù","meaning":"付款凭证"}]
+      },
+      {
+          "title": "住宿与设施",
+          "items": [{"term":"寄存行李","pronunciation":"jì cún xíng li","meaning":"把行李暂存在前台"},{"term":"延迟退房","pronunciation":"yán chí tuì fáng","meaning":"晚一些退房"},{"term":"无烟房","pronunciation":"wú yān fáng","meaning":"禁止吸烟的客房"},{"term":"加湿器","pronunciation":"jiā shī qì","meaning":"增加室内湿度的设备"},{"term":"前台","pronunciation":"qián tái","meaning":"酒店接待处"}]
+      },
+      {
+          "title": "求助与紧急情况",
+          "items": [{"term":"报警","pronunciation":"bào jǐng","meaning":"拨打110求助"},{"term":"急救","pronunciation":"jí jiù","meaning":"拨打120医疗急救"},{"term":"走失","pronunciation":"zǒu shī","meaning":"与同伴失散"},{"term":"过敏","pronunciation":"guò mǐn","meaning":"对食物或药物有反应"},{"term":"服务台","pronunciation":"fú wù tái","meaning":"场馆咨询与求助点"}]
+      }
+    ],
+    "phrase_groups": [
+      {
+          "title": "问路与乘车",
+          "items": [{"sentence":"请问去中山桥从哪个出口走？","meaning":"向地铁或路人确认出口"},{"sentence":"麻烦按导航到这个位置。","meaning":"向出租车司机出示准确地点"},{"sentence":"这里可以寄存行李吗？","meaning":"询问车站或酒店寄存"},{"sentence":"去中川机场大约要多久？","meaning":"确认机场接驳时间"},{"sentence":"请在安全方便的地方停车。","meaning":"让司机合法靠边停车"}]
+      },
+      {
+          "title": "点餐与忌口",
+          "items": [{"sentence":"一碗二细，辣子少一点。","meaning":"点中细面并少辣"},{"sentence":"牛肉请给我们切一小份。","meaning":"两人共享少量熟牛肉"},{"sentence":"这个菜两个人吃会不会太多？","meaning":"确认菜量"},{"sentence":"我们不吃这个食材，请不要放。","meaning":"说明忌口"},{"sentence":"这个是清真的吗？","meaning":"确认清真属性"}]
+      },
+      {
+          "title": "购物与凭证",
+          "items": [{"sentence":"这个百合干是兰州产的吗？","meaning":"确认产地"},{"sentence":"可以做密封包装吗？","meaning":"询问长途包装"},{"sentence":"请给我看一下生产日期。","meaning":"核对食品日期"},{"sentence":"这是作者手工刻的吗？","meaning":"确认刻葫芦工艺"},{"sentence":"麻烦给我一张收据。","meaning":"索要购买凭证"}]
+      },
+      {
+          "title": "住宿沟通",
+          "items": [{"sentence":"我们有两个人的预订。","meaning":"办理入住"},{"sentence":"可以把行李寄存到下午吗？","meaning":"退房后寄存"},{"sentence":"房间有点干，可以借加湿器吗？","meaning":"改善干燥"},{"sentence":"请帮我们叫一辆出租车。","meaning":"请求前台叫车"},{"sentence":"我们要去兰州西站，几点出发合适？","meaning":"反推离店时间"}]
+      },
+      {
+          "title": "求助与紧急情况",
+          "items": [{"sentence":"我和同伴走散了，请帮我联系。","meaning":"请求协助联系同伴"},{"sentence":"我对这个食物过敏。","meaning":"说明过敏"},{"sentence":"请问最近的医院在哪里？","meaning":"寻找医疗点"},{"sentence":"我的手机丢了，请帮我报警。","meaning":"遗失物品报警"},{"sentence":"请带我到服务台。","meaning":"前往正式求助点"}]
+      }
+    ],
+    "english_keyword_groups": [
+      {
+        "title": "交通与定位",
+        "items": [
+          {
+            "term": "station",
+            "meaning": "车站"
+          },
+          {
+            "term": "exit",
+            "meaning": "出口"
+          },
+          {
+            "term": "platform",
+            "meaning": "站台"
+          },
+          {
+            "term": "transfer",
+            "meaning": "换乘"
+          },
+          {
+            "term": "destination",
+            "meaning": "目的地"
+          }
+        ]
+      },
+      {
+        "title": "餐厅与菜单",
+        "items": [
+          {
+            "term": "not spicy",
+            "meaning": "不辣"
+          },
+          {
+            "term": "allergy",
+            "meaning": "过敏"
+          },
+          {
+            "term": "still water",
+            "meaning": "无气饮用水"
+          },
+          {
+            "term": "bill / check",
+            "meaning": "账单／买单"
+          },
+          {
+            "term": "vegetarian",
+            "meaning": "素食"
+          }
+        ]
+      },
+      {
+        "title": "购物与支付",
+        "items": [
+          {
+            "term": "price",
+            "meaning": "价格"
+          },
+          {
+            "term": "credit card",
+            "meaning": "信用卡"
+          },
+          {
+            "term": "cash",
+            "meaning": "现金"
+          },
+          {
+            "term": "receipt",
+            "meaning": "收据"
+          },
+          {
+            "term": "tax refund",
+            "meaning": "退税"
+          }
+        ]
+      },
+      {
+        "title": "住宿与设施",
+        "items": [
+          {
+            "term": "reservation",
+            "meaning": "预订"
+          },
+          {
+            "term": "room",
+            "meaning": "客房"
+          },
+          {
+            "term": "towel",
+            "meaning": "毛巾"
+          },
+          {
+            "term": "hot water",
+            "meaning": "热水"
+          },
+          {
+            "term": "luggage storage",
+            "meaning": "行李寄存"
+          }
+        ]
+      },
+      {
+        "title": "求助与紧急情况",
+        "items": [
+          {
+            "term": "help",
+            "meaning": "帮助"
+          },
+          {
+            "term": "hospital",
+            "meaning": "医院"
+          },
+          {
+            "term": "police",
+            "meaning": "警察"
+          },
+          {
+            "term": "lost",
+            "meaning": "迷路／遗失"
+          },
+          {
+            "term": "emergency",
+            "meaning": "紧急情况"
+          }
+        ]
+      }
+    ],
+    "english_phrase_groups": [
+      {
+        "title": "问路与乘车",
+        "items": [
+          {
+            "sentence": "How do I get to this station?",
+            "meaning": "怎么去这个车站？"
+          },
+          {
+            "sentence": "Which exit should I use?",
+            "meaning": "应该走哪个出口？"
+          },
+          {
+            "sentence": "Please stop here.",
+            "meaning": "请在这里停车。"
+          },
+          {
+            "sentence": "Does this train go to this place?",
+            "meaning": "这班车去这个地方吗？"
+          },
+          {
+            "sentence": "How long does it take?",
+            "meaning": "大约需要多久？"
+          }
+        ]
+      },
+      {
+        "title": "点餐与忌口",
+        "items": [
+          {
+            "sentence": "Please make it not spicy.",
+            "meaning": "请做成不辣。"
+          },
+          {
+            "sentence": "I am allergic to nuts.",
+            "meaning": "我对坚果过敏。"
+          },
+          {
+            "sentence": "We would like two of these.",
+            "meaning": "这个请给我们两份。"
+          },
+          {
+            "sentence": "Could we have two bottles of water?",
+            "meaning": "请给我们两瓶水。"
+          },
+          {
+            "sentence": "Could we have the bill, please?",
+            "meaning": "请买单。"
+          }
+        ]
+      },
+      {
+        "title": "购物与退税",
+        "items": [
+          {
+            "sentence": "How much is this?",
+            "meaning": "这个多少钱？"
+          },
+          {
+            "sentence": "Do you have another size?",
+            "meaning": "有其他尺码吗？"
+          },
+          {
+            "sentence": "Can I pay by card?",
+            "meaning": "可以刷卡吗？"
+          },
+          {
+            "sentence": "Could I have a receipt?",
+            "meaning": "请给我收据。"
+          },
+          {
+            "sentence": "Is this eligible for a tax refund?",
+            "meaning": "这个可以办理退税吗？"
+          }
+        ]
+      },
+      {
+        "title": "住宿沟通",
+        "items": [
+          {
+            "sentence": "I have a reservation.",
+            "meaning": "我已经预订了。"
+          },
+          {
+            "sentence": "Could you store our luggage?",
+            "meaning": "可以寄存我们的行李吗？"
+          },
+          {
+            "sentence": "Could we have a late check-out?",
+            "meaning": "可以延迟退房吗？"
+          },
+          {
+            "sentence": "The hot water is not working.",
+            "meaning": "热水不能用。"
+          },
+          {
+            "sentence": "Could you call a taxi for us?",
+            "meaning": "可以帮我们叫出租车吗？"
+          }
+        ]
+      },
+      {
+        "title": "求助与紧急情况",
+        "items": [
+          {
+            "sentence": "Could you help me, please?",
+            "meaning": "请帮助我。"
+          },
+          {
+            "sentence": "I am lost.",
+            "meaning": "我迷路了。"
+          },
+          {
+            "sentence": "Where is the nearest hospital?",
+            "meaning": "最近的医院在哪里？"
+          },
+          {
+            "sentence": "Please call the police.",
+            "meaning": "请帮忙报警。"
+          },
+          {
+            "sentence": "I need an English-speaking assistant.",
+            "meaning": "我需要会英语的工作人员协助。"
+          }
+        ]
+      }
+    ]
+  },
+  "travel_notes": {
+    "_draft": false,
+    "_review_required": "已按兰州10月路线复核。",
+    "groups": [
+      {
+        "category": "climate",
+        "title": "天气与穿着",
+        "summary": "10月兰州昼夜温差和河边风感都明显，按可增减的三层穿法准备，并每天依据风力调整山地与河岸时段。",
+        "items": [{"title":"早晚加防风层","note":"10月清晨、日落后和黄河岸边体感会明显转凉。把轻薄羽绒或防风外套放在随身包里，热时脱下而不是只穿一件厚衣。"},{"title":"干燥比低温更持久","note":"室外风和室内暖气都可能让皮肤、嘴唇与鼻腔干燥。每天分次喝水并补涂润唇膏，敏感者在住宿处使用加湿器。"},{"title":"日照强也要防晒","note":"气温偏低并不代表紫外线和河面反光弱。白天使用防晒霜、帽子和太阳镜，登白塔山时尤其不要省略。"},{"title":"用室内馆应对坏天气","note":"降雨、大风或明显降温会削弱河岸和山顶体验。把甘肃省博物馆或简牍博物馆作为替代，但先确认预约和周一闭馆。"}]
+      },
+      {
+        "category": "etiquette",
+        "title": "文化与礼仪",
+        "summary": "兰州的清真餐饮和寺观空间都有清楚的行为边界，先观察当地人和现场标识，再拍照、点餐或进入院落。",
+        "items": [{"title":"尊重清真餐饮习惯","note":"不少牛肉面与羊肉餐厅明确标示清真。不要携带含猪肉或酒类的外食进入，是否售酒或能否自带饮品直接询问店员。"},{"title":"寺观先看再举机","note":"白塔寺、五泉山院落和白云观可能有真实宗教活动。看到礼拜、法事或禁拍标识时收起相机，建筑摄影也不要挡住香客动线。"},{"title":"清真寺以礼拜为先","note":"如临时进入清真寺周边，应穿着得体并避免礼拜时间喧哗。内部是否接待游客、能否拍照以现场管理人员说明为准。"},{"title":"老城市场谨慎买古玩","note":"城隍庙一带兼有古玩与民俗商业，年代和真伪不容易现场判断。普通旅行者以观看和小额纪念品为主，高价物品必须有凭证与清楚来源。"}]
+      },
+      {
+        "category": "transport",
+        "title": "当地交通",
+        "summary": "兰州城市景点多沿黄河东西展开，地铁、出租车与步行组合效率最高；机场距离市区远，返程必须单独留缓冲。",
+        "items": [{"title":"河岸路线按同侧串联","note":"黄河两岸桥梁间距会放大看似很近的直线距离。一天尽量在同侧顺行，跨河只选中山桥或明确的交通节点，避免反复折返。"},{"title":"地铁负责长段移动","note":"张掖路、东方红广场与西站方向可先用地铁完成主干移动。最后一两公里再步行或打车，既节省体力也降低堵车影响。"},{"title":"打车出示完整中文名","note":"同名店、分店和南北滨河路容易造成误解。上车前把门店分店名、道路和地图定位一并出示，抵达前核对招牌。"},{"title":"中川机场单独反推时间","note":"兰州中川机场位于市区以北且距离较远，交通时间受班次和路况影响。拿到航班后从起飞时间倒推，至少预留三小时离开市区。"}]
+      },
+      {
+        "category": "safety",
+        "title": "安全与应急",
+        "summary": "主要景点整体适合普通游客，但山路、水边、夜市拥挤与干燥不适需要具体止损线；把缩短行程写进每天计划。",
+        "items": [{"title":"山路以下行为替代","note":"白塔山和五泉山都有台阶与坡道，雨后或落叶季可能打滑。膝盖不适就只走低处院落，白塔山可视运营情况用索道减少爬升。"},{"title":"黄河边不越护栏","note":"黄河流速、水位与岸边高差不适合靠近试探。拍照始终留在护栏和开放步道内，游船停航时不寻找私人船只替代。"},{"title":"夜市管好随身物品","note":"正宁路和节假日老城夜间会拥挤，热锅与车辆也增加碰撞风险。手机用腕带或拉链包收好，拍照时站到摊位侧边而非通道中央。"},{"title":"肠胃不适立即减量","note":"辣油、羊肉、甜醅和夜市甜食连续叠加容易让肠胃负担过重。两人分食、少辣并补充清淡热水，出现持续不适就取消下一餐挑战。"}]
+      },
+      {
+        "category": "payment",
+        "title": "支付与现金",
+        "summary": "移动支付覆盖广，但小摊、信号和手机电量仍可能造成短时失败；两人准备主副支付方式与少量现金即可。",
+        "items": [{"title":"主用扫码并留备用卡","note":"餐厅、商场与多数小摊普遍可用微信或支付宝。两个人分别绑定可用银行卡，避免一部手机没电后两人都无法付款。"},{"title":"少量现金处理小额异常","note":"老摊位、临时设备故障或网络不稳时可能更适合现金。准备少量小面额纸币并分开保管，不需要携带大量现金。"},{"title":"先确认价格和分量","note":"手抓羊肉可能按斤或按份，小吃也有大小份区别。下单前复述分量与价格，扫码后立即检查金额，发现错误当场沟通。"},{"title":"贵价工艺品保留凭证","note":"刻葫芦、仿古物和陶瓷价格差异大，作者与工艺也影响价值。高价购买要求收据、作者或店铺信息和包装说明，无法说明来源就放弃。"}]
+      }
+    ]
+  }
+}

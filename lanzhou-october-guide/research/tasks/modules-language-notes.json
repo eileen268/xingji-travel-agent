@@ -1,0 +1,23 @@
+{
+  "task_id": "modules-language-notes",
+  "target_file": "research/modules/language-notes.json",
+  "purpose": "当地语言、英语备用及天气/礼仪/交通/安全/支付贴士",
+  "required_fields": [
+    "object with language and travel_notes payloads",
+    "local language and reusable English fallback each retain five keyword and five phrase groups",
+    "all group titles are Chinese; English/destination-language text appears inside cards with Chinese meanings",
+    "travel_notes contains exactly five default categories: climate, etiquette/culture, transport, safety, payment; each has four titled practical topics"
+  ],
+  "suggested_sources": [
+    "verified place records from this research workspace",
+    "official destination guidance"
+  ],
+  "search_queries": [
+    "兰州 travel phrases pronunciation",
+    "兰州 travel safety etiquette local rules"
+  ],
+  "contract_schema": "assets/research-pack-contract.json",
+  "neutral_json_example": null,
+  "completion_rule": "Save researched JSON to target_file. Completion means this exact required_fields list is satisfied; file existence alone is not completion. Before closing an image-bearing pack, each declaration must either point to a local file that already decodes or pass direct URL, image MIME and minimum-dimension probing; source-page or guessed filename alone is incomplete. Image file may omit download_url only when that local file already exists and decodes.",
+  "execution_rule": "Work only within the current bounded batch. For named venues, perform cheap identity, coordinate and image URL/MIME/dimension feasibility before freezing the place. Do not download final assets yet. Write and validate this pack before expanding scope. Generated requirements and named JSON-pointer errors are sufficient; do not read validator source unless an error remains unexplained."
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-02",
+  "city": "杭州",
+  "theme": "西湖湖滨 · 知味观仁和路总店 · 断桥残雪",
+  "summary": "围绕西湖湖滨 · 知味观仁和路总店 · 断桥残雪安排当天节奏，依次考虑西湖湖滨、岳王庙、楼外楼孤山路店、西湖湖滨慢行；现场开放、用餐与交通条件出发前请复核。",
+  "periods": {
+    "morning": {
+      "title": "上午安排",
+      "description": "以主锚点为核心开始当天行程，根据抵达时间和现场情况调整停留。"
+    },
+    "afternoon": {
+      "title": "午后安排",
+      "description": "固定用餐后衔接同日候选地点，优先减少折返并保留休息缓冲。"
+    },
+    "evening": {
+      "title": "晚间安排",
+      "description": "根据体力与返程要求灵活收尾，不额外承诺未经核实的夜间开放。"
+    }
+  },
+  "stops": [
+    {
+      "place_id": "s0",
+      "arrival_time": "09:00",
+      "dwell_minutes": 90,
+      "transport_mode": "步行或公共交通，具体路线出发前请复核",
+      "transfer_minutes": null,
+      "distance_km": null,
+      "estimated_cost": null,
+      "route_status": "unresolved",
+      "route_provider": null,
+      "route_queried_at": null,
+      "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+      "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+      "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+    },
+    {
+      "place_id": "s3",
+      "arrival_time": "11:00",
+      "dwell_minutes": 90,
+      "transport_mode": "步行或公共交通，具体路线出发前请复核",
+      "transfer_minutes": null,
+      "distance_km": null,
+      "estimated_cost": null,
+      "route_status": "unresolved",
+      "route_provider": null,
+      "route_queried_at": null,
+      "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+      "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+      "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+    },
+    {
+      "place_id": "r0",
+      "arrival_time": "13:00",
+      "dwell_minutes": 60,
+      "transport_mode": "步行或公共交通，具体路线出发前请复核",
+      "transfer_minutes": null,
+      "distance_km": null,
+      "estimated_cost": null,
+      "route_status": "unresolved",
+      "route_provider": null,
+      "route_queried_at": null,
+      "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+      "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+      "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+    },
+    {
+      "place_id": "e0-0",
+      "arrival_time": "14:30",
+      "dwell_minutes": 90,
+      "transport_mode": "步行或公共交通，具体路线出发前请复核",
+      "transfer_minutes": null,
+      "distance_km": null,
+      "estimated_cost": null,
+      "route_status": "unresolved",
+      "route_provider": null,
+      "route_queried_at": null,
+      "cost_note": "费用与适用条件尚未核实，出发前请复核。",
+      "practical_note": "按现场开放、天气与同行人体力灵活调整，动态信息出发前请复核。",
+      "time_guard": "如现场不可进入或时间不足，优先保留主锚点并缩短可选停靠。"
+    }
+  ],
+  "photo_advice": [
+    {
+      "title": "光线与取景",
+      "note": "根据现场光线与人流选择安全位置，遵守场所拍摄规定。"
+    },
+    {
+      "title": "设备与礼仪",
+      "note": "轻装拍摄并避免影响通行，室内是否允许摄影请现场确认。"
+    }
+  ],
+  "derived_interests": [
+    "history_culture",
+    "natural_scenery"
+  ],
+  "day_interest_strength": {
+    "history_culture": 1.0,
+    "natural_scenery": 1.0
+  },
+  "total_travel_minutes": 0,
+  "total_visit_minutes": 0,
+  "schedule_warnings": [],
+  "density_evaluation": null
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "places-experiences",
+  "target_file": "research/places/experiences.json",
+  "purpose": "优先 6 个主流体验（3 类×2）；仅在一整类无法通过限次的真实性、坐标和图片校验时降为 2 类×2",
+  "required_fields": [
+    "Standard target: exactly 6 experience records across 3 controlled experience_type categories, 2 records per category",
+    "Constrained fallback: exactly 4 records across 2 categories, 2 per category, only after the third category fails its bounded identity/coordinate/image ladder; record the failure in .research-state/candidate-ledger.json",
+    "id/type/display_name/map_query/source_url",
+    "description >=60 chars",
+    "hours/closed_days/experience_type/category/scheduled_label",
+    "hazardous boolean; risk_assessment >=45 chars only when true",
+    "1+ exact-place image declaration"
+  ],
+  "suggested_sources": [
+    "official venue page",
+    "Google Maps for identity and directions",
+    "official social account"
+  ],
+  "search_queries": [
+    "兰州 signature local experiences",
+    "兰州 cultural activities official",
+    "兰州 experiences Google Maps"
+  ],
+  "contract_schema": "assets/research-pack-contract.json",
+  "neutral_json_example": null,
+  "completion_rule": "Save researched JSON to target_file. Completion means this exact required_fields list is satisfied; file existence alone is not completion. Before closing an image-bearing pack, each declaration must either point to a local file that already decodes or pass direct URL, image MIME and minimum-dimension probing; source-page or guessed filename alone is incomplete. Image file may omit download_url only when that local file already exists and decodes.",
+  "execution_rule": "Work only within the current bounded batch. For named venues, perform cheap identity, coordinate and image URL/MIME/dimension feasibility before freezing the place. Do not download final assets yet. Write and validate this pack before expanding scope. Generated requirements and named JSON-pointer errors are sufficient; do not read validator source unless an error remains unexplained.",
+  "writing_rules": [
+    "At least four of six Standard-mode experiences directly match selected interests.",
+    "Every selected experience must explain both why it is distinctive here and why it fits this traveler; reject generic filler.",
+    "Do not pad a failed category. After bounded failure, use constrained mode with four strong options and preserve the failure reason in the candidate ledger."
+  ]
+}

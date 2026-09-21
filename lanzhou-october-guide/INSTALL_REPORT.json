@@ -1,0 +1,7 @@
+{
+  "install_method": "official_installer",
+  "canonical_index_sha256": "2d58c61b606d881f5683898782905ef6a1cb2775b4d9a2858a8f8be0b5a95d16",
+  "installed_index_sha256": "2d58c61b606d881f5683898782905ef6a1cb2775b4d9a2858a8f8be0b5a95d16",
+  "canonical_template_installed": true,
+  "custom_page_builder_detected": false
+}

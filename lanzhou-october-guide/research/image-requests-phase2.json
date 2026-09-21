@@ -1,0 +1,15 @@
+[
+  {"id":"zhongshan-bridge","query":"中山桥 兰州","local_name":"中山桥","english_name":"Zhongshan Bridge Lanzhou","city":"兰州","country":"中国","kind":"sight","wikidata_id":"Q197892"},
+  {"id":"baita-mountain","query":"白塔山公园 兰州","local_name":"白塔山公园","english_name":"Baita Mountain Park Lanzhou","city":"兰州","country":"中国","kind":"sight","latitude":36.0686,"longitude":103.8150},
+  {"id":"gansu-museum","query":"甘肃省博物馆 兰州","local_name":"甘肃省博物馆","english_name":"Gansu Provincial Museum","city":"兰州","country":"中国","kind":"sight","wikidata_id":"Q15229073"},
+  {"id":"wuquanshan-park","query":"五泉山公园 兰州","local_name":"五泉山公园","english_name":"Wuquan Mountain Park Lanzhou","city":"兰州","country":"中国","kind":"sight","latitude":36.0352,"longitude":103.8292},
+  {"id":"waterwheel-park","query":"兰州水车博览园","local_name":"兰州水车博览园","english_name":"Lanzhou Waterwheel Expo Park","city":"兰州","country":"中国","kind":"sight","latitude":36.0620,"longitude":103.8346},
+  {"id":"yellow-river-mother","query":"黄河母亲雕塑 兰州","local_name":"黄河母亲雕塑","english_name":"Yellow River Mother Sculpture Lanzhou","city":"兰州","country":"中国","kind":"sight","latitude":36.0562,"longitude":103.8003},
+  {"id":"lanzhou-city-god-temple","query":"兰州府城隍庙","local_name":"兰州府城隍庙","english_name":"Lanzhou City God Temple","city":"兰州","country":"中国","kind":"sight","latitude":36.0612,"longitude":103.8210},
+  {"id":"baiyun-temple","query":"兰州白云观","local_name":"白云观","english_name":"Baiyun Temple Lanzhou","city":"兰州","country":"中国","kind":"sight","latitude":36.0585,"longitude":103.8055},
+  {"id":"lanzhou-old-street","query":"兰州老街","local_name":"兰州老街","english_name":"Lanzhou Old Street","city":"兰州","country":"中国","kind":"sight","latitude":36.0704,"longitude":103.7192},
+  {"id":"gansu-jiandu-museum","query":"甘肃简牍博物馆 兰州","local_name":"甘肃简牍博物馆","english_name":"Gansu Jiandu Museum","city":"兰州","country":"中国","kind":"sight","latitude":36.0617,"longitude":103.6948,"official_url":"https://www.gsjdbwg.com/"},
+  {"id":"zhangye-road","query":"张掖路步行街 兰州","local_name":"张掖路步行街","english_name":"Zhangye Road Pedestrian Street Lanzhou","city":"兰州","country":"中国","kind":"shop","latitude":36.0607,"longitude":103.8202},
+  {"id":"dazhong-lane","query":"大众巷 兰州","local_name":"大众巷","english_name":"Dazhong Lane Lanzhou","city":"兰州","country":"中国","kind":"shop","latitude":36.0624,"longitude":103.8194},
+  {"id":"gansu-museum-shop","query":"甘肃省博物馆 文创商店","local_name":"甘肃省博物馆文创商店","english_name":"Gansu Provincial Museum Shop","city":"兰州","country":"中国","kind":"shop","latitude":36.0668,"longitude":103.7687}
+]

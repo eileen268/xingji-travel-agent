@@ -1,0 +1,246 @@
+{
+  "contact_sheet": "D:\\vcprogramme\\travel agent\\lanzhou-october-guide\\qa-evidence\\asset-contact-sheet.jpg",
+  "columns": 3,
+  "assets": [
+    {
+      "asset_index": 1,
+      "row": 1,
+      "column": 1,
+      "file": "assets/cover-lanzhou.jpg",
+      "place_id": "__cover__",
+      "venue": "兰州"
+    },
+    {
+      "asset_index": 2,
+      "row": 1,
+      "column": 2,
+      "file": "assets/sights/zhongshan-bridge.jpg",
+      "place_id": "zhongshan-bridge",
+      "venue": "中山桥"
+    },
+    {
+      "asset_index": 3,
+      "row": 1,
+      "column": 3,
+      "file": "assets/sights/baita-mountain.jpg",
+      "place_id": "baita-mountain",
+      "venue": "白塔山公园与白塔寺"
+    },
+    {
+      "asset_index": 4,
+      "row": 2,
+      "column": 1,
+      "file": "assets/sights/gansu-museum.jpg",
+      "place_id": "gansu-museum",
+      "venue": "甘肃省博物馆"
+    },
+    {
+      "asset_index": 5,
+      "row": 2,
+      "column": 2,
+      "file": "assets/sights/wuquanshan-park.jpg",
+      "place_id": "wuquanshan-park",
+      "venue": "五泉山公园"
+    },
+    {
+      "asset_index": 6,
+      "row": 2,
+      "column": 3,
+      "file": "assets/sights/waterwheel-park.jpg",
+      "place_id": "waterwheel-park",
+      "venue": "兰州水车博览园"
+    },
+    {
+      "asset_index": 7,
+      "row": 3,
+      "column": 1,
+      "file": "assets/sights/yellow-river-mother.jpg",
+      "place_id": "yellow-river-mother",
+      "venue": "黄河母亲雕塑"
+    },
+    {
+      "asset_index": 8,
+      "row": 3,
+      "column": 2,
+      "file": "assets/sights/lanzhou-city-god-temple.jpg",
+      "place_id": "lanzhou-city-god-temple",
+      "venue": "兰州府城隍庙"
+    },
+    {
+      "asset_index": 9,
+      "row": 3,
+      "column": 3,
+      "file": "assets/sights/gansu-jiandu-museum.jpg",
+      "place_id": "gansu-jiandu-museum",
+      "venue": "甘肃简牍博物馆"
+    },
+    {
+      "asset_index": 10,
+      "row": 4,
+      "column": 1,
+      "file": "assets/sights/lanzhou-old-street.jpg",
+      "place_id": "lanzhou-old-street",
+      "venue": "兰州老街"
+    },
+    {
+      "asset_index": 11,
+      "row": 4,
+      "column": 2,
+      "file": "assets/shopping/zhangye-road.jpg",
+      "place_id": "zhangye-road",
+      "venue": "张掖路步行街"
+    },
+    {
+      "asset_index": 12,
+      "row": 4,
+      "column": 3,
+      "file": "assets/shopping/gansu-museum-shop.jpg",
+      "place_id": "gansu-museum-shop",
+      "venue": "甘肃省博物馆文创商店"
+    },
+    {
+      "asset_index": 13,
+      "row": 5,
+      "column": 1,
+      "file": "assets/shopping/souvenir-museum-cultural.jpg",
+      "place_id": "souvenir-museum-cultural",
+      "venue": "铜奔马与彩陶文创"
+    },
+    {
+      "asset_index": 14,
+      "row": 5,
+      "column": 2,
+      "file": "assets/shopping/souvenir-lily.jpg",
+      "place_id": "souvenir-lily",
+      "venue": "兰州百合干"
+    },
+    {
+      "asset_index": 15,
+      "row": 5,
+      "column": 3,
+      "file": "assets/shopping/souvenir-sanpaotai.jpg",
+      "place_id": "souvenir-sanpaotai",
+      "venue": "三炮台盖碗茶料包"
+    },
+    {
+      "asset_index": 16,
+      "row": 6,
+      "column": 1,
+      "file": "assets/shopping/souvenir-carved-gourd.jpg",
+      "place_id": "souvenir-carved-gourd",
+      "venue": "兰州刻葫芦"
+    },
+    {
+      "asset_index": 17,
+      "row": 6,
+      "column": 2,
+      "file": "assets/experiences/yellow-river-night-cruise.jpg",
+      "place_id": "exp-yellow-river-night-cruise",
+      "venue": "夜游黄河游船"
+    },
+    {
+      "asset_index": 18,
+      "row": 6,
+      "column": 3,
+      "file": "assets/experiences/yellow-river-cableway.jpg",
+      "place_id": "exp-yellow-river-cableway",
+      "venue": "黄河索道观景"
+    },
+    {
+      "asset_index": 19,
+      "row": 7,
+      "column": 1,
+      "file": "assets/experiences/baita-temple-walk.jpg",
+      "place_id": "exp-baita-temple-walk",
+      "venue": "白塔寺晨间慢行"
+    },
+    {
+      "asset_index": 20,
+      "row": 7,
+      "column": 2,
+      "file": "assets/experiences/wuquan-architecture-walk.jpg",
+      "place_id": "exp-wuquan-architecture-walk",
+      "venue": "五泉山古建与泉水慢行"
+    },
+    {
+      "asset_index": 21,
+      "row": 7,
+      "column": 3,
+      "file": "assets/experiences/dazhong-food-walk.jpg",
+      "place_id": "exp-dazhong-food-walk",
+      "venue": "大众巷早午餐小吃慢尝"
+    },
+    {
+      "asset_index": 22,
+      "row": 8,
+      "column": 1,
+      "file": "assets/experiences/zhengning-night-market.jpg",
+      "place_id": "exp-zhengning-night-market",
+      "venue": "正宁路夜市分食路线"
+    },
+    {
+      "asset_index": 23,
+      "row": 8,
+      "column": 2,
+      "file": "assets/restaurants/ma-zilu.jpg",
+      "place_id": "rest-ma-zilu-dazhong",
+      "venue": "马子禄牛肉面·大众巷店"
+    },
+    {
+      "asset_index": 24,
+      "row": 8,
+      "column": 3,
+      "file": "assets/restaurants/wumule.jpg",
+      "place_id": "rest-wumule-beibinhe",
+      "venue": "吾穆勒蓬灰牛肉面·北滨河中路店"
+    },
+    {
+      "asset_index": 25,
+      "row": 9,
+      "column": 1,
+      "file": "assets/restaurants/ma-laoliu.jpg",
+      "place_id": "rest-ma-laoliu-tongwei",
+      "venue": "马老六清真餐饮·通渭路总店"
+    },
+    {
+      "asset_index": 26,
+      "row": 9,
+      "column": 2,
+      "file": "assets/restaurants/yuebinlou.jpg",
+      "place_id": "rest-yuebinlou",
+      "venue": "悦宾楼·张掖路店"
+    },
+    {
+      "asset_index": 27,
+      "row": 9,
+      "column": 3,
+      "file": "assets/restaurants/hujia-baozi.jpg",
+      "place_id": "rest-hujia-baozi",
+      "venue": "胡家包子·大众巷店"
+    },
+    {
+      "asset_index": 28,
+      "row": 10,
+      "column": 1,
+      "file": "assets/restaurants/laomajia.jpg",
+      "place_id": "rest-laomajia-zhengning",
+      "venue": "老马家国华牛奶鸡蛋醪糟·正宁路摊"
+    },
+    {
+      "asset_index": 29,
+      "row": 10,
+      "column": 2,
+      "file": "assets/restaurants/zaihuishou.jpg",
+      "place_id": "chain-zaihuishou-zhangye",
+      "venue": "再回首·张掖路店"
+    },
+    {
+      "asset_index": 30,
+      "row": 10,
+      "column": 3,
+      "file": "assets/restaurants/fangha.jpg",
+      "place_id": "chain-fangha-zhengning",
+      "venue": "放哈甜醅子奶茶·正宁路店"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "preferences": {
+    "origin": "上海",
+    "destinations": [
+      "杭州"
+    ],
+    "mainDestination": "杭州",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-04",
+    "adults": 2,
+    "children": 0,
+    "seniors": 0,
+    "travelStyle": "朋友出行",
+    "budget": {
+      "total": 6000.0,
+      "accommodation": 0.0,
+      "food": 0.0,
+      "transportation": 0.0,
+      "activities": 0.0,
+      "shopping": 0.0,
+      "other": 0.0
+    },
+    "preferences": {
+      "pace": "balanced",
+      "interests": [
+        "历史文化",
+        "自然风景"
+      ],
+      "budgetLevel": "agent",
+      "mustGo": "",
+      "avoid": "",
+      "constraints": "",
+      "longDistance": "agent",
+      "localTransport": [
+        "transit"
+      ],
+      "accommodation": ""
+    },
+    "notes": "",
+    "outboundPeriod": "flexible",
+    "returnPeriod": "flexible"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-09-15T09:15:49.522476+00:00",
+  "execution_status": "configuration_missing",
+  "error": "GOOGLE_PLACES_API_KEY 未配置",
+  "poc_size": 20,
+  "results": []
+}

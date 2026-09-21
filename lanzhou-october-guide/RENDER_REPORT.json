@@ -1,0 +1,36 @@
+{
+  "destination": "Lanzhou",
+  "profile": "D:\\vcprogramme\\travel agent\\lanzhou-october-guide\\destination-profile.json",
+  "bindings": "D:\\vcprogramme\\travel agent\\lanzhou-october-guide\\render-bindings.json",
+  "rendered_selectors": [
+    "#booking",
+    "#contents",
+    "#food",
+    "#move",
+    "#route",
+    "#shops",
+    "#sights",
+    "#stay",
+    "#tips",
+    "#words",
+    ".flight-band",
+    ".hero",
+    ".mobile-menu-panel",
+    ".trip-pulse",
+    "body > footer"
+  ],
+  "runtime_files": [
+    "trip-mode.js",
+    "itinerary-customizer.js",
+    "checklist-memory.js",
+    "better-interface.css"
+  ],
+  "render_method": "official_renderer",
+  "canonical_template_hash_verified": true,
+  "canonical_index_sha256": "2d58c61b606d881f5683898782905ef6a1cb2775b4d9a2858a8f8be0b5a95d16",
+  "rendered_index_sha256": "43d42d18856c108c5bf50b9a4d023f699747d472c7ecabd1210a5346279acc93",
+  "profile_sha256": "3d5ec28bb163559d7883e18aa7745c4cb210094fcb79da9acc3a466b927cfc17",
+  "bindings_sha256": "833a72ae70e2836742c9d37851c3dbeeeca80303bb3274e83a3b4b324b26ae3d",
+  "custom_page_builder_detected": false,
+  "status": "rendered-workbench-still-requires-audit-and-browser-qa"
+}

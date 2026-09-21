@@ -1,0 +1,25 @@
+{
+  "task_id": "places-core",
+  "target_file": "research/places/core.json",
+  "purpose": "8+ 景点及机场、车站、酒店等支持节点",
+  "required_fields": [
+    "object with sights (8+) and support arrays",
+    "sights need id/type/display_name/map_query/source_url, useful description and hours/closures/duration; when Google is accessible, look up every sight once for score and review count, retaining a verified score even when count is absent",
+    "ordinary sights declare exactly 1 image; only gallery_featured sights declare 2",
+    "support contains itinerary-only transport nodes and a user-supplied stay when available"
+  ],
+  "suggested_sources": [
+    "official venue page",
+    "Google Maps for identity and directions",
+    "official social account"
+  ],
+  "search_queries": [
+    "兰州 top attractions official",
+    "兰州 attractions Google Maps",
+    "兰州 airport station official"
+  ],
+  "contract_schema": "assets/research-pack-contract.json",
+  "neutral_json_example": null,
+  "completion_rule": "Save researched JSON to target_file. Completion means this exact required_fields list is satisfied; file existence alone is not completion. Before closing an image-bearing pack, each declaration must either point to a local file that already decodes or pass direct URL, image MIME and minimum-dimension probing; source-page or guessed filename alone is incomplete. Image file may omit download_url only when that local file already exists and decodes.",
+  "execution_rule": "Work only within the current bounded batch. For named venues, perform cheap identity, coordinate and image URL/MIME/dimension feasibility before freezing the place. Do not download final assets yet. Write and validate this pack before expanding scope. Generated requirements and named JSON-pointer errors are sufficient; do not read validator source unless an error remains unexplained."
+}

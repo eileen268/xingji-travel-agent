@@ -1,0 +1,8 @@
+{"experience_mode":"standard","shopping":[
+{"title":"老城商街与小吃巷","subtitle":"把采购放进第3天步行路线","items":[{"place_id":"zhangye-road"}]},
+{"title":"博物馆文创","subtitle":"看完馆藏再选出处清楚的小件","items":[{"place_id":"gansu-museum-shop"}]}
+],"experiences":[
+{"title":"黄河光影","subtitle":"在水面与高处看兰州","items":[{"place_id":"exp-yellow-river-night-cruise"},{"place_id":"exp-yellow-river-cableway"}]},
+{"title":"山寺慢行","subtitle":"把寺观建筑留给安静的上午与下午","items":[{"place_id":"exp-baita-temple-walk"},{"place_id":"exp-wuquan-architecture-walk"}]},
+{"title":"街巷味觉","subtitle":"两人分食，把排队和分量控制住","items":[{"place_id":"exp-dazhong-food-walk"},{"place_id":"exp-zhengning-night-market"}]}
+]}

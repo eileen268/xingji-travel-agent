@@ -1,0 +1,48 @@
+{
+  "name": "conflicting_preferences",
+  "input": {
+    "origin": "上海",
+    "destinations": [
+      "杭州"
+    ],
+    "mainDestination": "杭州",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-03",
+    "adults": 2,
+    "children": 0,
+    "seniors": 0,
+    "travelStyle": "自由行",
+    "budget": {
+      "total": 12000
+    },
+    "preferences": {
+      "pace": "relaxed",
+      "interests": [
+        "自然风景",
+        "人文古迹",
+        "摄影",
+        "美食",
+        "特色体验"
+      ],
+      "budgetLevel": "comfort",
+      "mustGo": "",
+      "avoid": "",
+      "constraints": "每天活动少且保留较长休息",
+      "longDistance": "agent",
+      "localTransport": [
+        "transit",
+        "taxi"
+      ],
+      "accommodation": ""
+    },
+    "notes": "",
+    "outboundPeriod": "flexible",
+    "returnPeriod": "flexible"
+  },
+  "expectations": [
+    "valid_input",
+    "no_unknown_place_reference",
+    "no_cross_day_sight_or_experience_duplicate",
+    "terminal_state"
+  ]
+}

@@ -1,0 +1,234 @@
+[
+  {
+    "place_id": "baita-mountain",
+    "file": "assets/sights/baita-mountain.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1920,
+    "height": 1282
+  },
+  {
+    "place_id": "chain-fangha-zhengning",
+    "file": "assets/restaurants/fangha.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 960,
+    "height": 1280
+  },
+  {
+    "place_id": "chain-zaihuishou-zhangye",
+    "file": "assets/restaurants/zaihuishou.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 640,
+    "height": 480
+  },
+  {
+    "place_id": "exp-baita-temple-walk",
+    "file": "assets/experiences/baita-temple-walk.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1200,
+    "height": 800
+  },
+  {
+    "place_id": "exp-dazhong-food-walk",
+    "file": "assets/experiences/dazhong-food-walk.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1088,
+    "height": 613
+  },
+  {
+    "place_id": "exp-wuquan-architecture-walk",
+    "file": "assets/experiences/wuquan-architecture-walk.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 640,
+    "height": 483
+  },
+  {
+    "place_id": "exp-yellow-river-cableway",
+    "file": "assets/experiences/yellow-river-cableway.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 2048,
+    "height": 1152
+  },
+  {
+    "place_id": "exp-yellow-river-night-cruise",
+    "file": "assets/experiences/yellow-river-night-cruise.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 640,
+    "height": 479
+  },
+  {
+    "place_id": "exp-zhengning-night-market",
+    "file": "assets/experiences/zhengning-night-market.jpg",
+    "status": "ok",
+    "mime_type": "image/png",
+    "width": 1012,
+    "height": 612
+  },
+  {
+    "place_id": "gansu-jiandu-museum",
+    "file": "assets/sights/gansu-jiandu-museum.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 521,
+    "height": 391
+  },
+  {
+    "place_id": "gansu-museum",
+    "file": "assets/sights/gansu-museum.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1920,
+    "height": 1440
+  },
+  {
+    "place_id": "gansu-museum-shop",
+    "file": "assets/shopping/gansu-museum-shop.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1000,
+    "height": 667
+  },
+  {
+    "place_id": "lanzhou-city-god-temple",
+    "file": "assets/sights/lanzhou-city-god-temple.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 640,
+    "height": 480
+  },
+  {
+    "place_id": "lanzhou-old-street",
+    "file": "assets/sights/lanzhou-old-street.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 640,
+    "height": 853
+  },
+  {
+    "place_id": "rest-hujia-baozi",
+    "file": "assets/restaurants/hujia-baozi.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1731,
+    "height": 2310
+  },
+  {
+    "place_id": "rest-laomajia-zhengning",
+    "file": "assets/restaurants/laomajia.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1920,
+    "height": 1440
+  },
+  {
+    "place_id": "rest-ma-laoliu-tongwei",
+    "file": "assets/restaurants/ma-laoliu.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1280,
+    "height": 832
+  },
+  {
+    "place_id": "rest-ma-zilu-dazhong",
+    "file": "assets/restaurants/ma-zilu.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "place_id": "rest-wumule-beibinhe",
+    "file": "assets/restaurants/wumule.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1824,
+    "height": 1368
+  },
+  {
+    "place_id": "rest-yuebinlou",
+    "file": "assets/restaurants/yuebinlou.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1080,
+    "height": 720
+  },
+  {
+    "place_id": "souvenir-carved-gourd",
+    "file": "assets/shopping/souvenir-carved-gourd.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 799,
+    "height": 1066
+  },
+  {
+    "place_id": "souvenir-lily",
+    "file": "assets/shopping/souvenir-lily.jpg",
+    "status": "ok",
+    "mime_type": "image/png",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "place_id": "souvenir-museum-cultural",
+    "file": "assets/shopping/souvenir-museum-cultural.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 767,
+    "height": 576
+  },
+  {
+    "place_id": "souvenir-sanpaotai",
+    "file": "assets/shopping/souvenir-sanpaotai.jpg",
+    "status": "ok",
+    "mime_type": "image/webp",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "place_id": "waterwheel-park",
+    "file": "assets/sights/waterwheel-park.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 800,
+    "height": 532
+  },
+  {
+    "place_id": "wuquanshan-park",
+    "file": "assets/sights/wuquanshan-park.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 640,
+    "height": 426
+  },
+  {
+    "place_id": "yellow-river-mother",
+    "file": "assets/sights/yellow-river-mother.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 640,
+    "height": 400
+  },
+  {
+    "place_id": "zhangye-road",
+    "file": "assets/shopping/zhangye-road.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1733,
+    "height": 2310
+  },
+  {
+    "place_id": "zhongshan-bridge",
+    "file": "assets/sights/zhongshan-bridge.jpg",
+    "status": "ok",
+    "mime_type": "image/jpeg",
+    "width": 1140,
+    "height": 443
+  }
+]

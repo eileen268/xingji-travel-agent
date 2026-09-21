@@ -1,0 +1,2509 @@
+{
+  "destination": "Lanzhou",
+  "display_name": "兰州",
+  "country": "中国",
+  "year": "2026",
+  "trip": {
+    "start_date": "pending",
+    "end_date": "pending",
+    "days": 5,
+    "rhythm": "轻松",
+    "travelers": "2",
+    "interests": [
+      "兰州与西北美食",
+      "寺庙与宗教建筑",
+      "城市与黄河摄影"
+    ],
+    "constraints": [
+      "计划在2026年10月出行，具体日期待确认",
+      "每天保留午间休息与机动时间",
+      "避免连续安排高强度爬坡"
+    ]
+  },
+  "cover": {
+    "kicker": "LANZHOU · ALONG THE YELLOW RIVER",
+    "title": "沿河慢慢吃",
+    "summary": "把黄河两岸、山寺晨光和一碗碗热汤串成五天：少赶路，多留时间给味道、光线与安静的院落。",
+    "image": "assets/cover-lanzhou.jpg",
+    "download_url": "https://img.wayschina.com/travel-guid/articles/lanzhou-complete-guide/v1/img-1.webp?v=1782022248",
+    "source_page": "https://wayschina.com/ko/articles/xining-and-qinghai-lake-guide",
+    "source_type": "established_publication",
+    "media_class": "real_photo",
+    "original_media_class": "real_photo",
+    "visual_subject_type": "landscape",
+    "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+    "source_identity_bound": true,
+    "visually_confirmed": true,
+    "watermark_checked": true,
+    "visual_confirmation_note": "下载后检查黄河、中山桥、白塔山与城市天际线均可辨识，并确认无水印",
+    "subject_verified": true,
+    "tags": [
+      "黄河散步",
+      "寺庙建筑",
+      "牛肉面与夜市",
+      "轻松摄影"
+    ]
+  },
+  "transport": {
+    "status": "pending",
+    "legs": []
+  },
+  "stays": [
+    {
+      "status": "pending",
+      "place_id": null,
+      "check_in": null,
+      "check_out": null,
+      "notes": "住宿待确认；建议最终选择城关区、张掖路或东方红广场附近，以减少五天路线的往返。"
+    }
+  ],
+  "render_bindings_file": "render-bindings.json",
+  "itinerary": [
+    {
+      "date": "10月·第1天",
+      "theme": "抵达后先读懂甘肃",
+      "summary": "抵达与安顿后，把下午留给甘肃省博物馆；傍晚沿黄河南岸看黄河母亲，晚餐坐下来吃一顿清真西北菜，不把第一天塞满。",
+      "periods": {
+        "morning": {
+          "title": "抵达与安顿",
+          "description": "交通和住宿尚待确认，上午只保留抵达、进城与放行李缓冲。"
+        },
+        "afternoon": {
+          "title": "从丝路展线进入兰州",
+          "description": "在甘肃省博物馆看铜奔马、彩陶和丝路文物，中段安排一次坐下休息。"
+        },
+        "evening": {
+          "title": "黄河边的第一束光",
+          "description": "沿南岸短停黄河母亲雕塑，再到通渭路吃手抓和热菜，21点前结束。"
+        }
+      },
+      "stops": [
+        {
+          "place_id": "gansu-museum",
+          "arrival_time": "14:00",
+          "dwell_minutes": 180,
+          "transport_mode": "地铁或出租车",
+          "transfer_minutes": 35,
+          "distance_km": 6.0,
+          "estimated_cost": "免费，需预约",
+          "practical_note": "从常设展优先看丝绸之路文明与彩陶，最后再进文创店；累了就跳过临展，别压缩闭馆前缓冲。",
+          "time_guard": "最晚16:00前入馆；若抵达兰州晚于14:30，改到第5天上午并直接去河岸。"
+        },
+        {
+          "place_id": "yellow-river-mother",
+          "arrival_time": "17:35",
+          "dwell_minutes": 35,
+          "transport_mode": "出租车后步行",
+          "transfer_minutes": 20,
+          "distance_km": 3.4,
+          "estimated_cost": "免费，车费约15—25元",
+          "practical_note": "从雕塑东南侧斜拍，让人物轮廓与河岸形成对角线；不要在主拍摄位久占。",
+          "time_guard": "18:15前离开，日落过早或风大时停留缩短到15分钟。"
+        },
+        {
+          "place_id": "rest-ma-laoliu-tongwei",
+          "arrival_time": "18:35",
+          "dwell_minutes": 90,
+          "transport_mode": "出租车",
+          "transfer_minutes": 15,
+          "distance_km": 3.0,
+          "estimated_cost": "两人约180—280元",
+          "practical_note": "两个人点一份手抓羊肉加一热一素即可，先问分量；三炮台可作为暖身饮品。",
+          "time_guard": "排队超过25分钟就改悦宾楼；21:00前结束，给第二天早起留睡眠。"
+        }
+      ],
+      "shopping_advice": {
+        "title": "第一天只做轻补给",
+        "description": "若缺围巾、润唇膏或饮水，只在住宿附近补齐；不带着行李绕路采购。",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BC%A0%E6%8E%96%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97%20%E5%85%B0%E5%B7%9E",
+        "link_label": "查看完整购物指南"
+      },
+      "photo_advice": {
+        "title": "博物馆石色与黄河暮光",
+        "lighting": "室内避免玻璃反光，河岸在日落前约40分钟使用低角度侧光。",
+        "suitable_shots": [
+          "在博物馆入口台阶下用1×镜头保持立面端正",
+          "在黄河母亲东南侧以河岸斜线带出纵深"
+        ],
+        "portrait_tip": "馆内先看禁拍标识；河岸人像站在主景侧边，不遮挡游客正面拍摄位。",
+        "shooting_plan": [
+          {
+            "time": "14:10",
+            "title": "甘肃省博物馆·对称立面",
+            "note": "站在广场中轴稍远处，手机保持胸口高度，用1×竖构图把台阶和馆名纳入。"
+          },
+          {
+            "time": "17:45",
+            "title": "黄河母亲·暖色侧光",
+            "note": "摄影者向东侧退几步用2×轻压背景，被摄者沿雕塑边缘站立，注意不踩花坛。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "10月·第2天",
+      "theme": "木水车、白塔与铁桥",
+      "summary": "早餐先吃老字号牛肉面，随后沿黄河东段看水车；午休后慢上白塔山，傍晚下到中山桥，夜游船只作为天气合适时的可选收尾。",
+      "periods": {
+        "morning": {
+          "title": "一碗面后沿河走",
+          "description": "马子禄早吃避开售罄，再乘车到水车博览园，沿平坦步道看木构与河流。"
+        },
+        "afternoon": {
+          "title": "慢上白塔山",
+          "description": "午餐后完整休息一小时，再从北岸低处院落逐级上行；体力不足就乘索道保留俯瞰。"
+        },
+        "evening": {
+          "title": "铁桥蓝调时刻",
+          "description": "下山后步行穿过中山桥，先拍蓝调再吃简餐；水位、风力和班次合适时才加夜游黄河。"
+        }
+      },
+      "stops": [
+        {
+          "place_id": "rest-ma-zilu-dazhong",
+          "arrival_time": "07:40",
+          "dwell_minutes": 50,
+          "transport_mode": "步行或地铁",
+          "transfer_minutes": 20,
+          "distance_km": 2.0,
+          "estimated_cost": "两人约40—80元",
+          "practical_note": "先买面票再选面型，两人可分别点二细和毛细对比；牛肉另点小份，不一次买大盘。",
+          "time_guard": "08:40必须离店；排队超过25分钟改再回首小吃并将牛肉面移到第5天。"
+        },
+        {
+          "place_id": "waterwheel-park",
+          "arrival_time": "09:10",
+          "dwell_minutes": 70,
+          "transport_mode": "出租车",
+          "transfer_minutes": 20,
+          "distance_km": 3.2,
+          "estimated_cost": "免费，车费约15元",
+          "practical_note": "从靠河一侧看水车结构，再顺下游步行；若设备未运行，重点拍木构与现代城市的对比。",
+          "time_guard": "10:30前离开，风大或步道施工时缩短到40分钟。"
+        },
+        {
+          "place_id": "baita-mountain",
+          "arrival_time": "14:20",
+          "dwell_minutes": 150,
+          "transport_mode": "出租车后步行",
+          "transfer_minutes": 25,
+          "distance_km": 4.8,
+          "estimated_cost": "公园免费；索道另计且须现场确认",
+          "practical_note": "先走低处寺院再决定是否继续上白塔；去程索道、回程步行可减少爬升，不在香客礼拜线上架三脚架。",
+          "time_guard": "16:50开始下山；若15:30仍未到中段观景位，就取消继续登高。"
+        },
+        {
+          "place_id": "zhongshan-bridge",
+          "arrival_time": "17:20",
+          "dwell_minutes": 70,
+          "transport_mode": "步行下山",
+          "transfer_minutes": 20,
+          "distance_km": 1.2,
+          "estimated_cost": "免费",
+          "practical_note": "先在北端平台拍桥全景，再过桥拍钢架重复线条；桥面拥挤时把人像移到南岸步道。",
+          "time_guard": "18:40前结束主拍；若游船停航，直接沿南岸散步后返回。"
+        }
+      ],
+      "shopping_advice": {
+        "title": "桥上不买大件",
+        "description": "今天路线以登山和摄影为主，只在桥南补水；伴手礼留到博物馆或张掖路集中买。",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BC%A0%E6%8E%96%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97%20%E5%85%B0%E5%B7%9E",
+        "link_label": "查看完整购物指南"
+      },
+      "photo_advice": {
+        "title": "木水车到铁桥蓝调",
+        "lighting": "上午侧逆光勾勒木水车轮辐，日落后10—20分钟拍中山桥蓝调与灯光。",
+        "suitable_shots": [
+          "蹲低用水车轮辐框住对岸楼群",
+          "在北岸平台用2×镜头压缩中山桥与南岸城市"
+        ],
+        "portrait_tip": "寺内避免对神像正面举机；桥面人像靠边快速完成，不阻塞通行。",
+        "shooting_plan": [
+          {
+            "time": "09:25",
+            "title": "水车博览园·轮辐框景",
+            "note": "站在水车斜侧并把手机降到腰部，用1×让轮辐包住人物，留意水边护栏。"
+          },
+          {
+            "time": "16:15",
+            "title": "白塔山·河谷俯瞰",
+            "note": "在有护栏的观景位用2×拍铁桥和河道，被摄者侧身看河，避免翻越边界。"
+          },
+          {
+            "time": "18:05",
+            "title": "中山桥·蓝调灯线",
+            "note": "从南岸用1×横构图保留倒影，轻点天空后下调曝光，等行人间隙再拍。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "10月·第3天",
+      "theme": "五泉清院与老城味道",
+      "summary": "上午只走五泉山核心古建，中午回老城吃包子并休息；下午看城隍庙与张掖路，晚饭选老字号悦宾楼，体力尚可再去正宁路分食两样。",
+      "periods": {
+        "morning": {
+          "title": "泉眼与古建筑",
+          "description": "趁清静进入五泉山，只走入口至核心寺院的短环线，给建筑细节和停坐留时间。"
+        },
+        "afternoon": {
+          "title": "城隍庙与商业老城",
+          "description": "午休后回到张掖路，先看城隍庙古建，再用步行街完成补给与咖啡休息。"
+        },
+        "evening": {
+          "title": "一顿正餐加少量夜市",
+          "description": "悦宾楼坐下吃传统热菜；若仍有胃口，再去正宁路只分食牛奶鸡蛋醪糟与一份烤肉。"
+        }
+      },
+      "stops": [
+        {
+          "place_id": "wuquanshan-park",
+          "arrival_time": "08:30",
+          "dwell_minutes": 150,
+          "transport_mode": "出租车",
+          "transfer_minutes": 25,
+          "distance_km": 5.0,
+          "estimated_cost": "公园通常免费，车费约20元",
+          "practical_note": "沿中轴看核心泉眼与庄严寺一带，先确认维修封闭区域；膝盖不适就原路下行，不走高处支线。",
+          "time_guard": "11:00下山，任何上坡支线以20分钟为限。"
+        },
+        {
+          "place_id": "rest-hujia-baozi",
+          "arrival_time": "11:45",
+          "dwell_minutes": 55,
+          "transport_mode": "出租车",
+          "transfer_minutes": 25,
+          "distance_km": 4.5,
+          "estimated_cost": "两人约40—80元",
+          "practical_note": "两人先点半笼或少量不同馅包子，搭配清淡汤食；给晚餐留胃口。",
+          "time_guard": "12:45结束，之后至少休息90分钟再开始下午步行。"
+        },
+        {
+          "place_id": "lanzhou-city-god-temple",
+          "arrival_time": "14:40",
+          "dwell_minutes": 45,
+          "transport_mode": "步行",
+          "transfer_minutes": 8,
+          "distance_km": 0.6,
+          "estimated_cost": "通常免费",
+          "practical_note": "把这里视为古建筑与市场混合空间，重点看入口牌楼与院内斗拱；古玩只看不冲动购买。",
+          "time_guard": "15:30离开；若内部不开放，就在外部看建筑后直接进入张掖路。"
+        },
+        {
+          "place_id": "rest-yuebinlou",
+          "arrival_time": "17:45",
+          "dwell_minutes": 90,
+          "transport_mode": "步行",
+          "transfer_minutes": 12,
+          "distance_km": 0.8,
+          "estimated_cost": "两人约160—260元",
+          "practical_note": "点一份百合类菜、一份传统肉菜和主食即可，先问是否有半份；不要重复点羊肉大菜。",
+          "time_guard": "19:30前结束；等位超过30分钟就改马老六或附近再回首。"
+        }
+      ],
+      "shopping_advice": {
+        "title": "老城集中采购",
+        "description": "在张掖路一次买齐百合干、三炮台与日用品；食品看生产日期，古玩与高价工艺品必须有凭证。",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%BC%A0%E6%8E%96%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97%20%E5%85%B0%E5%B7%9E",
+        "link_label": "打开张掖路地图"
+      },
+      "photo_advice": {
+        "title": "寺院檐角与老街烟火",
+        "lighting": "上午树影较柔，下午老城使用侧光，夜市保留霓虹高光并避免过曝。",
+        "suitable_shots": [
+          "在五泉山台阶下仰拍檐角层次",
+          "在正宁路用摊位蒸汽作前景拍手部动作"
+        ],
+        "portrait_tip": "宗教院落先询问再拍人；夜市不要贴近摊主面部，避开热锅与车流。",
+        "shooting_plan": [
+          {
+            "time": "09:15",
+            "title": "五泉山·檐下层叠",
+            "note": "站在院门外侧用1×竖拍，让近处檐角遮住一角天空，被摄者慢走入画。"
+          },
+          {
+            "time": "15:00",
+            "title": "城隍庙·新旧同框",
+            "note": "在步行街对面用2×压缩牌楼与高楼，手机保持水平，等待行人形成尺度。"
+          },
+          {
+            "time": "20:00",
+            "title": "正宁路·蒸汽与灯牌",
+            "note": "站在摊位侧边用1×贴近食物高度，锁定亮招牌后下调曝光，不妨碍出餐。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "10月·第4天",
+      "theme": "简牍里的丝路与老街灯火",
+      "summary": "今天只去西侧马滩片区：上午看简牍，午后长休息，傍晚进入兰州老街吃小食和拍牌楼，避免跨城折返。",
+      "periods": {
+        "morning": {
+          "title": "汉简与边塞交通",
+          "description": "在甘肃简牍博物馆慢看两到三个核心展区，把重点放在丝路驿传与日常书写。"
+        },
+        "afternoon": {
+          "title": "马滩片区留白",
+          "description": "午餐后回住宿或在西侧找安静座位休息，预留两小时消化信息与恢复体力。"
+        },
+        "evening": {
+          "title": "牌楼灯光与轻晚餐",
+          "description": "日落前后进入兰州老街，先拍建筑蓝调，再用小吃和甜醅子结束，不追求扫遍店铺。"
+        }
+      },
+      "stops": [
+        {
+          "place_id": "gansu-jiandu-museum",
+          "arrival_time": "09:30",
+          "dwell_minutes": 180,
+          "transport_mode": "地铁加出租车",
+          "transfer_minutes": 45,
+          "distance_km": 12.0,
+          "estimated_cost": "免费，需预约；交通约25—45元",
+          "practical_note": "先看基本陈列和汉塞边事两条主线，文字密集处用手机记下展签编号，不在每柜都停满。",
+          "time_guard": "12:30离馆；若未预约成功，改为甘肃省博物馆补访并取消西侧行程。"
+        },
+        {
+          "place_id": "lanzhou-old-street",
+          "arrival_time": "17:00",
+          "dwell_minutes": 150,
+          "transport_mode": "出租车或公交",
+          "transfer_minutes": 20,
+          "distance_km": 3.0,
+          "estimated_cost": "街区免费；餐饮两人约100—180元",
+          "practical_note": "先在天亮时找牌楼机位，亮灯后再回到同一位置对比；餐饮以小份分食，避免只选全国连锁。",
+          "time_guard": "20:00前离开；街区过密或下雨就缩短为一顿晚餐加30分钟拍摄。"
+        },
+        {
+          "place_id": "chain-fangha-zhengning",
+          "arrival_time": "20:05",
+          "dwell_minutes": 30,
+          "transport_mode": "街区内或返程途中购买",
+          "transfer_minutes": 5,
+          "distance_km": 0.3,
+          "estimated_cost": "两人约25—45元",
+          "practical_note": "两人共享一杯甜醅子奶茶即可，选择少糖或热饮以适应10月晚间低温。",
+          "time_guard": "排队超过15分钟就跳过，不为饮品跨区绕路。"
+        }
+      ],
+      "shopping_advice": {
+        "title": "只买轻巧文创",
+        "description": "今天适合买简牍主题书签或小件文创；大体积仿古摆件会增加返程负担。",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E7%94%98%E8%82%83%E7%AE%80%E7%89%8D%E5%8D%9A%E7%89%A9%E9%A6%86",
+        "link_label": "打开简牍博物馆地图"
+      },
+      "photo_advice": {
+        "title": "土色建筑与蓝调牌楼",
+        "lighting": "馆外在上午用顺侧光表现立面，老街在亮灯前后分别拍一张，保留天空颜色。",
+        "suitable_shots": [
+          "从简牍馆石刻前低机位拍竖向立面",
+          "在兰州老街牌楼斜对角用1×纳入灯笼与人流"
+        ],
+        "portrait_tip": "馆内遵守禁闪光和禁拍标识；老街人像不要站在门洞正中阻挡通行。",
+        "shooting_plan": [
+          {
+            "time": "09:20",
+            "title": "简牍馆·文字引导线",
+            "note": "把手机放在腰部高度，用1×让前景石刻文字指向入口，被摄者站在中段作为尺度。"
+          },
+          {
+            "time": "18:10",
+            "title": "兰州老街·亮灯前后",
+            "note": "在牌楼斜前方固定机位，先拍蓝天版本再等灯亮；轻点灯牌并下调曝光保住颜色。"
+          }
+        ]
+      }
+    },
+    {
+      "date": "10月·第5天",
+      "theme": "一碗晨面后从容返程",
+      "summary": "返程时间未定，上午只保留北岸牛肉面与河边短走；若第1天没赶上博物馆，则用上午补馆，其余活动全部让位给取行李和进站机场缓冲。",
+      "periods": {
+        "morning": {
+          "title": "最后一碗与河岸告别",
+          "description": "早去吾穆勒吃牛肉面，饭后沿北滨河路散步二十分钟；不再安排登山。"
+        },
+        "afternoon": {
+          "title": "取行李与转场",
+          "description": "按车站或机场方向返回住宿取行李，机场行程预留更长缓冲，具体待票务确认。"
+        },
+        "evening": {
+          "title": "返程留白",
+          "description": "不安排固定活动；若晚班且住处未退房，只在附近咖啡馆休息。"
+        }
+      },
+      "stops": [
+        {
+          "place_id": "rest-wumule-beibinhe",
+          "arrival_time": "08:00",
+          "dwell_minutes": 55,
+          "transport_mode": "出租车",
+          "transfer_minutes": 20,
+          "distance_km": 4.0,
+          "estimated_cost": "两人约50—100元",
+          "practical_note": "两人选不同面型并分一份牛肉，早餐后沿河短走；不要加点过多影响转场。",
+          "time_guard": "09:00离店；若当天需10:30前到站，直接在住宿附近早餐。"
+        },
+        {
+          "place_id": "zhongshan-bridge",
+          "arrival_time": "09:20",
+          "dwell_minutes": 35,
+          "transport_mode": "步行或出租车",
+          "transfer_minutes": 15,
+          "distance_km": 2.0,
+          "estimated_cost": "免费",
+          "practical_note": "只在南岸或北岸选一个视角完成告别照，不再过桥折返；行李留在住宿处。",
+          "time_guard": "10:00结束，随后直接取行李；机场航班至少提前3小时从市区出发。"
+        }
+      ],
+      "shopping_advice": {
+        "title": "返程日不临时扫货",
+        "description": "只补买已确认的密封食品，避免鲜百合、热食与易碎工艺品影响安检和搬运行李。",
+        "url": "https://www.google.com/maps/search/?api=1&query=%E5%85%B0%E5%B7%9E%E7%89%B9%E4%BA%A7%E5%BA%97",
+        "link_label": "查看购物指南"
+      },
+      "photo_advice": {
+        "title": "清晨河面与最后一张双人照",
+        "lighting": "清晨光线偏冷，利用桥体和河岸留出安静负空间。",
+        "suitable_shots": [
+          "在北岸低处用2×拍桥梁钢架与晨雾层次",
+          "把两人影子或倒影纳入河岸告别照"
+        ],
+        "portrait_tip": "使用定时拍摄时把手机放在稳固矮台且不离开视线，不占自行车和步行动线。",
+        "shooting_plan": [
+          {
+            "time": "09:25",
+            "title": "北岸·晨光中的中山桥",
+            "note": "站在护栏内侧用2×横拍，让桥占画面上三分之一并保留水面反光。"
+          },
+          {
+            "time": "09:45",
+            "title": "河岸·双人告别照",
+            "note": "手机固定在胸口高度用1×定时，被摄者沿护栏并肩走动，先确认身后无自行车。"
+          }
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "zhongshan-bridge",
+      "type": "sight",
+      "display_name": "中山桥",
+      "local_name": "兰州黄河铁桥（中山桥）",
+      "english_name": "Zhongshan Bridge",
+      "map_query": "中山桥 兰州市城关区滨河路中段",
+      "source_url": "https://www.gswbj.gov.cn/a/2026/06/10/28550.html",
+      "description": "兰州最具辨识度的黄河地标，适合傍晚由南向北步行，观察钢桁架、河流和白塔山的层次；日落后亮灯也值得停留。",
+      "hours": "全天开放；夜间照明及临时管控以现场公告为准",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.06472,
+      "longitude": 103.81453,
+      "images": [
+        {
+          "file": "assets/sights/zhongshan-bridge.jpg",
+          "download_url": "https://www.chinadiscovery.com/assets/images/gansu/1140/lanzhou-city-1140-2.jpg",
+          "source_page": "https://www.chinadiscovery.com/lanzhou-tours/lanzhou-attractions.html",
+          "source_type": "wikimedia_commons",
+          "media_class": "licensed_photo",
+          "original_media_class": "licensed_photo",
+          "visual_subject_type": "landscape",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一地点；下载后将在联系表中复核招牌、建筑或场景细节",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "duration_minutes": 60,
+      "scheduled_label": "第2天傍晚"
+    },
+    {
+      "id": "baita-mountain",
+      "type": "sight",
+      "display_name": "白塔山公园与白塔寺",
+      "local_name": "白塔山公园",
+      "english_name": "Baita Mountain Park",
+      "map_query": "白塔山公园 兰州市城关区白塔山1号",
+      "source_url": "https://www.gswbj.gov.cn/a/2026/06/10/28550.html",
+      "description": "从中山桥北端上山即达，核心是白塔寺与沿坡古建筑。慢行上山可逐级看到黄河、铁桥与南岸城市，是此行重要的寺庙和俯拍点。",
+      "hours": "公园通常白天至晚间开放；寺观院落可能较早关闭，出发前以景区公告为准",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.07102,
+      "longitude": 103.81544,
+      "images": [
+        {
+          "file": "assets/sights/baita-mountain.jpg",
+          "download_url": "https://youimg1.c-ctrip.com/target/100m11000000qlqgl7937.jpg",
+          "source_page": "https://you.ctrip.com/sight/lanzhou231/9575.html",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一地点；下载后将在联系表中复核招牌、建筑或场景细节",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "duration_minutes": 150,
+      "scheduled_label": "第2天下午"
+    },
+    {
+      "id": "gansu-museum",
+      "type": "sight",
+      "display_name": "甘肃省博物馆",
+      "local_name": "甘肃省博物馆",
+      "english_name": "Gansu Provincial Museum",
+      "map_query": "甘肃省博物馆 兰州市七里河区西津西路3号",
+      "source_url": "https://www.gansumuseum.com/",
+      "description": "丝绸之路、彩陶与佛教艺术展线能把接下来看到的石窟和寺庙放回历史脉络。重点看铜奔马及丝路文物，雨天也稳定。",
+      "hours": "通常周二至周日09:00—17:00，16:00停止入馆；预约与临展时间出发前核对",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.06672,
+      "longitude": 103.76878,
+      "images": [
+        {
+          "file": "assets/sights/gansu-museum.jpg",
+          "download_url": "https://youimg1.c-ctrip.com/target/100412000000t0vtoBF52.jpg",
+          "source_page": "https://you.ctrip.com/sight/lanzhou231/9586.html",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一地点；下载后将在联系表中复核招牌、建筑或场景细节",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "duration_minutes": 180,
+      "scheduled_label": "第1天下午"
+    },
+    {
+      "id": "wuquanshan-park",
+      "type": "sight",
+      "display_name": "五泉山公园",
+      "local_name": "五泉山公园",
+      "english_name": "Wuquan Mountain Park",
+      "map_query": "五泉山公园 兰州市城关区五泉南路103号",
+      "source_url": "https://gansu.gansudaily.com.cn/system/2025/07/23/031219952.shtml",
+      "description": "皋兰山北麓的老公园，古建筑、佛寺院落与五眼泉水分布在缓坡上。选择中轴到庄严寺一段即可，不必追求登遍全山。",
+      "hours": "公园通常07:00—19:00左右开放；寺院与局部维修以现场公告为准",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.03518,
+      "longitude": 103.82928,
+      "images": [
+        {
+          "file": "assets/sights/wuquanshan-park.jpg",
+          "download_url": "https://flight-feed.qunarzz.com/as3/180/image/poi_vishnu/b1570c4b-f1df-4843-9fb3-e2301e6051fc.jpg_640x426_ee1cc16d.jpg",
+          "source_page": "https://touch.go.qunar.com/poi/5332315",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一地点；下载后将在联系表中复核招牌、建筑或场景细节",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "duration_minutes": 135,
+      "scheduled_label": "第3日上午"
+    },
+    {
+      "id": "waterwheel-park",
+      "type": "sight",
+      "display_name": "兰州水车博览园",
+      "local_name": "兰州水车博览园",
+      "english_name": "Lanzhou Waterwheel Expo Park",
+      "map_query": "兰州水车博览园 城关区南滨河东路524号",
+      "source_url": "https://www.gswbj.gov.cn/a/2024/04/17/20156.html",
+      "description": "黄河风情线上的开放式水车展园，可近距离看大型木水车与传统提灌结构。园内平坦，适合与河岸步道连走。",
+      "hours": "户外园区通常全天可进入；展陈及设备运行时间以现场为准",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.06202,
+      "longitude": 103.83463,
+      "images": [
+        {
+          "file": "assets/sights/waterwheel-park.jpg",
+          "download_url": "https://pic.gansudaily.com.cn/003/019/023/00301902334_8acd8a6a.jpg",
+          "source_page": "https://www.gsjb.com/system/2024/04/30/030994728.shtml",
+          "source_type": "established_publication",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一地点；下载后将在联系表中复核招牌、建筑或场景细节",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "duration_minutes": 60,
+      "scheduled_label": "第2日上午"
+    },
+    {
+      "id": "yellow-river-mother",
+      "type": "sight",
+      "display_name": "黄河母亲雕塑",
+      "local_name": "黄河母亲雕塑",
+      "english_name": "Yellow River Mother Sculpture",
+      "map_query": "黄河母亲雕塑 兰州市七里河区滨河路中段",
+      "source_url": "https://www.gswbj.gov.cn/a/2025/02/24/24159.html",
+      "description": "黄河母亲雕塑以母亲和婴儿象征黄河与华夏子孙，是兰州最具辨识度的城市公共艺术之一。红色花岗岩造型适合近看水波纹样，也适合从斜侧把河岸、柳树和远山纳入画面。",
+      "hours": "全天开放",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.05631,
+      "longitude": 103.79993,
+      "images": [
+        {
+          "file": "assets/sights/yellow-river-mother.jpg",
+          "download_url": "https://www.gswbj.gov.cn/uploadfile/20250224/1740392299797700.jpg",
+          "source_page": "https://www.gswbj.gov.cn/a/2025/02/24/24159.html",
+          "source_type": "official_tourism",
+          "media_class": "official_photo",
+          "original_media_class": "official_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一地点；下载后将在联系表中复核招牌、建筑或场景细节",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "duration_minutes": 30,
+      "scheduled_label": "第1日傍晚"
+    },
+    {
+      "id": "lanzhou-city-god-temple",
+      "type": "sight",
+      "display_name": "兰州府城隍庙",
+      "local_name": "兰州府城隍庙",
+      "english_name": "Lanzhou City God Temple",
+      "map_query": "兰州府城隍庙 城关区张掖路202号",
+      "source_url": "https://www.gsdfszw.org.cn/gssz_58/dyl_69/lzs_224/dwsyjwwz/201707/P020170705314130708607.pdf",
+      "description": "藏在张掖路商业街中的古建筑群，如今院内兼有古玩与民俗商业。把它作为历史建筑短停，抬头看牌楼、斗拱与新旧街景并置。",
+      "hours": "商业院落通常日间开放，古建筑内部开放范围不固定；以入口公示为准",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.06117,
+      "longitude": 103.82098,
+      "images": [
+        {
+          "file": "assets/sights/lanzhou-city-god-temple.jpg",
+          "download_url": "https://k.sinaimg.cn/n/sinakd20200916ac/320/w640h480/20200916/ff27-izeysaz6110092.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+          "source_page": "https://k.sina.com.cn/article_6434048682_17f7fcaaa00100nryz.html",
+          "source_type": "established_publication",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一地点；下载后将在联系表中复核招牌、建筑或场景细节",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "duration_minutes": 45,
+      "scheduled_label": "第3日下午"
+    },
+    {
+      "id": "gansu-jiandu-museum",
+      "type": "sight",
+      "display_name": "甘肃简牍博物馆",
+      "local_name": "甘肃简牍博物馆",
+      "english_name": "Gansu Jiandu Museum",
+      "map_query": "甘肃简牍博物馆 兰州市七里河区马滩文化岛",
+      "source_url": "https://www.gsjdbwg.com/",
+      "description": "以汉简、丝路交通与边塞行政为主线的新馆，馆舍较远，建议与兰州老街同日安排，避免市中心往返。",
+      "hours": "通常周二至周日09:00—17:00，16:00停止入馆；预约规则以官方公告为准",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.06172,
+      "longitude": 103.69483,
+      "images": [
+        {
+          "file": "assets/sights/gansu-jiandu-museum.jpg",
+          "download_url": "https://dimg04.c-ctrip.com/images/0101z12000iv3z1yl6C35_D_521_391.jpg",
+          "source_page": "https://you.ctrip.com/sight/lanzhou231/141205841.html",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一地点；下载后将在联系表中复核招牌、建筑或场景细节",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "duration_minutes": 150,
+      "scheduled_label": "第4日上午"
+    },
+    {
+      "id": "lanzhou-old-street",
+      "type": "sight",
+      "display_name": "兰州老街",
+      "local_name": "兰州老街",
+      "english_name": "Lanzhou Old Street",
+      "map_query": "兰州老街 七里河区马滩片区",
+      "source_url": "https://you.ctrip.com/sight/lanzhou231/5713418.html",
+      "description": "现代营造的步行街区，适合在简牍博物馆后休息、吃饭和拍灯光牌楼；把它当作轻松的夜间街区，不误解为完整保存的古城。",
+      "hours": "街区全天可通行；店铺多约10:00—22:00营业，单店为准",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.07042,
+      "longitude": 103.71918,
+      "images": [
+        {
+          "file": "assets/sights/lanzhou-old-street.jpg",
+          "download_url": "https://dimg04.c-ctrip.com/images/1mh2112000h4pkzheE991_W_640_10000.jpg?proc=autoorient",
+          "source_page": "https://you.ctrip.com/sight/lanzhou231/5713418.html",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一地点；下载后将在联系表中复核招牌、建筑或场景细节",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "duration_minutes": 120,
+      "scheduled_label": "第4日傍晚"
+    },
+    {
+      "id": "lanzhou-west-station",
+      "type": "station",
+      "display_name": "兰州西站",
+      "local_name": "兰州西站",
+      "english_name": "Lanzhou West Railway Station",
+      "map_query": "兰州西站",
+      "source_url": "https://www.12306.cn/",
+      "description": "主要高铁到发站；仅在用户确认车次后写入具体接驳。",
+      "hours": "按列车运营",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.06602,
+      "longitude": 103.75143,
+      "images": []
+    },
+    {
+      "id": "lanzhou-zhongchuan-airport",
+      "type": "airport",
+      "display_name": "兰州中川国际机场",
+      "local_name": "兰州中川国际机场",
+      "english_name": "Lanzhou Zhongchuan International Airport",
+      "map_query": "兰州中川国际机场",
+      "source_url": "https://www.gansuairport.com/",
+      "description": "距市区较远；抵离日需为机场铁路或公路接驳预留充足时间。",
+      "hours": "按航班运营",
+      "closed_days": "无固定闭馆日；博物馆周一闭馆，节假日以官方公告为准",
+      "latitude": 36.51524,
+      "longitude": 103.62068,
+      "images": []
+    },
+    {
+      "id": "zhangye-road",
+      "type": "shop",
+      "display_name": "张掖路步行街",
+      "local_name": "张掖路步行街",
+      "english_name": "Zhangye Road Pedestrian Street",
+      "map_query": "张掖路步行街 兰州",
+      "source_url": "https://www.gswbj.gov.cn/a/2024/04/17/20156.html",
+      "description": "老城中心的综合商业步行街，可把日用品、零食伴手礼和临时补给一次解决，也能顺路串联城隍庙与大众巷。",
+      "hours": "街区全天可通行；多数店铺约09:30—22:00，单店为准",
+      "closed_days": "无固定闭馆日；馆内商店随博物馆闭馆",
+      "latitude": 36.0607,
+      "longitude": 103.8202,
+      "images": [
+        {
+          "file": "assets/shopping/zhangye-road.jpg",
+          "download_url": "https://dimg04.c-ctrip.com/images/1me0j12000r5qxdvi4865.jpg?proc=source%2Ftripcommunity",
+          "source_page": "https://gs.ctrip.com/html5/you/sight/lanzhou231/5164397.html",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "候选图与来源页用于确认具体街区、门店或产品；下载后在联系表中复核主体与水印",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "scheduled_label": "第3日下午",
+      "category": "老城商业街",
+      "buying_tip": "散装食品先问保质期与能否密封；贵重古玩不在无凭证摊位购买。",
+      "brand_highlights": [
+        "本地食品专柜",
+        "旅行补给",
+        "文创与书店"
+      ]
+    },
+    {
+      "id": "gansu-museum-shop",
+      "type": "shop",
+      "display_name": "甘肃省博物馆文创商店",
+      "local_name": "甘肃省博物馆文创商店",
+      "english_name": "Gansu Provincial Museum Shop",
+      "map_query": "甘肃省博物馆文创商店",
+      "source_url": "https://www.gansumuseum.com/",
+      "description": "围绕铜奔马、彩陶与丝路纹样的馆方文创点，适合买体积小、出处清楚的纪念品；先看展再选更有意义。",
+      "hours": "随博物馆开放，通常周二至周日09:00—17:00",
+      "closed_days": "无固定闭馆日；馆内商店随博物馆闭馆",
+      "latitude": 36.06672,
+      "longitude": 103.76878,
+      "images": [
+        {
+          "file": "assets/shopping/gansu-museum-shop.jpg",
+          "download_url": "https://x0.ifengimg.com/ucms/2022_27/7F757E48B9BA9621A522D55DA4DB7D39594B7897_size125_w1000_h667.jpg",
+          "source_page": "https://gs.ifeng.com/c/8HExXyvCtbG",
+          "source_type": "established_publication",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_interior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "候选图与来源页用于确认具体街区、门店或产品；下载后在联系表中复核主体与水印",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "scheduled_label": "第1日下午",
+      "category": "博物馆文创",
+      "buying_tip": "优先选有馆藏原型标注的产品；易碎陶瓷要求加泡沫并随身携带。",
+      "brand_highlights": [
+        "铜奔马系列",
+        "彩陶纹样",
+        "丝路主题"
+      ]
+    },
+    {
+      "id": "souvenir-museum-cultural",
+      "type": "souvenir",
+      "display_name": "铜奔马与彩陶文创",
+      "local_name": "甘肃省博物馆文创",
+      "english_name": "Gansu Museum Souvenirs",
+      "map_query": "甘肃省博物馆文创商店",
+      "source_url": "https://www.gansumuseum.com/",
+      "description": "以铜奔马、彩陶旋纹和丝路图像为原型的冰箱贴、徽章、文具或小摆件。",
+      "hours": "随博物馆开放",
+      "closed_days": "无固定闭馆日；馆内商店随博物馆闭馆",
+      "latitude": 36.06672,
+      "longitude": 103.76878,
+      "images": [
+        {
+          "file": "assets/shopping/souvenir-museum-cultural.jpg",
+          "download_url": "https://pic.gansudaily.com.cn/003/014/522/00301452230_b1eee8b1.jpg",
+          "source_page": "https://gs.ifeng.com/c/8HExXyvCtbG",
+          "source_type": "established_publication",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "product",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "候选图与来源页用于确认具体街区、门店或产品；下载后在联系表中复核主体与水印",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "why_buy": "图案来源清楚、体积小，代表甘肃的丝路与考古气质。",
+      "best_for": "送朋友、冰箱贴收藏、办公桌小物",
+      "where_to_buy": "甘肃省博物馆馆内官方文创商店",
+      "buying_tip": "核对馆方授权与原型说明；摆件和陶瓷要求独立缓冲包装。"
+    },
+    {
+      "id": "souvenir-lily",
+      "type": "souvenir",
+      "display_name": "兰州百合干",
+      "local_name": "兰州百合",
+      "english_name": "Lanzhou Lily Bulbs",
+      "map_query": "张掖路 兰州特产店 百合干",
+      "source_url": "https://www.lanzhou.gov.cn/",
+      "description": "兰州代表性食材，鲜百合甜润，旅行携带以密封百合干或正规包装产品更稳妥。",
+      "hours": "按售卖门店营业时间",
+      "closed_days": "无固定闭馆日；馆内商店随博物馆闭馆",
+      "latitude": 36.0607,
+      "longitude": 103.8202,
+      "images": [
+        {
+          "file": "assets/shopping/souvenir-lily.jpg",
+          "download_url": "https://cangsuyuan.com/uploads/181201/1-1Q20115114OP.png",
+          "source_page": "https://cangsuyuan.com/",
+          "source_type": "licensed_photo",
+          "media_class": "licensed_photo",
+          "original_media_class": "licensed_photo",
+          "visual_subject_type": "product",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "候选图与来源页用于确认具体街区、门店或产品；下载后在联系表中复核主体与水印",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "why_buy": "本地辨识度高，家庭使用也实际。",
+      "best_for": "爱做饭的家人、轻量食品伴手礼",
+      "where_to_buy": "大型商超、本地特产专柜或张掖路正规食品店",
+      "buying_tip": "看产地、生产日期和配料表；鲜百合需冷藏，不适合长时间常温运输。"
+    },
+    {
+      "id": "souvenir-sanpaotai",
+      "type": "souvenir",
+      "display_name": "三炮台盖碗茶料包",
+      "local_name": "三泡台／三炮台",
+      "english_name": "Sanpaotai Tea Set",
+      "map_query": "大众巷 兰州 三炮台 茶",
+      "source_url": "https://www.gswbj.gov.cn/a/2025/02/24/24159.html",
+      "description": "茶叶、冰糖、桂圆、红枣等组合的西北盖碗茶，独立小包装最方便，普通杯子也能冲泡。",
+      "hours": "按售卖门店营业时间",
+      "closed_days": "无固定闭馆日；馆内商店随博物馆闭馆",
+      "latitude": 36.0624,
+      "longitude": 103.8194,
+      "images": [
+        {
+          "file": "assets/shopping/souvenir-sanpaotai.jpg",
+          "download_url": "https://img.alicdn.com/bao/uploaded/i2/635742519/O1CN01wjCQ1K1UTkKbHjBXu_%21%21635742519.jpg",
+          "source_page": "https://shop.11665.com/list0/n_632852160910.html",
+          "source_type": "established_publication",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "product",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "候选图与来源页用于确认具体街区、门店或产品；下载后在联系表中复核主体与水印",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "why_buy": "容易分享，也能延续在兰州餐桌上喝盖碗茶的体验。",
+      "best_for": "办公室分享、喜欢甜茶的朋友",
+      "where_to_buy": "大众巷、张掖路商超与正规特产店",
+      "buying_tip": "比较配料和糖量；原料应干燥无异味。"
+    },
+    {
+      "id": "souvenir-carved-gourd",
+      "type": "souvenir",
+      "display_name": "兰州刻葫芦",
+      "local_name": "兰州刻葫芦",
+      "english_name": "Lanzhou Carved Gourd",
+      "map_query": "兰州 非遗 刻葫芦 文创店",
+      "source_url": "https://www.gswbj.gov.cn/",
+      "description": "在小葫芦表面用针刀刻出山水、人物或书法的兰州传统工艺，选小型单件更便携。",
+      "hours": "按工作室或门店营业时间",
+      "closed_days": "无固定闭馆日；馆内商店随博物馆闭馆",
+      "latitude": 36.0607,
+      "longitude": 103.8202,
+      "images": [
+        {
+          "file": "assets/shopping/souvenir-carved-gourd.jpg",
+          "download_url": "https://gjyszpz.cztgi.edu.cn/_upload/article/images/6e/3a/a095ea684669a4a607a25628d1be/52d21775-aa0a-488e-9a20-d5b43444dce0.jpg",
+          "source_page": "https://gjyszpz.cztgi.edu.cn/2022/1011/c2617a63586/page.htm",
+          "source_type": "established_publication",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "product",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "候选图与来源页用于确认具体街区、门店或产品；下载后在联系表中复核主体与水印",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "why_buy": "兰州代表性非遗工艺，单件图案各异。",
+      "best_for": "传统工艺爱好者、书桌摆件",
+      "where_to_buy": "正规非遗展销点、博物馆文创区或有作者署名的工作室",
+      "buying_tip": "询问作者和工艺；葫芦怕压，要求硬盒固定，贵价作品索取凭证。"
+    },
+    {
+      "id": "exp-yellow-river-night-cruise",
+      "type": "experience",
+      "display_name": "夜游黄河游船",
+      "local_name": "兰州夜游黄河",
+      "english_name": "Lanzhou Yellow River Night Cruise",
+      "map_query": "兰州港码头 夜游黄河",
+      "source_url": "https://www.gswbj.gov.cn/a/2025/02/24/24159.html",
+      "description": "从水面看中山桥、白塔山和两岸灯光，是兰州才成立的城市夜景体验；很适合喜欢拍照的两个人，用一段坐着休息的航程替代夜间继续走路。",
+      "hours": "班次、码头与票价随水位和季节调整，10月出发前一天向运营方确认",
+      "closed_days": "无固定休息日；受天气、检修或现场活动影响时停运",
+      "latitude": 36.0609,
+      "longitude": 103.8217,
+      "images": [
+        {
+          "file": "assets/experiences/yellow-river-night-cruise.jpg",
+          "download_url": "https://www.gswbj.gov.cn/uploadfile/20250224/1740392301720716.jpg",
+          "source_page": "https://www.gswbj.gov.cn/a/2025/02/24/24159.html",
+          "source_type": "official_tourism",
+          "media_class": "official_photo",
+          "original_media_class": "official_photo",
+          "visual_subject_type": "experience_scene",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一体验地点；下载后将在联系表中核对设备、建筑或街区标志",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "experience_type": "nature",
+      "category": "黄河光影",
+      "scheduled_label": "第2日晚可选",
+      "hazardous": false
+    },
+    {
+      "id": "exp-yellow-river-cableway",
+      "type": "experience",
+      "display_name": "黄河索道观景",
+      "local_name": "兰州黄河索道",
+      "english_name": "Lanzhou Yellow River Cableway",
+      "map_query": "兰州黄河索道 南站",
+      "source_url": "https://gs.ctrip.com/html5/you/sight/lanzhou231/2503685.html",
+      "description": "索道跨过黄河并抬升到白塔山方向，能把河道、铁桥和山城结构压进同一画面；单程体验短，适合在登山体力不足时保留俯拍视角。对喜欢拍照的两个人来说，它以很低的步行消耗换到兰州独有的河谷城市视野。",
+      "hours": "运营时间及是否停运受天气、检修影响，10月当天以售票处公告为准",
+      "closed_days": "无固定休息日；受天气、检修或现场活动影响时停运",
+      "latitude": 36.0648,
+      "longitude": 103.8086,
+      "images": [
+        {
+          "file": "assets/experiences/yellow-river-cableway.jpg",
+          "download_url": "https://dimg04.c-ctrip.com/images/0101b12000eyod2208848.jpg",
+          "source_page": "https://gs.ctrip.com/html5/you/sight/lanzhou231/2503685.html",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "experience_scene",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一体验地点；下载后将在联系表中核对设备、建筑或街区标志",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "experience_type": "nature",
+      "category": "黄河光影",
+      "scheduled_label": "第2日下午可选",
+      "hazardous": false
+    },
+    {
+      "id": "exp-baita-temple-walk",
+      "type": "experience",
+      "display_name": "白塔寺晨间慢行",
+      "local_name": "白塔寺建筑慢行",
+      "english_name": "Baita Temple Morning Walk",
+      "map_query": "白塔寺 兰州白塔山公园",
+      "source_url": "https://www.gswbj.gov.cn/a/2026/06/10/28550.html",
+      "description": "沿白塔山低处院落到白塔寺，重点观察塔身、山门和屋檐，而非追求快速登顶；清晨人少、侧光柔和，符合寺庙与建筑摄影偏好。它把宗教建筑、黄河和城市景观集中在同一条兰州本地山寺路径中。",
+      "hours": "公园开放期内进行；寺院院门与宗教活动范围以现场为准",
+      "closed_days": "无固定休息日；受天气、检修或现场活动影响时停运",
+      "latitude": 36.071,
+      "longitude": 103.8154,
+      "images": [
+        {
+          "file": "assets/experiences/baita-temple-walk.jpg",
+          "download_url": "https://oss.seetao.com/upload/image/2020-04-07/5e8c44fe75c12.jpg",
+          "source_page": "https://www.seetao.com/details/21509.html",
+          "source_type": "established_publication",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "experience_scene",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一体验地点；下载后将在联系表中核对设备、建筑或街区标志",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "experience_type": "culture",
+      "category": "山寺慢行",
+      "scheduled_label": "第2日下午",
+      "hazardous": false
+    },
+    {
+      "id": "exp-wuquan-architecture-walk",
+      "type": "experience",
+      "display_name": "五泉山古建与泉水慢行",
+      "local_name": "五泉山建筑群慢行",
+      "english_name": "Wuquan Mountain Architecture Walk",
+      "map_query": "五泉山公园 庄严寺 兰州",
+      "source_url": "https://gansu.gansudaily.com.cn/system/2025/07/23/031219952.shtml",
+      "description": "从公园入口只走到核心古建筑与泉眼，逐处看金刚殿、庄严寺等构件和树影；线路可随体力缩短，适合轻松节奏下细看寺庙建筑。五泉与古建筑群是兰州本地山地园林经验，区别于只为拍照搭建的通用古风街区。",
+      "hours": "建议09:00—12:00；局部院落开放和维修情况以现场为准",
+      "closed_days": "无固定休息日；受天气、检修或现场活动影响时停运",
+      "latitude": 36.0352,
+      "longitude": 103.8293,
+      "images": [
+        {
+          "file": "assets/experiences/wuquan-architecture-walk.jpg",
+          "download_url": "https://dimg04.c-ctrip.com/images/100q15000000yrrzqDA24_W_640_10000.jpg?proc=autoorient",
+          "source_page": "https://you.ctrip.com/sight/lanzhou231/9585.html",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "experience_scene",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一体验地点；下载后将在联系表中核对设备、建筑或街区标志",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "experience_type": "culture",
+      "category": "山寺慢行",
+      "scheduled_label": "第3日上午",
+      "hazardous": false
+    },
+    {
+      "id": "exp-dazhong-food-walk",
+      "type": "experience",
+      "display_name": "大众巷早午餐小吃慢尝",
+      "local_name": "大众巷美食慢行",
+      "english_name": "Dazhong Lane Food Walk",
+      "map_query": "大众巷 兰州",
+      "source_url": "https://www.gswbj.gov.cn/a/2024/04/17/20156.html",
+      "description": "把牛肉面、灰豆子、酿皮等拆成两人分食的小份，用老街区步行消化，不追逐长队；这里与城隍庙、张掖路相邻，几乎不增加交通成本。",
+      "hours": "建议08:00—13:30，具体单店时间各异",
+      "closed_days": "无固定休息日；受天气、检修或现场活动影响时停运",
+      "latitude": 36.0624,
+      "longitude": 103.8194,
+      "images": [
+        {
+          "file": "assets/experiences/dazhong-food-walk.jpg",
+          "download_url": "https://youimg1.c-ctrip.com/target/100f0u000000iw9mx0DA3.jpg",
+          "source_page": "https://touch.travel.qunar.com/comment/10155556823",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "experience_scene",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一体验地点；下载后将在联系表中核对设备、建筑或街区标志",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "experience_type": "food_workshop",
+      "category": "街巷味觉",
+      "scheduled_label": "第3日午间",
+      "hazardous": false
+    },
+    {
+      "id": "exp-zhengning-night-market",
+      "type": "experience",
+      "display_name": "正宁路夜市分食路线",
+      "local_name": "正宁路小吃夜市",
+      "english_name": "Zhengning Road Night Market",
+      "map_query": "正宁路小吃夜市 兰州",
+      "source_url": "https://gs.ifeng.com/c/8NXQUHLExYY",
+      "description": "夜间集中尝烤羊肉、牛奶鸡蛋醪糟与杏皮水，建议两人共享每份、先看现做与价目再买；霓虹、烟火和摊位动作也很适合手机纪实摄影。",
+      "hours": "通常傍晚起营业，摊位时间随季节与管理调整",
+      "closed_days": "无固定休息日；受天气、检修或现场活动影响时停运",
+      "latitude": 36.0476,
+      "longitude": 103.8223,
+      "images": [
+        {
+          "file": "assets/experiences/zhengning-night-market.jpg",
+          "download_url": "https://x0.ifengimg.com/ucms/2023_08/A03B925CC573B84ECF008BCD6F1C01709F2219B6_size1832_w1012_h612.png",
+          "source_page": "https://gs.ifeng.com/c/8NXQUHLExYY",
+          "source_type": "established_publication",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "experience_scene",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一体验地点；下载后将在联系表中核对设备、建筑或街区标志",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "experience_type": "food_workshop",
+      "category": "街巷味觉",
+      "scheduled_label": "第3日晚",
+      "hazardous": false
+    },
+    {
+      "id": "rest-ma-zilu-dazhong",
+      "type": "restaurant",
+      "display_name": "马子禄牛肉面·大众巷店",
+      "local_name": "马子禄牛肉面（大众巷店）",
+      "english_name": "Ma Zilu Beef Noodles, Dazhong Lane",
+      "map_query": "马子禄牛肉面 大众巷86号 兰州",
+      "source_url": "https://touch.travel.qunar.com/comment/10155556823",
+      "description": "老城核心的老字号代表，适合第一顿建立对清汤、辣子和面型的认识；午后较早收档，应当把它当早餐或早午餐而非晚餐。",
+      "hours": "通常约06:00—14:00；节假日与售罄时间以门店为准",
+      "closed_days": [],
+      "latitude": 36.0622,
+      "longitude": 103.82,
+      "images": [
+        {
+          "file": "assets/restaurants/ma-zilu.jpg",
+          "download_url": "https://youimg1.c-ctrip.com/target/100a0x000000l1rbpC202.jpg",
+          "source_page": "https://touch.travel.qunar.com/comment/10157035795",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一门店或品牌产品；下载后将在餐厅联系表中核对招牌、环境或包装",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "cuisine": "牛肉面早餐",
+      "signature_dishes": "牛肉面（可选二细或毛细） · 单切牛肉 · 凉菜",
+      "price_per_person": "约20—40元"
+    },
+    {
+      "id": "rest-wumule-beibinhe",
+      "type": "restaurant",
+      "display_name": "吾穆勒蓬灰牛肉面·北滨河中路店",
+      "local_name": "吾穆勒蓬灰牛肉面（北滨河中路店）",
+      "english_name": "Wumule Beef Noodles, Beibinhe Middle Road",
+      "map_query": "吾穆勒蓬灰牛肉面 北滨河中路2168号 兰州",
+      "source_url": "https://touch.travel.qunar.com/comment/10164395494",
+      "description": "以汤味、蓬灰面香和较厚实的牛肉片见长，位置靠近黄河北岸，可与白塔山日组合；同样适合上午，错开周末早餐高峰。",
+      "hours": "门店公示约06:00—14:30；售罄可能提前结束",
+      "closed_days": [],
+      "latitude": 36.075,
+      "longitude": 103.8074,
+      "images": [
+        {
+          "file": "assets/restaurants/wumule.jpg",
+          "download_url": "https://youimg1.c-ctrip.com/target/0103l1200083j1g5zEFB4.jpg",
+          "source_page": "https://touch.travel.qunar.com/comment/10164395494",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一门店或品牌产品；下载后将在餐厅联系表中核对招牌、环境或包装",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "cuisine": "牛肉面与熟牛肉",
+      "signature_dishes": "蓬灰牛肉面 · 单切牛腱 · 油泼辣子",
+      "price_per_person": "约25—50元"
+    },
+    {
+      "id": "rest-ma-laoliu-tongwei",
+      "type": "restaurant",
+      "display_name": "马老六清真餐饮·通渭路总店",
+      "local_name": "马老六清真餐饮（通渭路总店）",
+      "english_name": "Ma Laoliu Halal Restaurant, Tongwei Road",
+      "map_query": "马老六清真餐饮 通渭路17号 兰州",
+      "source_url": "https://www.hunjiangwang.com/hotel/180.html",
+      "description": "适合两个人坐下来吃一顿完整的西北清真正餐，手抓、羊羔肉与家常热菜比只吃小吃更有层次；地点在老城，安排晚餐最顺。",
+      "hours": "通常午餐至晚间营业；包席与节假日可能影响散客，出发前电话确认",
+      "closed_days": [],
+      "latitude": 36.0578,
+      "longitude": 103.8252,
+      "images": [
+        {
+          "file": "assets/restaurants/ma-laoliu.jpg",
+          "download_url": "https://www.hunjiangwang.com/uploads/20210207/bb90b7fca4f0231a7b5db21049073034.jpg",
+          "source_page": "https://www.hunjiangwang.com/hotel/180.html",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一门店或品牌产品；下载后将在餐厅联系表中核对招牌、环境或包装",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "cuisine": "西北清真菜与羊肉",
+      "signature_dishes": "手抓羊肉 · 老六羊羔肉 · 三炮台",
+      "price_per_person": "约80—140元"
+    },
+    {
+      "id": "rest-yuebinlou",
+      "type": "restaurant",
+      "display_name": "悦宾楼·张掖路店",
+      "local_name": "悦宾楼",
+      "english_name": "Yuebinlou Restaurant",
+      "map_query": "悦宾楼 张掖路 兰州",
+      "source_url": "https://news.sina.cn/2021-05-13/detail-ikmxzfmm2127527.d.html",
+      "description": "兰州餐饮老字号，适合在连续几顿面食和小吃后换一顿有座位、有热菜的传统宴席式正餐；建筑入口本身也有老店气氛。",
+      "hours": "午餐与晚餐时段营业，具体以门店当日公示为准",
+      "closed_days": [],
+      "latitude": 36.0605,
+      "longitude": 103.8233,
+      "images": [
+        {
+          "file": "assets/restaurants/yuebinlou.jpg",
+          "download_url": "https://n.sinaimg.cn/sinakd2021513s/200/w1080h720/20210513/666b-kpzzqmz7035014.jpg",
+          "source_page": "https://news.sina.cn/2021-05-13/detail-ikmxzfmm2127527.d.html",
+          "source_type": "established_publication",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一门店或品牌产品；下载后将在餐厅联系表中核对招牌、环境或包装",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "cuisine": "兰州老字号传统菜",
+      "signature_dishes": "百合炒肉 · 糟肉 · 传统烩菜",
+      "price_per_person": "约70—120元"
+    },
+    {
+      "id": "rest-hujia-baozi",
+      "type": "restaurant",
+      "display_name": "胡家包子·大众巷店",
+      "local_name": "清真胡家包子（大众巷店）",
+      "english_name": "Hu Jia Baozi, Dazhong Lane",
+      "map_query": "胡家包子 大众巷 兰州",
+      "source_url": "https://hk.trip.com/moments/detail/lanzhou-231-125326034/",
+      "description": "以牛羊肉包子和家常清真面食见长，适合不想再排牛肉面长队时吃一顿快速早午餐；两人可少量点几种馅，避免一开始点多。",
+      "hours": "门店照片标示约09:15—20:00；以当日公示为准",
+      "closed_days": [],
+      "latitude": 36.0621,
+      "longitude": 103.8197,
+      "images": [
+        {
+          "file": "assets/restaurants/hujia-baozi.jpg",
+          "download_url": "https://ak-d.tripcdn.com/images/1mi1512000g485h5x638B.jpg?proc=source%2Ftrip",
+          "source_page": "https://hk.trip.com/moments/detail/lanzhou-231-125326034/",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一门店或品牌产品；下载后将在餐厅联系表中核对招牌、环境或包装",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "cuisine": "清真包子与家常面食",
+      "signature_dishes": "牛肉包子 · 羊肉包子 · 牛肉盖面",
+      "price_per_person": "约20—45元"
+    },
+    {
+      "id": "rest-laomajia-zhengning",
+      "type": "restaurant",
+      "display_name": "老马家国华牛奶鸡蛋醪糟·正宁路摊",
+      "local_name": "清真老马家国华牛奶鸡蛋醪糟",
+      "english_name": "Lao Ma Jia Milk Egg Fermented Rice",
+      "map_query": "正宁路夜市 68号 老马家 牛奶鸡蛋醪糟 兰州",
+      "source_url": "https://touch.travel.qunar.com/comment/10163625370",
+      "description": "把牛奶、鸡蛋、醪糟、坚果和葡萄干煮成热甜汤，是兰州夜市最有辨识度的一碗；适合两人分食并把排队控制在二十分钟内。",
+      "hours": "通常随正宁路夜市傍晚营业；摊位及编号可能调整，以现场为准",
+      "closed_days": [],
+      "latitude": 36.0478,
+      "longitude": 103.8222,
+      "images": [
+        {
+          "file": "assets/restaurants/laomajia.jpg",
+          "download_url": "https://youimg1.c-ctrip.com/target/10091h000001ht2ivA45E.jpg",
+          "source_page": "https://touch.travel.qunar.com/comment/10163625370",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一门店或品牌产品；下载后将在餐厅联系表中核对招牌、环境或包装",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "cuisine": "夜市甜食",
+      "signature_dishes": "牛奶鸡蛋醪糟 · 坚果葡萄干热甜汤",
+      "price_per_person": "约10—20元"
+    },
+    {
+      "id": "chain-zaihuishou-zhangye",
+      "type": "restaurant",
+      "display_name": "再回首·张掖路店",
+      "local_name": "再回首（张掖路店）",
+      "english_name": "Zaihuishou, Zhangye Road",
+      "map_query": "再回首 张掖路 兰州",
+      "source_url": "https://you.ctrip.com/food/231/15749645.html",
+      "description": "兰州本地常见小吃品牌，酿皮、灰豆子等出品稳定，适合下雨、赶时间或专程店排队太长时快速补位；先点小份再决定是否加。",
+      "hours": "通常约09:30—21:30；具体以门店为准",
+      "closed_days": [],
+      "latitude": 36.0609,
+      "longitude": 103.8205,
+      "images": [
+        {
+          "file": "assets/restaurants/zaihuishou.jpg",
+          "download_url": "https://dimg04.c-ctrip.com/images/1mh1p12000b8ht9bq72A0_W_640_10000.jpg?proc=autoorient",
+          "source_page": "https://you.ctrip.com/food/231/15749645.html",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "place_exterior",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一门店或品牌产品；下载后将在餐厅联系表中核对招牌、环境或包装",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "cuisine": "兰州小吃连锁",
+      "signature_dishes": "高担酿皮 · 灰豆子 · 甜醅子",
+      "price_per_person": "约15—35元"
+    },
+    {
+      "id": "chain-fangha-zhengning",
+      "type": "restaurant",
+      "display_name": "放哈甜醅子奶茶·正宁路店",
+      "local_name": "放哈（正宁路店）",
+      "english_name": "Fangha, Zhengning Road",
+      "map_query": "放哈 甜醅子奶茶 正宁路店 兰州",
+      "source_url": "https://touch.travel.qunar.com/comment/10156092093",
+      "description": "把传统甜醅子转成现代奶茶的本地连锁，冷饮、热饮都容易找到，适合秋夜散步途中短暂停留，也是拍摄包装和街头饮食的轻松补位。",
+      "hours": "通常午间至夜间营业；以门店当日公示为准",
+      "closed_days": [],
+      "latitude": 36.0485,
+      "longitude": 103.8224,
+      "images": [
+        {
+          "file": "assets/restaurants/fangha.jpg",
+          "download_url": "https://youimg1.c-ctrip.com/target/100g0w000000k9ul21AF4.jpg",
+          "source_page": "https://touch.travel.qunar.com/comment/10156582860",
+          "source_type": "reputable_listing",
+          "media_class": "real_photo",
+          "original_media_class": "real_photo",
+          "visual_subject_type": "dish",
+          "verification_evidence": "qa-evidence/asset-contact-sheet-final.jpg",
+          "visual_confirmation_note": "来源页与候选图指向同一门店或品牌产品；下载后将在餐厅联系表中核对招牌、环境或包装",
+          "source_identity_bound": true,
+          "visually_confirmed": true,
+          "watermark_checked": true,
+          "subject_verified": true
+        }
+      ],
+      "cuisine": "本地甜品饮品连锁",
+      "signature_dishes": "甜醅子奶茶 · 甜醅子绿茶 · 杏皮水",
+      "price_per_person": "约12—25元"
+    }
+  ],
+  "module_groups": {
+    "shopping": [
+      {
+        "title": "老城商街与小吃巷",
+        "subtitle": "把采购放进第3天步行路线",
+        "items": [
+          {
+            "place_id": "zhangye-road"
+          }
+        ]
+      },
+      {
+        "title": "博物馆文创",
+        "subtitle": "看完馆藏再选出处清楚的小件",
+        "items": [
+          {
+            "place_id": "gansu-museum-shop"
+          }
+        ]
+      }
+    ],
+    "experiences": [
+      {
+        "title": "黄河光影",
+        "subtitle": "在水面与高处看兰州",
+        "items": [
+          {
+            "place_id": "exp-yellow-river-night-cruise"
+          },
+          {
+            "place_id": "exp-yellow-river-cableway"
+          }
+        ]
+      },
+      {
+        "title": "山寺慢行",
+        "subtitle": "把寺观建筑留给安静的上午与下午",
+        "items": [
+          {
+            "place_id": "exp-baita-temple-walk"
+          },
+          {
+            "place_id": "exp-wuquan-architecture-walk"
+          }
+        ]
+      },
+      {
+        "title": "街巷味觉",
+        "subtitle": "两人分食，把排队和分量控制住",
+        "items": [
+          {
+            "place_id": "exp-dazhong-food-walk"
+          },
+          {
+            "place_id": "exp-zhengning-night-market"
+          }
+        ]
+      }
+    ],
+    "food": {
+      "menu_guide": {
+        "kicker": "在兰州，先懂面型与分量",
+        "title": "一清二白三红四绿五黄，点面从粗细开始",
+        "intro": "兰州牛肉面多在柜台先买票，再把票交给窗口并报面型。早餐店收档早；清真餐厅尊重饮食禁忌，不带外食入内。两个人一路分食，才能给甜食、羊肉和夜市留出胃口。",
+        "cards": [
+          {
+            "title": "先报面型",
+            "note": "常见二细、三细、毛细、韭叶和大宽；第一次可两人各点一种，对比筋道和挂汤，不必默认最细。"
+          },
+          {
+            "title": "肉通常另点",
+            "note": "基础面里的牛肉不多，想吃肉可单切小份；先问按份还是按重量，避免两个人误点一大盘。"
+          },
+          {
+            "title": "清真场所的边界",
+            "note": "不少兰州老店为清真餐厅，不携带含猪肉或酒类外食进入；是否售酒、是否可自带饮品先问服务员。"
+          },
+          {
+            "title": "夜市用分食策略",
+            "note": "烤肉、酿皮、甜醅和牛奶鸡蛋醪糟都先买一份两人分，遇到超过二十分钟的队伍就换同类摊位。"
+          },
+          {
+            "title": "十月冷热节奏",
+            "note": "早晚凉，牛肉面和醪糟可选热食；白天干燥，多喝水并减少连续重辣，避免下一餐食欲被打乱。"
+          }
+        ]
+      },
+      "menu_primer": [
+        {
+          "term": "二细",
+          "meaning": "中等偏细的圆面",
+          "note": "初次点牛肉面最稳妥，筋道与挂汤较平衡。"
+        },
+        {
+          "term": "毛细",
+          "meaning": "很细的圆面",
+          "note": "吸汤快也软得快，上桌后尽快吃。"
+        },
+        {
+          "term": "韭叶",
+          "meaning": "韭菜叶宽度的扁面",
+          "note": "口感厚实，适合喜欢明显嚼劲的人。"
+        },
+        {
+          "term": "大宽",
+          "meaning": "宽面带",
+          "note": "一碗面条数量少但单根厚宽，吸辣油明显。"
+        },
+        {
+          "term": "加肉／单切",
+          "meaning": "另买一份熟牛肉",
+          "note": "先问小份重量和价格，两个人可共用。"
+        },
+        {
+          "term": "辣子多些／少些",
+          "meaning": "调整油泼辣子的量",
+          "note": "不吃辣要在交票时说清“辣子不要”。"
+        },
+        {
+          "term": "手抓",
+          "meaning": "白煮或清煮羊肉切件",
+          "note": "常按斤或份卖，点餐前确认分量与是否带骨。"
+        },
+        {
+          "term": "酿皮",
+          "meaning": "蒸制面皮拌辣油与醋汁",
+          "note": "可说少辣，现拌后尽快吃口感更好。"
+        },
+        {
+          "term": "甜醅子",
+          "meaning": "发酵燕麦甜食",
+          "note": "带轻微发酵香，做奶茶时可选少糖。"
+        },
+        {
+          "term": "灰豆子",
+          "meaning": "麻豌豆煮成的甜粥",
+          "note": "口感绵稠，常作小碗甜点而非主食。"
+        }
+      ],
+      "local_snacks": [
+        {
+          "name": "兰州牛肉面",
+          "local_name": "牛肉面",
+          "english_name": "Lanzhou Beef Noodles",
+          "description": "清汤、白萝卜、红辣子、绿蒜苗与黄亮面条组成的早餐主角，面型可自选。",
+          "why_try": "在本地早餐时段吃，最能体会出餐流程和面条口感。",
+          "where_to_find": "马子禄大众巷店、吾穆勒北滨河中路店及各居民区早店。"
+        },
+        {
+          "name": "高担酿皮",
+          "local_name": "酿皮子",
+          "english_name": "Liangpi",
+          "description": "蒸制面皮切条后拌辣油、香醋、蒜汁与面筋，酸辣爽滑。",
+          "why_try": "适合两餐之间两人分一份，和牛肉面的热汤形成口感对比。",
+          "where_to_find": "再回首门店、大众巷及正规小吃店。"
+        },
+        {
+          "name": "灰豆子",
+          "local_name": "灰豆子",
+          "english_name": "Grey Pea Sweet Soup",
+          "description": "麻豌豆慢煮成稠甜汤，豆粒绵软，十月晚上吃热碗尤其舒服。",
+          "why_try": "是兰州日常甜食代表，味道朴素且与常见红豆汤不同。",
+          "where_to_find": "张掖路周边老甜食店、大众巷与再回首。"
+        },
+        {
+          "name": "牛奶鸡蛋醪糟",
+          "local_name": "牛奶鸡蛋醪糟",
+          "english_name": "Milk Egg Fermented Rice",
+          "description": "牛奶、鸡蛋和醪糟现煮，再加坚果与葡萄干，热、香、略带发酵味。",
+          "why_try": "夜市辨识度最高的甜食之一，看现场翻煮也有烟火气。",
+          "where_to_find": "正宁路夜市老马家等现做摊位。"
+        }
+      ],
+      "dedicated_trip": [
+        {
+          "place_id": "rest-ma-zilu-dazhong"
+        },
+        {
+          "place_id": "rest-wumule-beibinhe"
+        },
+        {
+          "place_id": "rest-ma-laoliu-tongwei"
+        },
+        {
+          "place_id": "rest-yuebinlou"
+        },
+        {
+          "place_id": "rest-hujia-baozi"
+        },
+        {
+          "place_id": "rest-laomajia-zhengning"
+        }
+      ],
+      "reliable_chains": [
+        {
+          "place_id": "chain-zaihuishou-zhangye"
+        },
+        {
+          "place_id": "chain-fangha-zhengning"
+        }
+      ]
+    },
+    "preparation": {
+      "essentials": [
+        {
+          "title": "身份证件",
+          "timing": "出发前",
+          "note": "乘机、乘火车、博物馆预约与入住都可能需要，两人分别保管并留电子备份。"
+        },
+        {
+          "title": "保暖外套",
+          "timing": "每天",
+          "note": "兰州10月早晚温差明显，河边和山上体感更凉，带可叠穿的防风层。"
+        },
+        {
+          "title": "舒适防滑鞋",
+          "timing": "第2—3天",
+          "note": "白塔山和五泉山有台阶，鞋底需防滑；不要穿第一次上脚的新鞋。"
+        },
+        {
+          "title": "润唇膏与保湿霜",
+          "timing": "随身",
+          "note": "西北秋季干燥，白天多次少量补涂，鼻腔敏感者带生理盐水喷雾。"
+        },
+        {
+          "title": "防晒霜与太阳镜",
+          "timing": "白天",
+          "note": "高原边缘日照和水面反光明显，即使气温低也要防晒。"
+        },
+        {
+          "title": "可重复水杯",
+          "timing": "每天",
+          "note": "步行与爬坡时少量多次喝水，不等口渴后一次猛喝。"
+        },
+        {
+          "title": "少量常用药",
+          "timing": "随身",
+          "note": "带个人常用药、肠胃药和创可贴，处方药保留原包装与说明。"
+        },
+        {
+          "title": "口罩",
+          "timing": "风大或拥挤时",
+          "note": "遇到扬尘、夜市烟气或人多场馆可使用，准备数只替换。"
+        },
+        {
+          "title": "充电宝与短线",
+          "timing": "每天",
+          "note": "拍照、导航和扫码耗电快，出门前充满并确认符合交通携带规则。"
+        },
+        {
+          "title": "小型折叠袋",
+          "timing": "购物日",
+          "note": "装百合干、茶料包与文创，避免多个塑料袋影响拍照和步行。"
+        },
+        {
+          "title": "纸巾与湿巾",
+          "timing": "餐饮日",
+          "note": "牛肉面和夜市多为快速用餐，自备少量清洁用品更方便。"
+        },
+        {
+          "title": "两人共享预算",
+          "timing": "每天早上",
+          "note": "先约定当天餐饮和打车上限，夜市用小份分食控制浪费。"
+        },
+        {
+          "title": "离线地图截图",
+          "timing": "出发前一晚",
+          "note": "保存每天主要地点的中文名和顺序，信号差时也能向司机出示。"
+        },
+        {
+          "title": "轻便相机或手机夹",
+          "timing": "摄影日",
+          "note": "以手机为主即可；若带小三脚架，只在不妨碍通行且允许的户外使用。"
+        }
+      ],
+      "confirm_ahead": [
+        {
+          "title": "确认具体出发日期",
+          "timing": "尽快",
+          "note": "目前仅确定10月；避开闭馆日并判断是否落在国庆客流期，才能锁定每个日历日期。"
+        },
+        {
+          "title": "填写往返交通",
+          "timing": "出票后",
+          "note": "补入航班或车次、到发站与时间，随后调整第1天和第5天的可用时段。"
+        },
+        {
+          "title": "填写住宿",
+          "timing": "预订后",
+          "note": "建议城关区张掖路或东方红广场附近，确认地址后再核对每日接驳。"
+        },
+        {
+          "title": "预约甘肃省博物馆",
+          "timing": "开放预约后",
+          "note": "使用馆方官方渠道预约，核对放票时间、闭馆日和身份证入馆规则。"
+        },
+        {
+          "title": "预约甘肃简牍博物馆",
+          "timing": "开放预约后",
+          "note": "核对周一闭馆、入馆时段及临时展厅开放，预约失败则改甘肃省博物馆补访。"
+        },
+        {
+          "title": "复核白塔山开放",
+          "timing": "第2天前一晚",
+          "note": "查看公园、白塔寺和索道的检修或临时封闭信息，决定步行还是索道。"
+        },
+        {
+          "title": "复核五泉山维修",
+          "timing": "第3天前一晚",
+          "note": "确认核心古建筑和步道是否开放，遇封闭只走可用的低处短环线。"
+        },
+        {
+          "title": "确认黄河游船",
+          "timing": "第2天当天",
+          "note": "水位、风力与淡季会影响班次和码头，不提前把游船视为必成行项目。"
+        },
+        {
+          "title": "核对餐厅营业",
+          "timing": "前一晚",
+          "note": "牛肉面店可能午后售罄，正餐店可能承接包席；按当天路线逐店确认。"
+        },
+        {
+          "title": "下载支付与乘车工具",
+          "timing": "出发前",
+          "note": "准备支付宝或微信支付并绑定银行卡，保留少量现金应对小摊或网络异常。"
+        },
+        {
+          "title": "查看逐日天气与空气",
+          "timing": "每天早上",
+          "note": "按风力、降温和降雨调整河岸与山地时段，室内博物馆作为主要替代。"
+        },
+        {
+          "title": "规划返程缓冲",
+          "timing": "第4天晚上",
+          "note": "兰州中川机场距市区较远；按实际出发点反推离店时间，火车也预留安检与进站。"
+        }
+      ]
+    },
+    "language": {
+      "keyword_groups": [
+        {
+          "title": "交通与定位",
+          "items": [
+            {
+              "term": "中山桥",
+              "pronunciation": "Zhōngshān Qiáo",
+              "meaning": "黄河铁桥"
+            },
+            {
+              "term": "白塔山",
+              "pronunciation": "Báitǎ Shān",
+              "meaning": "中山桥北侧山地公园"
+            },
+            {
+              "term": "南滨河路",
+              "pronunciation": "Nán Bīnhé Lù",
+              "meaning": "黄河南岸滨河路"
+            },
+            {
+              "term": "兰州西站",
+              "pronunciation": "Lánzhōu Xīzhàn",
+              "meaning": "主要高铁站"
+            },
+            {
+              "term": "中川机场",
+              "pronunciation": "Zhōngchuān Jīchǎng",
+              "meaning": "兰州机场"
+            }
+          ]
+        },
+        {
+          "title": "餐厅与菜单",
+          "items": [
+            {
+              "term": "二细",
+              "pronunciation": "èr xì",
+              "meaning": "中等偏细圆面"
+            },
+            {
+              "term": "毛细",
+              "pronunciation": "máo xì",
+              "meaning": "很细的圆面"
+            },
+            {
+              "term": "韭叶",
+              "pronunciation": "jiǔ yè",
+              "meaning": "韭菜叶宽扁面"
+            },
+            {
+              "term": "大宽",
+              "pronunciation": "dà kuān",
+              "meaning": "宽面带"
+            },
+            {
+              "term": "单切",
+              "pronunciation": "dān qiē",
+              "meaning": "另点一份熟牛肉"
+            }
+          ]
+        },
+        {
+          "title": "购物与支付",
+          "items": [
+            {
+              "term": "百合干",
+              "pronunciation": "bǎi hé gān",
+              "meaning": "干制兰州百合"
+            },
+            {
+              "term": "三炮台",
+              "pronunciation": "sān pào tái",
+              "meaning": "西北盖碗茶料"
+            },
+            {
+              "term": "刻葫芦",
+              "pronunciation": "kè hú lu",
+              "meaning": "兰州传统雕刻工艺"
+            },
+            {
+              "term": "密封包装",
+              "pronunciation": "mì fēng bāo zhuāng",
+              "meaning": "适合长途携带的包装"
+            },
+            {
+              "term": "收据",
+              "pronunciation": "shōu jù",
+              "meaning": "付款凭证"
+            }
+          ]
+        },
+        {
+          "title": "住宿与设施",
+          "items": [
+            {
+              "term": "寄存行李",
+              "pronunciation": "jì cún xíng li",
+              "meaning": "把行李暂存在前台"
+            },
+            {
+              "term": "延迟退房",
+              "pronunciation": "yán chí tuì fáng",
+              "meaning": "晚一些退房"
+            },
+            {
+              "term": "无烟房",
+              "pronunciation": "wú yān fáng",
+              "meaning": "禁止吸烟的客房"
+            },
+            {
+              "term": "加湿器",
+              "pronunciation": "jiā shī qì",
+              "meaning": "增加室内湿度的设备"
+            },
+            {
+              "term": "前台",
+              "pronunciation": "qián tái",
+              "meaning": "酒店接待处"
+            }
+          ]
+        },
+        {
+          "title": "求助与紧急情况",
+          "items": [
+            {
+              "term": "报警",
+              "pronunciation": "bào jǐng",
+              "meaning": "拨打110求助"
+            },
+            {
+              "term": "急救",
+              "pronunciation": "jí jiù",
+              "meaning": "拨打120医疗急救"
+            },
+            {
+              "term": "走失",
+              "pronunciation": "zǒu shī",
+              "meaning": "与同伴失散"
+            },
+            {
+              "term": "过敏",
+              "pronunciation": "guò mǐn",
+              "meaning": "对食物或药物有反应"
+            },
+            {
+              "term": "服务台",
+              "pronunciation": "fú wù tái",
+              "meaning": "场馆咨询与求助点"
+            }
+          ]
+        }
+      ],
+      "phrase_groups": [
+        {
+          "title": "问路与乘车",
+          "items": [
+            {
+              "sentence": "请问去中山桥从哪个出口走？",
+              "meaning": "向地铁或路人确认出口"
+            },
+            {
+              "sentence": "麻烦按导航到这个位置。",
+              "meaning": "向出租车司机出示准确地点"
+            },
+            {
+              "sentence": "这里可以寄存行李吗？",
+              "meaning": "询问车站或酒店寄存"
+            },
+            {
+              "sentence": "去中川机场大约要多久？",
+              "meaning": "确认机场接驳时间"
+            },
+            {
+              "sentence": "请在安全方便的地方停车。",
+              "meaning": "让司机合法靠边停车"
+            }
+          ]
+        },
+        {
+          "title": "点餐与忌口",
+          "items": [
+            {
+              "sentence": "一碗二细，辣子少一点。",
+              "meaning": "点中细面并少辣"
+            },
+            {
+              "sentence": "牛肉请给我们切一小份。",
+              "meaning": "两人共享少量熟牛肉"
+            },
+            {
+              "sentence": "这个菜两个人吃会不会太多？",
+              "meaning": "确认菜量"
+            },
+            {
+              "sentence": "我们不吃这个食材，请不要放。",
+              "meaning": "说明忌口"
+            },
+            {
+              "sentence": "这个是清真的吗？",
+              "meaning": "确认清真属性"
+            }
+          ]
+        },
+        {
+          "title": "购物与凭证",
+          "items": [
+            {
+              "sentence": "这个百合干是兰州产的吗？",
+              "meaning": "确认产地"
+            },
+            {
+              "sentence": "可以做密封包装吗？",
+              "meaning": "询问长途包装"
+            },
+            {
+              "sentence": "请给我看一下生产日期。",
+              "meaning": "核对食品日期"
+            },
+            {
+              "sentence": "这是作者手工刻的吗？",
+              "meaning": "确认刻葫芦工艺"
+            },
+            {
+              "sentence": "麻烦给我一张收据。",
+              "meaning": "索要购买凭证"
+            }
+          ]
+        },
+        {
+          "title": "住宿沟通",
+          "items": [
+            {
+              "sentence": "我们有两个人的预订。",
+              "meaning": "办理入住"
+            },
+            {
+              "sentence": "可以把行李寄存到下午吗？",
+              "meaning": "退房后寄存"
+            },
+            {
+              "sentence": "房间有点干，可以借加湿器吗？",
+              "meaning": "改善干燥"
+            },
+            {
+              "sentence": "请帮我们叫一辆出租车。",
+              "meaning": "请求前台叫车"
+            },
+            {
+              "sentence": "我们要去兰州西站，几点出发合适？",
+              "meaning": "反推离店时间"
+            }
+          ]
+        },
+        {
+          "title": "求助与紧急情况",
+          "items": [
+            {
+              "sentence": "我和同伴走散了，请帮我联系。",
+              "meaning": "请求协助联系同伴"
+            },
+            {
+              "sentence": "我对这个食物过敏。",
+              "meaning": "说明过敏"
+            },
+            {
+              "sentence": "请问最近的医院在哪里？",
+              "meaning": "寻找医疗点"
+            },
+            {
+              "sentence": "我的手机丢了，请帮我报警。",
+              "meaning": "遗失物品报警"
+            },
+            {
+              "sentence": "请带我到服务台。",
+              "meaning": "前往正式求助点"
+            }
+          ]
+        }
+      ],
+      "english_keyword_groups": [
+        {
+          "title": "交通与定位",
+          "items": [
+            {
+              "term": "station",
+              "meaning": "车站"
+            },
+            {
+              "term": "exit",
+              "meaning": "出口"
+            },
+            {
+              "term": "platform",
+              "meaning": "站台"
+            },
+            {
+              "term": "transfer",
+              "meaning": "换乘"
+            },
+            {
+              "term": "destination",
+              "meaning": "目的地"
+            }
+          ]
+        },
+        {
+          "title": "餐厅与菜单",
+          "items": [
+            {
+              "term": "not spicy",
+              "meaning": "不辣"
+            },
+            {
+              "term": "allergy",
+              "meaning": "过敏"
+            },
+            {
+              "term": "still water",
+              "meaning": "无气饮用水"
+            },
+            {
+              "term": "bill / check",
+              "meaning": "账单／买单"
+            },
+            {
+              "term": "vegetarian",
+              "meaning": "素食"
+            }
+          ]
+        },
+        {
+          "title": "购物与支付",
+          "items": [
+            {
+              "term": "price",
+              "meaning": "价格"
+            },
+            {
+              "term": "credit card",
+              "meaning": "信用卡"
+            },
+            {
+              "term": "cash",
+              "meaning": "现金"
+            },
+            {
+              "term": "receipt",
+              "meaning": "收据"
+            },
+            {
+              "term": "tax refund",
+              "meaning": "退税"
+            }
+          ]
+        },
+        {
+          "title": "住宿与设施",
+          "items": [
+            {
+              "term": "reservation",
+              "meaning": "预订"
+            },
+            {
+              "term": "room",
+              "meaning": "客房"
+            },
+            {
+              "term": "towel",
+              "meaning": "毛巾"
+            },
+            {
+              "term": "hot water",
+              "meaning": "热水"
+            },
+            {
+              "term": "luggage storage",
+              "meaning": "行李寄存"
+            }
+          ]
+        },
+        {
+          "title": "求助与紧急情况",
+          "items": [
+            {
+              "term": "help",
+              "meaning": "帮助"
+            },
+            {
+              "term": "hospital",
+              "meaning": "医院"
+            },
+            {
+              "term": "police",
+              "meaning": "警察"
+            },
+            {
+              "term": "lost",
+              "meaning": "迷路／遗失"
+            },
+            {
+              "term": "emergency",
+              "meaning": "紧急情况"
+            }
+          ]
+        }
+      ],
+      "english_phrase_groups": [
+        {
+          "title": "问路与乘车",
+          "items": [
+            {
+              "sentence": "How do I get to this station?",
+              "meaning": "怎么去这个车站？"
+            },
+            {
+              "sentence": "Which exit should I use?",
+              "meaning": "应该走哪个出口？"
+            },
+            {
+              "sentence": "Please stop here.",
+              "meaning": "请在这里停车。"
+            },
+            {
+              "sentence": "Does this train go to this place?",
+              "meaning": "这班车去这个地方吗？"
+            },
+            {
+              "sentence": "How long does it take?",
+              "meaning": "大约需要多久？"
+            }
+          ]
+        },
+        {
+          "title": "点餐与忌口",
+          "items": [
+            {
+              "sentence": "Please make it not spicy.",
+              "meaning": "请做成不辣。"
+            },
+            {
+              "sentence": "I am allergic to nuts.",
+              "meaning": "我对坚果过敏。"
+            },
+            {
+              "sentence": "We would like two of these.",
+              "meaning": "这个请给我们两份。"
+            },
+            {
+              "sentence": "Could we have two bottles of water?",
+              "meaning": "请给我们两瓶水。"
+            },
+            {
+              "sentence": "Could we have the bill, please?",
+              "meaning": "请买单。"
+            }
+          ]
+        },
+        {
+          "title": "购物与退税",
+          "items": [
+            {
+              "sentence": "How much is this?",
+              "meaning": "这个多少钱？"
+            },
+            {
+              "sentence": "Do you have another size?",
+              "meaning": "有其他尺码吗？"
+            },
+            {
+              "sentence": "Can I pay by card?",
+              "meaning": "可以刷卡吗？"
+            },
+            {
+              "sentence": "Could I have a receipt?",
+              "meaning": "请给我收据。"
+            },
+            {
+              "sentence": "Is this eligible for a tax refund?",
+              "meaning": "这个可以办理退税吗？"
+            }
+          ]
+        },
+        {
+          "title": "住宿沟通",
+          "items": [
+            {
+              "sentence": "I have a reservation.",
+              "meaning": "我已经预订了。"
+            },
+            {
+              "sentence": "Could you store our luggage?",
+              "meaning": "可以寄存我们的行李吗？"
+            },
+            {
+              "sentence": "Could we have a late check-out?",
+              "meaning": "可以延迟退房吗？"
+            },
+            {
+              "sentence": "The hot water is not working.",
+              "meaning": "热水不能用。"
+            },
+            {
+              "sentence": "Could you call a taxi for us?",
+              "meaning": "可以帮我们叫出租车吗？"
+            }
+          ]
+        },
+        {
+          "title": "求助与紧急情况",
+          "items": [
+            {
+              "sentence": "Could you help me, please?",
+              "meaning": "请帮助我。"
+            },
+            {
+              "sentence": "I am lost.",
+              "meaning": "我迷路了。"
+            },
+            {
+              "sentence": "Where is the nearest hospital?",
+              "meaning": "最近的医院在哪里？"
+            },
+            {
+              "sentence": "Please call the police.",
+              "meaning": "请帮忙报警。"
+            },
+            {
+              "sentence": "I need an English-speaking assistant.",
+              "meaning": "我需要会英语的工作人员协助。"
+            }
+          ]
+        }
+      ]
+    },
+    "travel_notes": [
+      {
+        "category": "climate",
+        "title": "天气与穿着",
+        "summary": "10月兰州昼夜温差和河边风感都明显，按可增减的三层穿法准备，并每天依据风力调整山地与河岸时段。",
+        "items": [
+          {
+            "title": "早晚加防风层",
+            "note": "10月清晨、日落后和黄河岸边体感会明显转凉。把轻薄羽绒或防风外套放在随身包里，热时脱下而不是只穿一件厚衣。"
+          },
+          {
+            "title": "干燥比低温更持久",
+            "note": "室外风和室内暖气都可能让皮肤、嘴唇与鼻腔干燥。每天分次喝水并补涂润唇膏，敏感者在住宿处使用加湿器。"
+          },
+          {
+            "title": "日照强也要防晒",
+            "note": "气温偏低并不代表紫外线和河面反光弱。白天使用防晒霜、帽子和太阳镜，登白塔山时尤其不要省略。"
+          },
+          {
+            "title": "用室内馆应对坏天气",
+            "note": "降雨、大风或明显降温会削弱河岸和山顶体验。把甘肃省博物馆或简牍博物馆作为替代，但先确认预约和周一闭馆。"
+          }
+        ]
+      },
+      {
+        "category": "etiquette",
+        "title": "文化与礼仪",
+        "summary": "兰州的清真餐饮和寺观空间都有清楚的行为边界，先观察当地人和现场标识，再拍照、点餐或进入院落。",
+        "items": [
+          {
+            "title": "尊重清真餐饮习惯",
+            "note": "不少牛肉面与羊肉餐厅明确标示清真。不要携带含猪肉或酒类的外食进入，是否售酒或能否自带饮品直接询问店员。"
+          },
+          {
+            "title": "寺观先看再举机",
+            "note": "白塔寺、五泉山院落和白云观可能有真实宗教活动。看到礼拜、法事或禁拍标识时收起相机，建筑摄影也不要挡住香客动线。"
+          },
+          {
+            "title": "清真寺以礼拜为先",
+            "note": "如临时进入清真寺周边，应穿着得体并避免礼拜时间喧哗。内部是否接待游客、能否拍照以现场管理人员说明为准。"
+          },
+          {
+            "title": "老城市场谨慎买古玩",
+            "note": "城隍庙一带兼有古玩与民俗商业，年代和真伪不容易现场判断。普通旅行者以观看和小额纪念品为主，高价物品必须有凭证与清楚来源。"
+          }
+        ]
+      },
+      {
+        "category": "transport",
+        "title": "当地交通",
+        "summary": "兰州城市景点多沿黄河东西展开，地铁、出租车与步行组合效率最高；机场距离市区远，返程必须单独留缓冲。",
+        "items": [
+          {
+            "title": "河岸路线按同侧串联",
+            "note": "黄河两岸桥梁间距会放大看似很近的直线距离。一天尽量在同侧顺行，跨河只选中山桥或明确的交通节点，避免反复折返。"
+          },
+          {
+            "title": "地铁负责长段移动",
+            "note": "张掖路、东方红广场与西站方向可先用地铁完成主干移动。最后一两公里再步行或打车，既节省体力也降低堵车影响。"
+          },
+          {
+            "title": "打车出示完整中文名",
+            "note": "同名店、分店和南北滨河路容易造成误解。上车前把门店分店名、道路和地图定位一并出示，抵达前核对招牌。"
+          },
+          {
+            "title": "中川机场单独反推时间",
+            "note": "兰州中川机场位于市区以北且距离较远，交通时间受班次和路况影响。拿到航班后从起飞时间倒推，至少预留三小时离开市区。"
+          }
+        ]
+      },
+      {
+        "category": "safety",
+        "title": "安全与应急",
+        "summary": "主要景点整体适合普通游客，但山路、水边、夜市拥挤与干燥不适需要具体止损线；把缩短行程写进每天计划。",
+        "items": [
+          {
+            "title": "山路以下行为替代",
+            "note": "白塔山和五泉山都有台阶与坡道，雨后或落叶季可能打滑。膝盖不适就只走低处院落，白塔山可视运营情况用索道减少爬升。"
+          },
+          {
+            "title": "黄河边不越护栏",
+            "note": "黄河流速、水位与岸边高差不适合靠近试探。拍照始终留在护栏和开放步道内，游船停航时不寻找私人船只替代。"
+          },
+          {
+            "title": "夜市管好随身物品",
+            "note": "正宁路和节假日老城夜间会拥挤，热锅与车辆也增加碰撞风险。手机用腕带或拉链包收好，拍照时站到摊位侧边而非通道中央。"
+          },
+          {
+            "title": "肠胃不适立即减量",
+            "note": "辣油、羊肉、甜醅和夜市甜食连续叠加容易让肠胃负担过重。两人分食、少辣并补充清淡热水，出现持续不适就取消下一餐挑战。"
+          }
+        ]
+      },
+      {
+        "category": "payment",
+        "title": "支付与现金",
+        "summary": "移动支付覆盖广，但小摊、信号和手机电量仍可能造成短时失败；两人准备主副支付方式与少量现金即可。",
+        "items": [
+          {
+            "title": "主用扫码并留备用卡",
+            "note": "餐厅、商场与多数小摊普遍可用微信或支付宝。两个人分别绑定可用银行卡，避免一部手机没电后两人都无法付款。"
+          },
+          {
+            "title": "少量现金处理小额异常",
+            "note": "老摊位、临时设备故障或网络不稳时可能更适合现金。准备少量小面额纸币并分开保管，不需要携带大量现金。"
+          },
+          {
+            "title": "先确认价格和分量",
+            "note": "手抓羊肉可能按斤或按份，小吃也有大小份区别。下单前复述分量与价格，扫码后立即检查金额，发现错误当场沟通。"
+          },
+          {
+            "title": "贵价工艺品保留凭证",
+            "note": "刻葫芦、仿古物和陶瓷价格差异大，作者与工艺也影响价值。高价购买要求收据、作者或店铺信息和包装说明，无法说明来源就放弃。"
+          }
+        ]
+      }
+    ]
+  }
+}

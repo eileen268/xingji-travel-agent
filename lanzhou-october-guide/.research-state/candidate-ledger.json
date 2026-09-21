@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "destination": "兰州",
+  "current_pack": "framing",
+  "candidates": {},
+  "source_incidents": [],
+  "note": "Keep only compact keep/replace/pending decisions, attempted source families and rate-limit incidents. Do not store prose research here."
+}

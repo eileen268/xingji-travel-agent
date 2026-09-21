@@ -1,0 +1,425 @@
+{
+  "generated_at": "2026-09-15T09:46:23.761189+00:00",
+  "execution_status": "completed",
+  "production_pipeline_connected": false,
+  "provider": "serper",
+  "configuration": {
+    "max_results": 5,
+    "max_queries_per_poi": 2,
+    "cache_ttl_seconds": 7776000,
+    "google_fallback_enabled": false
+  },
+  "billing_note": "Starter 标价约 $1/1000 次成功查询；新账户免费查询额度、税费和实际套餐另计。",
+  "metrics": {
+    "poc_size": 20,
+    "selected_url_count": 15,
+    "verified_official_count": 9,
+    "probable_official_count": 6,
+    "unverified_count": 5,
+    "cache_hit_count": 0,
+    "network_query_count": 32,
+    "average_queries_per_poi": 1.6,
+    "average_search_latency_ms": 2240.3,
+    "estimated_list_cost_usd": 0.032,
+    "wrong_binding_count": "pending_manual_review"
+  },
+  "results": [
+    {
+      "poi": "故宫博物院",
+      "city": "北京",
+      "amap_match": "故宫博物院",
+      "serper_query_count": 2,
+      "queries": [
+        "故宫博物院 官网",
+        "故宫博物院 北京 官方网站"
+      ],
+      "top_result": null,
+      "selected_url": null,
+      "resolution_confidence": 0.635,
+      "resolution_status": "unverified",
+      "verified_official": false,
+      "search_latency_ms": 5030.0,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "天坛公园",
+      "city": "北京",
+      "amap_match": "天坛公园",
+      "serper_query_count": 2,
+      "queries": [
+        "天坛公园 官网",
+        "天坛公园 北京 官方网站"
+      ],
+      "top_result": null,
+      "selected_url": null,
+      "resolution_confidence": 0.7445,
+      "resolution_status": "unverified",
+      "verified_official": false,
+      "search_latency_ms": 4399.1,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "颐和园",
+      "city": "北京",
+      "amap_match": "颐和园",
+      "serper_query_count": 2,
+      "queries": [
+        "颐和园 官网",
+        "颐和园 北京 官方网站"
+      ],
+      "top_result": {
+        "title": "颐和园官网",
+        "url": "https://www.summerpalace.net.cn/"
+      },
+      "selected_url": "https://www.summerpalace.net.cn/",
+      "resolution_confidence": 0.8125,
+      "resolution_status": "probable_official",
+      "verified_official": false,
+      "search_latency_ms": 4297.2,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "上海博物馆",
+      "city": "上海",
+      "amap_match": "上海自然博物馆",
+      "serper_query_count": 1,
+      "queries": [
+        "上海自然博物馆 官网"
+      ],
+      "top_result": {
+        "title": "上海自然博物馆首页",
+        "url": "https://www.snhm.org.cn/"
+      },
+      "selected_url": "https://www.snhm.org.cn/",
+      "resolution_confidence": 0.985,
+      "resolution_status": "verified_official",
+      "verified_official": true,
+      "search_latency_ms": 2059.1,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "上海迪士尼乐园",
+      "city": "上海",
+      "amap_match": "上海迪士尼乐园",
+      "serper_query_count": 2,
+      "queries": [
+        "上海迪士尼乐园 官网",
+        "上海迪士尼乐园 上海 官方网站"
+      ],
+      "top_result": {
+        "title": "上海迪士尼度假区官方网站",
+        "url": "https://www.shanghaidisneyresort.com/zh-cn/"
+      },
+      "selected_url": "https://www.shanghaidisneyresort.com/zh-cn/",
+      "resolution_confidence": 0.8105,
+      "resolution_status": "probable_official",
+      "verified_official": false,
+      "search_latency_ms": 4079.6,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "东方明珠",
+      "city": "上海",
+      "amap_match": "东方明珠公园",
+      "serper_query_count": 2,
+      "queries": [
+        "东方明珠公园 官网",
+        "东方明珠公园 上海 官方网站"
+      ],
+      "top_result": null,
+      "selected_url": null,
+      "resolution_confidence": 0.6825,
+      "resolution_status": "unverified",
+      "verified_official": false,
+      "search_latency_ms": 4583.3,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "豫园",
+      "city": "上海",
+      "amap_match": "上海豫园",
+      "serper_query_count": 1,
+      "queries": [
+        "上海豫园 官网"
+      ],
+      "top_result": {
+        "title": "豫园简体中文版",
+        "url": "https://www.yugarden.com.cn/"
+      },
+      "selected_url": "https://www.yugarden.com.cn/",
+      "resolution_confidence": 1.0,
+      "resolution_status": "verified_official",
+      "verified_official": true,
+      "search_latency_ms": 2491.5,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "秦始皇帝陵博物院",
+      "city": "西安",
+      "amap_match": "秦始皇帝陵博物院",
+      "serper_query_count": 2,
+      "queries": [
+        "秦始皇帝陵博物院 官网",
+        "秦始皇帝陵博物院 西安 官方网站"
+      ],
+      "top_result": {
+        "title": "秦始皇兵马俑博物馆 - 中华人民共和国文化和旅游部",
+        "url": "https://zhuanti.mct.gov.cn/qshbmybwg2022.html"
+      },
+      "selected_url": "https://zhuanti.mct.gov.cn/qshbmybwg2022.html",
+      "resolution_confidence": 0.767,
+      "resolution_status": "probable_official",
+      "verified_official": false,
+      "search_latency_ms": 4256.8,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "陕西历史博物馆",
+      "city": "西安",
+      "amap_match": "陕西历史博物馆",
+      "serper_query_count": 2,
+      "queries": [
+        "陕西历史博物馆 官网",
+        "陕西历史博物馆 西安 官方网站"
+      ],
+      "top_result": null,
+      "selected_url": null,
+      "resolution_confidence": 0.7265,
+      "resolution_status": "unverified",
+      "verified_official": false,
+      "search_latency_ms": 5134.2,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "大唐不夜城",
+      "city": "西安",
+      "amap_match": "大唐不夜城",
+      "serper_query_count": 1,
+      "queries": [
+        "大唐不夜城 官网"
+      ],
+      "top_result": {
+        "title": "大唐不夜城 - enewave 官网",
+        "url": "https://www.1983asia.com/case.php?id=44"
+      },
+      "selected_url": "https://www.1983asia.com/case.php?id=44",
+      "resolution_confidence": 0.9265,
+      "resolution_status": "verified_official",
+      "verified_official": true,
+      "search_latency_ms": 2019.2,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "甘肃省博物馆",
+      "city": "兰州",
+      "amap_match": "甘肃省博物馆",
+      "serper_query_count": 2,
+      "queries": [
+        "甘肃省博物馆 官网",
+        "甘肃省博物馆 兰州 官方网站"
+      ],
+      "top_result": null,
+      "selected_url": null,
+      "resolution_confidence": 0.7445,
+      "resolution_status": "unverified",
+      "verified_official": false,
+      "search_latency_ms": 4213.8,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "中山桥",
+      "city": "兰州",
+      "amap_match": "中山桥",
+      "serper_query_count": 2,
+      "queries": [
+        "中山桥 官网",
+        "中山桥 兰州 官方网站"
+      ],
+      "top_result": {
+        "title": "文化中国行·百年中山桥天下黄河第一桥：兰州中山桥 - YouTube",
+        "url": "https://www.youtube.com/watch?v=Yw83eg7nn8o"
+      },
+      "selected_url": "https://www.youtube.com/watch?v=Yw83eg7nn8o",
+      "resolution_confidence": 0.7625,
+      "resolution_status": "probable_official",
+      "verified_official": false,
+      "search_latency_ms": 4414.5,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "莫高窟",
+      "city": "敦煌",
+      "amap_match": "莫高窟景区",
+      "serper_query_count": 2,
+      "queries": [
+        "莫高窟景区 官网",
+        "莫高窟景区 敦煌 官方网站"
+      ],
+      "top_result": {
+        "title": "敦煌研究院",
+        "url": "http://www.dha.ac.cn/"
+      },
+      "selected_url": "http://www.dha.ac.cn/",
+      "resolution_confidence": 0.9265,
+      "resolution_status": "verified_official",
+      "verified_official": true,
+      "search_latency_ms": 4301.9,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "鸣沙山月牙泉",
+      "city": "敦煌",
+      "amap_match": "鸣沙山月牙泉",
+      "serper_query_count": 1,
+      "queries": [
+        "鸣沙山月牙泉 官网"
+      ],
+      "top_result": {
+        "title": "鸣沙山月牙泉风景区|鸣沙山月牙泉国家级AAAAA 景区官方网站",
+        "url": "http://www.mssyyq.com/"
+      },
+      "selected_url": "http://www.mssyyq.com/",
+      "resolution_confidence": 0.9625,
+      "resolution_status": "verified_official",
+      "verified_official": true,
+      "search_latency_ms": 2061.5,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "西湖",
+      "city": "杭州",
+      "amap_match": "西湖",
+      "serper_query_count": 1,
+      "queries": [
+        "西湖 官网"
+      ],
+      "top_result": {
+        "title": "印象西湖_杭州印象西湖门票预订-官网授权杭州印象西湖门票预订网站 ...",
+        "url": "http://www.yinxiangxihup.com/"
+      },
+      "selected_url": "http://www.yinxiangxihup.com/",
+      "resolution_confidence": 0.9445,
+      "resolution_status": "verified_official",
+      "verified_official": true,
+      "search_latency_ms": 2126.5,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "灵隐寺",
+      "city": "杭州",
+      "amap_match": "灵隐寺",
+      "serper_query_count": 2,
+      "queries": [
+        "灵隐寺 官网",
+        "灵隐寺 杭州 官方网站"
+      ],
+      "top_result": {
+        "title": "杭州灵隐寺",
+        "url": "https://www.lingyinsi.org/"
+      },
+      "selected_url": "https://www.lingyinsi.org/",
+      "resolution_confidence": 0.7625,
+      "resolution_status": "probable_official",
+      "verified_official": false,
+      "search_latency_ms": 4312.7,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "拙政园",
+      "city": "苏州",
+      "amap_match": "拙政园",
+      "serper_query_count": 1,
+      "queries": [
+        "拙政园 官网"
+      ],
+      "top_result": {
+        "title": "拙政园预约官网途径（附入口） - 苏州本地宝",
+        "url": "http://suzhou.bendibao.com/tour/2023412/ly112073.shtm"
+      },
+      "selected_url": "http://suzhou.bendibao.com/tour/2023412/ly112073.shtm",
+      "resolution_confidence": 0.9625,
+      "resolution_status": "verified_official",
+      "verified_official": true,
+      "search_latency_ms": 2786.5,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "苏州博物馆",
+      "city": "苏州",
+      "amap_match": "苏州博物馆(本馆)",
+      "serper_query_count": 2,
+      "queries": [
+        "苏州博物馆(本馆) 官网",
+        "苏州博物馆(本馆) 苏州 官方网站"
+      ],
+      "top_result": {
+        "title": "苏州博物馆西馆个人预约官网",
+        "url": "https://m.suzhou.bendibao.com/mip/ly108007.shtm"
+      },
+      "selected_url": "https://m.suzhou.bendibao.com/mip/ly108007.shtm",
+      "resolution_confidence": 0.7665,
+      "resolution_status": "probable_official",
+      "verified_official": false,
+      "search_latency_ms": 4897.3,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "成都大熊猫繁育研究基地",
+      "city": "成都",
+      "amap_match": "成都大熊猫繁育研究基地",
+      "serper_query_count": 1,
+      "queries": [
+        "成都大熊猫繁育研究基地 官网"
+      ],
+      "top_result": {
+        "title": "成都大熊猫繁育研究基地",
+        "url": "https://www.panda.org.cn/"
+      },
+      "selected_url": "https://www.panda.org.cn/",
+      "resolution_confidence": 0.985,
+      "resolution_status": "verified_official",
+      "verified_official": true,
+      "search_latency_ms": 2140.5,
+      "cache_hit": false,
+      "error": null
+    },
+    {
+      "poi": "张家界国家森林公园",
+      "city": "张家界",
+      "amap_match": "张家界国家森林公园",
+      "serper_query_count": 1,
+      "queries": [
+        "张家界国家森林公园 官网"
+      ],
+      "top_result": {
+        "title": "首页-张家界·武陵源旅游官方网站",
+        "url": "http://www.hnzjj.com/"
+      },
+      "selected_url": "http://www.hnzjj.com/",
+      "resolution_confidence": 0.9625,
+      "resolution_status": "verified_official",
+      "verified_official": true,
+      "search_latency_ms": 2083.2,
+      "cache_hit": false,
+      "error": null
+    }
+  ]
+}

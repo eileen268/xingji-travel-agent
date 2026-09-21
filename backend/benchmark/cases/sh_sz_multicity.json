@@ -1,0 +1,46 @@
+{
+  "name": "sh_sz_multicity",
+  "input": {
+    "origin": "上海",
+    "destinations": [
+      "上海",
+      "苏州"
+    ],
+    "mainDestination": "上海",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-05",
+    "adults": 2,
+    "children": 0,
+    "seniors": 0,
+    "travelStyle": "自由行",
+    "budget": {
+      "total": 12000
+    },
+    "preferences": {
+      "pace": "balanced",
+      "interests": [
+        "人文古迹",
+        "自然风景"
+      ],
+      "budgetLevel": "comfort",
+      "mustGo": "",
+      "avoid": "",
+      "constraints": "",
+      "longDistance": "agent",
+      "localTransport": [
+        "transit",
+        "taxi"
+      ],
+      "accommodation": ""
+    },
+    "notes": "",
+    "outboundPeriod": "flexible",
+    "returnPeriod": "flexible"
+  },
+  "expectations": [
+    "valid_input",
+    "no_unknown_place_reference",
+    "no_cross_day_sight_or_experience_duplicate",
+    "terminal_state"
+  ]
+}

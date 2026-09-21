@@ -1,0 +1,56 @@
+# ===== OS =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== IDE / editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Secrets / env（任何位置的真实 env 都不入库，仅放行 .env.example）=====
+.env
+.env.*
+.env*.local
+!.env.example
+*.pem
+*.key
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ===== Node / Next.js =====
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+
+# ===== 数据库（兜底：所有真实 SQLite 不入库，仅放行脱敏示例库）=====
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+!backend/data/sample_travel.db
+
+# ===== 本地素材副本（与 frontend-standalone/public 重复）=====
+background/
+
+# ===== 部署本地状态 =====
+.vercel/
+.railway/

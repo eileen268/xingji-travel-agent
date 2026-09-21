@@ -1,0 +1,1432 @@
+{
+  "places": [
+    {
+      "id": "s0",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "西湖湖滨",
+      "local_name": "西湖湖滨",
+      "description": "沿湖滨步道观察湖面与城市的关系，选择相邻的一段慢行即可。带老人或儿童时就近休息，不必为了绕湖而连续步行。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%A5%BF%E6%B9%96%E6%B9%96%E6%BB%A8&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "西湖湖滨",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "temple",
+        "heritage",
+        "historic_architecture",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "family_friendly",
+        "interactive"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "natural_scenery": 0.93,
+        "history_culture": 0.97,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.99,
+        "special_experience": 0.72,
+        "family": 0.96,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "family": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "heritage"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "history_culture": [
+          "temple",
+          "heritage",
+          "historic_architecture"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "historic_architecture",
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "special_experience": [
+          "interactive"
+        ],
+        "family": [
+          "family_friendly",
+          "interactive"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s1",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "断桥残雪",
+      "local_name": "断桥残雪",
+      "description": "从断桥看白堤与湖岸展开的层次，适合结合北山街安排短距离漫步。桥面拥挤时先让行，不在桥中央停留拍摄。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%96%AD%E6%A1%A5%E6%AE%8B%E9%9B%AA&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "断桥残雪",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "mountain",
+        "national_park",
+        "outdoor_activity"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.78,
+        "natural_scenery": 1.0,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.96,
+        "outdoor": 0.99
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "outdoor": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "national_park"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic",
+          "mountain",
+          "national_park"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "natural_scenic",
+          "mountain",
+          "national_park",
+          "outdoor_activity"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s2",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "浙江省博物馆孤山馆区",
+      "local_name": "浙江省博物馆孤山馆区",
+      "description": "以孤山馆区为文化停靠点，了解浙江历史与西湖文化的联系。展览及馆区开放安排可能调整，先核对具体展厅再决定参观路线。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%B5%99%E6%B1%9F%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86%E5%AD%A4%E5%B1%B1%E9%A6%86%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "浙江省博物馆孤山馆区",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "museum",
+        "heritage",
+        "design_exhibition",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "mountain",
+        "national_park",
+        "outdoor_activity",
+        "art_district"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.87,
+        "natural_scenery": 1.0,
+        "history_culture": 0.96,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.99,
+        "special_experience": 0.58,
+        "outdoor": 0.99,
+        "design_exhibition": 0.99
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "outdoor": "high",
+        "design_exhibition": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "museum",
+          "heritage",
+          "national_park"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic",
+          "mountain",
+          "national_park"
+        ],
+        "history_culture": [
+          "museum",
+          "heritage"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography",
+          "art_district"
+        ],
+        "special_experience": [
+          "art_district"
+        ],
+        "outdoor": [
+          "natural_scenic",
+          "mountain",
+          "national_park",
+          "outdoor_activity"
+        ],
+        "design_exhibition": [
+          "museum",
+          "design_exhibition",
+          "art_district"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s3",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "岳王庙",
+      "local_name": "岳王庙",
+      "description": "围绕岳飞纪念建筑了解杭州的人文叙事，参观时注意碑刻与院落的关系。纪念场所保持安静，具体入口和开放安排以公告为准。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E5%B2%B3%E7%8E%8B%E5%BA%99&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "岳王庙",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "temple",
+        "heritage",
+        "historic_architecture"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "history_culture": 0.97,
+        "photo_atmosphere": 0.72
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "history_culture": "high",
+        "photo_atmosphere": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "heritage"
+        ],
+        "history_culture": [
+          "temple",
+          "heritage",
+          "historic_architecture"
+        ],
+        "photo_atmosphere": [
+          "historic_architecture"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s4",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "曲院风荷",
+      "local_name": "曲院风荷",
+      "description": "在曲院风荷选择临水步道观察园林布局与水面倒影，适合与西湖北岸同区安排。荷花具有季节性，不把花期景观作为全年保证。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E6%9B%B2%E9%99%A2%E9%A3%8E%E8%8D%B7&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "曲院风荷",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "temple",
+        "heritage",
+        "historic_architecture",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "natural_scenery": 0.93,
+        "history_culture": 0.97,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.99,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "heritage"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "history_culture": [
+          "temple",
+          "heritage",
+          "historic_architecture"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "historic_architecture",
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s5",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "花港观鱼",
+      "local_name": "花港观鱼",
+      "description": "结合西湖南侧路线走访园林与水边步道，选择可随时折返的一段。不要投喂或攀越护栏，带儿童时先约定集合地点。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%8A%B1%E6%B8%AF%E8%A7%82%E9%B1%BC&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "花港观鱼",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "family_friendly",
+        "interactive"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.72,
+        "natural_scenery": 0.93,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.96,
+        "special_experience": 0.72,
+        "family": 0.96,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "family": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "special_experience": [
+          "interactive"
+        ],
+        "family": [
+          "family_friendly",
+          "interactive"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s6",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "雷峰塔",
+      "local_name": "雷峰塔",
+      "description": "从雷峰塔一带理解西湖南岸的景观层次，也可只安排外围步行。登塔条件和收费需要另行确认，不默认老人儿童都适合登高。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E9%9B%B7%E5%B3%B0%E5%A1%94&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "雷峰塔",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "temple",
+        "heritage",
+        "historic_architecture",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "family_friendly",
+        "interactive"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.84,
+        "natural_scenery": 0.93,
+        "history_culture": 0.97,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.99,
+        "special_experience": 0.72,
+        "family": 0.96,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "history_culture": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "special_experience": "medium",
+        "family": "high",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "heritage"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic"
+        ],
+        "history_culture": [
+          "temple",
+          "heritage",
+          "historic_architecture"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "historic_architecture",
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "special_experience": [
+          "interactive"
+        ],
+        "family": [
+          "family_friendly",
+          "interactive"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s7",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "中国丝绸博物馆",
+      "local_name": "中国丝绸博物馆",
+      "description": "通过丝绸与服饰相关展览理解杭州的工艺传统，适合作为天气不佳时的文化备选。先核对当期展览与开放馆舍，按体力选择展区。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E4%B8%AD%E5%9B%BD%E4%B8%9D%E7%BB%B8%E5%8D%9A%E7%89%A9%E9%A6%86&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "中国丝绸博物馆",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "museum",
+        "heritage",
+        "design_exhibition",
+        "art_district"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.87,
+        "history_culture": 0.96,
+        "photo_atmosphere": 0.76,
+        "special_experience": 0.58,
+        "design_exhibition": 0.99
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "history_culture": "high",
+        "photo_atmosphere": "medium",
+        "special_experience": "medium",
+        "design_exhibition": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "museum",
+          "heritage"
+        ],
+        "history_culture": [
+          "museum",
+          "heritage"
+        ],
+        "photo_atmosphere": [
+          "art_district"
+        ],
+        "special_experience": [
+          "art_district"
+        ],
+        "design_exhibition": [
+          "museum",
+          "design_exhibition",
+          "art_district"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s8",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "中国茶叶博物馆双峰馆区",
+      "local_name": "中国茶叶博物馆双峰馆区",
+      "description": "从茶叶与茶文化展示认识杭州和龙井茶的关系，参观以展陈和周边环境为主。不要默认提供现场制茶课程或试饮，活动需单独确认。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E4%B8%AD%E5%9B%BD%E8%8C%B6%E5%8F%B6%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%8C%E5%B3%B0%E9%A6%86%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "中国茶叶博物馆双峰馆区",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "museum",
+        "heritage",
+        "design_exhibition"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.87,
+        "history_culture": 0.96,
+        "design_exhibition": 0.96
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "history_culture": "high",
+        "design_exhibition": "high"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark",
+          "museum",
+          "heritage"
+        ],
+        "history_culture": [
+          "museum",
+          "heritage"
+        ],
+        "design_exhibition": [
+          "museum",
+          "design_exhibition"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    },
+    {
+      "id": "s9",
+      "type": "sight",
+      "city": "杭州",
+      "display_name": "西溪国家湿地公园",
+      "local_name": "西溪国家湿地公园",
+      "description": "选择西溪湿地的一片区域观察水网与植被，不把整个湿地压缩成匆忙打卡。入口、游线及船行安排需核对，雨天注意湿滑路面。",
+      "official_url": null,
+      "map_url": "https://uri.amap.com/search?keyword=%E6%9D%AD%E5%B7%9E%20%E8%A5%BF%E6%BA%AA%E5%9B%BD%E5%AE%B6%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD&city=%E6%9D%AD%E5%B7%9E",
+      "coordinates": null,
+      "rating": null,
+      "review_count": null,
+      "hours_note": "营业与开放安排可能调整，出发前请复核",
+      "ticket_note": "费用与适用条件以现场或官方说明为准，出发前请复核",
+      "reservation_note": "是否需要预约及预约渠道，出发前请复核",
+      "recheck_note": "出发前请复核",
+      "knowledge_status": "offline_reference",
+      "cuisine": "",
+      "signature_dishes": "",
+      "experience_type": "",
+      "name_source": "offline_reference",
+      "canonical_name": "西溪国家湿地公园",
+      "english_name": null,
+      "experience_title": null,
+      "linked_place_id": null,
+      "booking_status": "not_applicable",
+      "entity_kind": "poi",
+      "verification_status": "unverified",
+      "provider": "offline_reference",
+      "provider_place_id": null,
+      "district": null,
+      "address": null,
+      "latitude": null,
+      "longitude": null,
+      "category": "",
+      "subcategory": null,
+      "place_type": "sight",
+      "source_confidence": null,
+      "source_metadata": {},
+      "fact_provenance": {
+        "identity": {
+          "source_type": "offline_reference",
+          "provider": "offline_reference",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.25,
+          "status": "unresolved"
+        },
+        "opening_hours": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "营业与开放安排可能调整，出发前请复核"
+        },
+        "ticket_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "费用与适用条件以现场或官方说明为准，出发前请复核"
+        },
+        "reservation_rules": {
+          "source_type": "model_knowledge",
+          "provider": null,
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "needs_recheck",
+          "value": "是否需要预约及预约渠道，出发前请复核"
+        },
+        "official_url": {
+          "source_type": "unknown",
+          "provider": null,
+          "queried_at": null,
+          "confidence": 0.0,
+          "status": "unresolved"
+        },
+        "map_url": {
+          "source_type": "derived",
+          "provider": "amap",
+          "queried_at": "2026-09-15T07:25:38.898632+00:00",
+          "confidence": 0.0,
+          "status": "estimated"
+        }
+      },
+      "semantic_tags": [
+        "landmark",
+        "lake",
+        "waterfront",
+        "natural_scenic",
+        "landscape_photography",
+        "urban_park",
+        "green_space"
+      ],
+      "semantic_source": [
+        "backend_rule"
+      ],
+      "interest_affinity": {
+        "classic_landmarks": 0.72,
+        "natural_scenery": 0.93,
+        "city_walk": 0.65,
+        "photo_atmosphere": 0.96,
+        "family": 0.4,
+        "outdoor": 0.6
+      },
+      "semantic_confidence": {
+        "classic_landmarks": "medium",
+        "natural_scenery": "high",
+        "city_walk": "medium",
+        "photo_atmosphere": "high",
+        "family": "medium",
+        "outdoor": "medium"
+      },
+      "affinity_reasons": {
+        "classic_landmarks": [
+          "landmark"
+        ],
+        "natural_scenery": [
+          "lake",
+          "waterfront",
+          "natural_scenic",
+          "urban_park",
+          "green_space"
+        ],
+        "city_walk": [
+          "waterfront"
+        ],
+        "photo_atmosphere": [
+          "natural_scenic",
+          "landscape_photography"
+        ],
+        "family": [
+          "urban_park"
+        ],
+        "outdoor": [
+          "natural_scenic"
+        ]
+      },
+      "semantic_version": "interest-taxonomy-v2"
+    }
+  ]
+}

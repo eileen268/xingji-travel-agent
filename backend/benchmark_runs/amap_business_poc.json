@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-09-15T12:47:49.192823+00:00",
+  "provider": "amap",
+  "api_version": "POI 2.0 (/v5)",
+  "request_contract": {
+    "show_fields": "business",
+    "detail_by_provider_place_id": true
+  },
+  "results": [
+    {
+      "poi": "上海博物馆",
+      "status": "completed",
+      "matched_name": "上海博物馆(人民广场馆)",
+      "provider_place_id": "B001535BBC",
+      "endpoint": "/v5/place/detail",
+      "show_fields": "business",
+      "search_cache_hit": true,
+      "detail_cache_hit": true,
+      "elapsed_ms": 3.9,
+      "raw_business": {
+        "keytag": "博物馆",
+        "rating": "4.7",
+        "business_area": "北京路",
+        "tel": "021-63723500",
+        "rectag": "涨知识圣地",
+        "opentime_week": "9月至12月 周二至周五 09:00-17:00 最晚进入15:00；周一闭馆（节假日除外），每日日场限流8000人，分时段预约。 *暑期（周六）夜场开放时间为18:30-21:30，20:30停止入园，日场营业时间结束后将做清场准备。 01-01至08-28 周一 全天关闭；01-01至07-08 周二至周五 09:00-17:00 最晚进入15:00；01-01至08-28 周六至周日 09:00-17:00 最晚进入15:00；07-09至08-31 周二至周五 09:00-21:00 最晚进入19:00；08-29至08-29 周一至周日 09:00-17:00,18:30-21:30；08-30至12-31 周一 全天关闭；08-30至12-31 周六至周日 09:00-17:00 最晚进入15:00；周一闭馆（节假日除外），每日日场限流8000人，分时段预约。 *暑期（周六）夜场开放时间为18:30-21:30，20:30停止入园，日场营业时间结束后将做清场准备。"
+      },
+      "presence": {
+        "opentime_today": false,
+        "opentime_week": true,
+        "tel": true,
+        "rating": true,
+        "cost": false,
+        "business_area": true,
+        "tag": false
+      }
+    },
+    {
+      "poi": "上海迪士尼乐园",
+      "status": "completed",
+      "matched_name": "上海迪士尼乐园",
+      "provider_place_id": "B0KDJ78DYD",
+      "endpoint": "/v5/place/detail",
+      "show_fields": "business",
+      "search_cache_hit": true,
+      "detail_cache_hit": true,
+      "elapsed_ms": 2.6,
+      "raw_business": {
+        "opentime_today": "08:30-21:30",
+        "keytag": "主题公园",
+        "rating": "4.8",
+        "business_area": "上海迪士尼乐园",
+        "alias": "迪士尼",
+        "tel": "021-20998001;021-60640079;4001800000",
+        "rectag": "主题公园",
+        "opentime_week": "周一至周日 08:30-21:30"
+      },
+      "presence": {
+        "opentime_today": true,
+        "opentime_week": true,
+        "tel": true,
+        "rating": true,
+        "cost": false,
+        "business_area": true,
+        "tag": false
+      }
+    },
+    {
+      "poi": "东方明珠",
+      "status": "completed",
+      "matched_name": "东方明珠广播电视塔",
+      "provider_place_id": "B00150F6D6",
+      "endpoint": "/v5/place/detail",
+      "show_fields": "business",
+      "search_cache_hit": true,
+      "detail_cache_hit": true,
+      "elapsed_ms": 2.5,
+      "raw_business": {
+        "opentime_today": "09:00-21:00",
+        "keytag": "5A景区",
+        "rating": "4.8",
+        "business_area": "陆家嘴",
+        "alias": "东方明珠塔",
+        "tel": "021-58791888",
+        "rectag": "上海标志性文化景观",
+        "opentime_week": "周一至周日 09:00-21:00 最晚进入21:00"
+      },
+      "presence": {
+        "opentime_today": true,
+        "opentime_week": true,
+        "tel": true,
+        "rating": true,
+        "cost": false,
+        "business_area": true,
+        "tag": false
+      }
+    },
+    {
+      "poi": "豫园",
+      "status": "completed",
+      "matched_name": "上海豫园",
+      "provider_place_id": "B00155MF55",
+      "endpoint": "/v5/place/detail",
+      "show_fields": "business",
+      "search_cache_hit": true,
+      "detail_cache_hit": true,
+      "elapsed_ms": 2.4,
+      "raw_business": {
+        "opentime_today": "09:00-16:30",
+        "keytag": "4A景区",
+        "rating": "4.8",
+        "business_area": "城隍庙",
+        "alias": "豫园",
+        "tel": "021-63260830",
+        "rectag": "素有城市山林之誉",
+        "opentime_week": "周一全天关闭(法定节假日除外)；周二至周日 09:00-16:30(16:00停止入馆)"
+      },
+      "presence": {
+        "opentime_today": true,
+        "opentime_week": true,
+        "tel": true,
+        "rating": true,
+        "cost": false,
+        "business_area": true,
+        "tag": false
+      }
+    }
+  ]
+}

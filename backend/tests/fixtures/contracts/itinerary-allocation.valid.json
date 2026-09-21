@@ -1,0 +1,225 @@
+{
+  "canonical_place_ids": [
+    "e0-0",
+    "e0-1",
+    "e1-0",
+    "e1-1",
+    "e2-0",
+    "e2-1",
+    "s0",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6",
+    "s7",
+    "s8",
+    "s9"
+  ],
+  "place_assignments": {
+    "s0": {
+      "place_id": "s0",
+      "day": 1,
+      "role": "primary",
+      "reservation": "hard",
+      "status": "selected",
+      "fixed": false
+    },
+    "s1": {
+      "place_id": "s1",
+      "day": 2,
+      "role": "primary",
+      "reservation": "hard",
+      "status": "selected",
+      "fixed": false
+    },
+    "s2": {
+      "place_id": "s2",
+      "day": 3,
+      "role": "primary",
+      "reservation": "hard",
+      "status": "selected",
+      "fixed": false
+    },
+    "s5": {
+      "place_id": "s5",
+      "day": 3,
+      "role": "preferred",
+      "reservation": "hard",
+      "status": "selected",
+      "fixed": false
+    },
+    "s4": {
+      "place_id": "s4",
+      "day": 2,
+      "role": "preferred",
+      "reservation": "hard",
+      "status": "selected",
+      "fixed": false
+    },
+    "s3": {
+      "place_id": "s3",
+      "day": 1,
+      "role": "preferred",
+      "reservation": "hard",
+      "status": "selected",
+      "fixed": false
+    },
+    "e1-0": {
+      "place_id": "e1-0",
+      "day": 2,
+      "role": "preferred",
+      "reservation": "hard",
+      "status": "selected",
+      "fixed": false
+    },
+    "e0-0": {
+      "place_id": "e0-0",
+      "day": 1,
+      "role": "preferred",
+      "reservation": "hard",
+      "status": "selected",
+      "fixed": false
+    },
+    "s6": {
+      "place_id": "s6",
+      "day": 3,
+      "role": "preferred",
+      "reservation": "hard",
+      "status": "selected",
+      "fixed": false
+    },
+    "e0-1": {
+      "place_id": "e0-1",
+      "day": 1,
+      "role": "backup",
+      "reservation": "soft",
+      "status": "reserved",
+      "fixed": false
+    },
+    "s7": {
+      "place_id": "s7",
+      "day": 1,
+      "role": "backup",
+      "reservation": "soft",
+      "status": "reserved",
+      "fixed": false
+    },
+    "s8": {
+      "place_id": "s8",
+      "day": 2,
+      "role": "backup",
+      "reservation": "soft",
+      "status": "reserved",
+      "fixed": false
+    },
+    "e1-1": {
+      "place_id": "e1-1",
+      "day": 2,
+      "role": "backup",
+      "reservation": "soft",
+      "status": "reserved",
+      "fixed": false
+    },
+    "e2-0": {
+      "place_id": "e2-0",
+      "day": 3,
+      "role": "backup",
+      "reservation": "soft",
+      "status": "reserved",
+      "fixed": false
+    },
+    "s9": {
+      "place_id": "s9",
+      "day": 3,
+      "role": "backup",
+      "reservation": "soft",
+      "status": "reserved",
+      "fixed": false
+    }
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-10-02",
+      "city": "杭州",
+      "area_labels": [
+        "西湖湖滨 · 知味观仁和路总店 · 断桥残雪"
+      ],
+      "intent": "西湖湖滨 · 知味观仁和路总店 · 断桥残雪",
+      "primary_anchor_id": "s0",
+      "preferred_candidate_ids": [
+        "s3",
+        "e0-0"
+      ],
+      "backup_candidate_ids": [
+        "e0-1",
+        "s7"
+      ],
+      "fixed_meal_stop_id": "r0"
+    },
+    {
+      "day": 2,
+      "date": "2026-10-03",
+      "city": "杭州",
+      "area_labels": [
+        "浙江省博物馆孤山馆区 · 楼外楼孤山路店 · 岳王庙"
+      ],
+      "intent": "浙江省博物馆孤山馆区 · 楼外楼孤山路店 · 岳王庙",
+      "primary_anchor_id": "s1",
+      "preferred_candidate_ids": [
+        "s4",
+        "e1-0"
+      ],
+      "backup_candidate_ids": [
+        "s8",
+        "e1-1"
+      ],
+      "fixed_meal_stop_id": "r1"
+    },
+    {
+      "day": 3,
+      "date": "2026-10-04",
+      "city": "杭州",
+      "area_labels": [
+        "曲院风荷 · 新白鹿龙游路店 · 花港观鱼"
+      ],
+      "intent": "曲院风荷 · 新白鹿龙游路店 · 花港观鱼",
+      "primary_anchor_id": "s2",
+      "preferred_candidate_ids": [
+        "s5",
+        "s6"
+      ],
+      "backup_candidate_ids": [
+        "e2-0",
+        "s9"
+      ],
+      "fixed_meal_stop_id": "r2"
+    }
+  ],
+  "available_place_ids": [
+    "e0-1",
+    "e1-1",
+    "e2-0",
+    "e2-1",
+    "s7",
+    "s8",
+    "s9"
+  ],
+  "released_place_ids": [],
+  "selected_interest_ids": [
+    "history_culture",
+    "natural_scenery"
+  ],
+  "trip_interest_state": {
+    "history_culture": {
+      "coverage": 6,
+      "strength": 5.8
+    },
+    "natural_scenery": {
+      "coverage": 8,
+      "strength": 7.65
+    }
+  }
+}
