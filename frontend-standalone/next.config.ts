@@ -10,8 +10,9 @@ const nextConfig: NextConfig = {
     return {
       beforeFiles: [
         { source: "/api/:path*", destination: `${backendUrl}/api/:path*` },
-        // 高德 JS API 安全密钥：前端只引用同源地址，由后端注入安全码后透传动态密钥
-        { source: "/amap-security/:path*", destination: `${backendUrl}/amap-security/:path*` },
+        // 高德 JS API 安全密钥（官方代理转发方案）：前端只引用同源前缀，
+        // 由后端在服务端注入安全密钥后转发到高德官方主机。
+        { source: "/_AMapService/:path*", destination: `${backendUrl}/_AMapService/:path*` },
       ],
     };
   },

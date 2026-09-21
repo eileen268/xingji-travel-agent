@@ -606,11 +606,11 @@ PostgreSQL
 
 ```text
 浏览器
-  │  同源请求 /api/*、/amap-security/*
+  │  同源请求 /api/*、/_AMapService/*
   ▼
 Vercel（Next.js）── rewrite ──▶ Railway（FastAPI + asyncio Worker）
   │                                │
-  │ NEXT_PUBLIC_AMAP_JS_KEY        │ AMAP_SECURITY_JS_CODE（安全码代理）
+  │ NEXT_PUBLIC_AMAP_JS_KEY        │ AMAP_SECURITY_JS_CODE（服务端注入 jscode）
   │ （公开，靠域名白名单保护）       │ AMAP_WEB_SERVICE_KEY（POI / 路线）
   │                                │ ZHIPU_API_KEY、SERPER_API_KEY
   │                                ▼
@@ -618,7 +618,7 @@ Vercel（Next.js）── rewrite ──▶ Railway（FastAPI + asyncio Worker�
 ```
 
 - 智谱、Serper、高德 Web 服务 Key 与高德安全密钥**只存在于 Railway 服务端环境变量**，不进入 GitHub，也不进入前端 bundle。
-- 前端只持有高德 JS Key（`NEXT_PUBLIC_AMAP_JS_KEY`，浏览器端可见是该 Key 的正常使用形态），在高德控制台配置域名白名单防止盗用；安全码按高德官方推荐方案改为**服务端代理**：JS API 将安全校验指向同源 `/amap-security/jscode`，经 Vercel 转发到 Railway，由 Railway 注入安全密钥后向高德换取动态密钥并透传。
+- 前端只持有高德 JS Key（`NEXT_PUBLIC_AMAP_JS_KEY`，浏览器端可见是该 Key 的正常使用形态），在高德控制台配置域名白名单防止盗用；安全码按高德官方"代理服务器转发"方案改为**服务端代理**：JS API 把所有高德服务请求指向同源固定前缀 `/_AMapService`（含 `v3/assistant/security/jscode` 动态密钥换取），经 Vercel 转发到 Railway，由 Railway 在请求上注入安全密钥（jscode）后按官方规则分发到高德对应主机（restapi / webapi / fmap01）并透传响应。
 - 前端通过环境变量 `BACKEND_URL`（不带 `NEXT_PUBLIC_` 前缀，不进浏览器 bundle）指定后端地址；本地开发默认转发到 `http://localhost:8000`。
 - 仓库中只保留 `.env.example`；真实 `.env`、`.env.local` 被 `.gitignore` 排除，历史提交中也不包含任何真实密钥。
 - SQLite 数据库存放在 Railway Persistent Volume（`DATABASE_PATH=/data/travel.db`），启动时自动建表迁移；仓库 `backend/data/` 仅附带一份脱敏精简的示例库。

@@ -10,7 +10,7 @@ from pathlib import Path
 
 import httpx
 from dotenv import load_dotenv
-from fastapi import FastAPI, Header, HTTPException
+from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse, Response
 from pydantic import BaseModel, ConfigDict
@@ -171,28 +171,41 @@ app=FastAPI(title='行迹 Journey Notes API',version='1.3.0',lifespan=lifespan)
 async def root(): return {'service':'行迹 Journey Notes API','status':'ok','docs':'/docs'}
 
 
-@app.get('/amap-security/jscode')
-async def amap_security_jscode(ts: str):
-    """高德 JS API 安全密钥的服务端代理（官方推荐方案）。
+@app.get('/_AMapService/{upstream_path:path}')
+async def amap_service_proxy(upstream_path: str, request: Request):
+    """高德 JS API 2.0 安全密钥代理（官方"代理服务器转发"方案）。
 
-    浏览器端只持有 JS Key（受域名白名单保护），安全码 AMAP_SECURITY_JS_CODE
-    只保存在服务端；本接口拿到前端 JSAPI 传来的 ts 后，注入安全码请求高德，
-    并将动态密钥响应原样透传。本接口不返回安全码本身。
+    前端将 window._AMapSecurityConfig.serviceHost 指向同源 /_AMapService，
+    JSAPI 把对高德 Web 服务的请求（含 v3/assistant/security/jscode 动态密钥
+    换取、地图样式等）发到本前缀；本服务对每个请求在服务端注入安全密钥
+    jscode 后按官方规则分发到对应高德主机，并原样透传响应。安全密钥永不下发。
+    仅允许转发到高德官方主机的白名单路径，避免成为开放代理。
     """
     security_code=os.getenv('AMAP_SECURITY_JS_CODE','').strip()
     if not security_code:
         raise HTTPException(503,detail={'code':'AMAP_SECURITY_NOT_CONFIGURED',
                                         'message':'地图安全代理未配置 AMAP_SECURITY_JS_CODE'})
+    if upstream_path == 'v4/map/styles' or upstream_path.startswith('v4/map/styles/'):
+        upstream_base='https://webapi.amap.com'
+    elif upstream_path == 'v3/vectormap' or upstream_path.startswith('v3/vectormap/'):
+        upstream_base='https://fmap01.amap.com'
+    elif upstream_path.startswith('v3/') or upstream_path.startswith('v4/') or upstream_path.startswith('v5/'):
+        upstream_base='https://restapi.amap.com'
+    else:
+        raise HTTPException(404,detail={'code':'AMAP_PROXY_PATH_NOT_ALLOWED',
+                                        'message':'该路径不允许通过地图代理访问'})
+    params=[(k,v) for k,v in request.query_params.multi_items() if k!='jscode']
+    params.append(('jscode',security_code))
     try:
-        async with httpx.AsyncClient(timeout=httpx.Timeout(8.0,connect=5.0)) as client:
-            upstream=await client.get('https://restapi.amap.com/v3/assistant/security/jscode',
-                                      params={'ts':ts,'jscode':security_code})
+        async with httpx.AsyncClient(timeout=httpx.Timeout(10.0,connect=5.0),follow_redirects=False) as client:
+            upstream=await client.get(f'{upstream_base}/{upstream_path}',params=params)
     except httpx.HTTPError:
-        raise HTTPException(502,detail={'code':'AMAP_SECURITY_UPSTREAM_FAILED',
-                                        'message':'地图安全服务暂时不可用'}) from None
-    return Response(content=upstream.content,status_code=upstream.status_code,
-                    media_type=upstream.headers.get('content-type','application/javascript'),
-                    headers={'Cache-Control':'no-store'})
+        raise HTTPException(502,detail={'code':'AMAP_PROXY_UPSTREAM_FAILED',
+                                        'message':'地图服务暂时不可用'}) from None
+    headers={'Cache-Control':'no-store'}
+    if 'content-type' in upstream.headers:
+        headers['Content-Type']=upstream.headers['content-type']
+    return Response(content=upstream.content,status_code=upstream.status_code,headers=headers)
 
 
 @app.exception_handler(RequestValidationError)

@@ -47,21 +47,25 @@ uvicorn app.main:app --reload
 | `ENABLE_DEV_MODES` | 0 | 为 1 时开放 MOCK / REPLAY 与完整错误追踪调试接口 |
 | `LOG_LEVEL` / `WORKER_LEASE_SECONDS` | INFO / 45 | 日志级别与任务租约有效期 |
 
-## 高德 JS API 安全密钥代理
+## 高德 JS API 安全密钥代理（官方"代理服务器转发"方案）
 
-生产环境下前端不再明文携带 `securityJsCode`。本服务提供高德官方推荐的代理接口：
+生产环境下前端不再明文携带 `securityJsCode`，而是把 JSAPI 的高德服务请求统一导向本服务的同源代理前缀 `/_AMapService`（高德官方规定的固定前缀，经 Vercel rewrite 转发）：
 
 ```text
-前端 JSAPI 请求  /amap-security/jscode?ts=<时间戳>
+前端 JSAPI 请求  /_AMapService/<高德接口路径>?key=<JS Key>&ts=<时间戳>&...
         │（经 Vercel rewrite 同源转发）
         ▼
-本服务注入 AMAP_SECURITY_JS_CODE，请求
-https://restapi.amap.com/v3/assistant/security/jscode?ts=<ts>&jscode=<安全码>
+本服务在查询参数中注入 jscode=AMAP_SECURITY_JS_CODE，按路径分发：
+  /v4/map/styles/**   → https://webapi.amap.com
+  /v3/vectormap/**    → https://fmap01.amap.com
+  其他 /v3/ /v4/ /v5/ → https://restapi.amap.com
         ▼
-高德返回的动态密钥响应原样透传给前端
+高德响应（含 v3/assistant/security/jscode 返回的动态密钥）原样透传给前端
 ```
 
-浏览器端只暴露 JS Key（由高德控制台域名白名单保护），安全码只存在于服务端。
+- 浏览器端只暴露 JS Key（由高德控制台域名白名单保护），安全码只存在于服务端；动态密钥由 JSAPI 持 JS Key 经本代理换取。
+- 代理只允许转发白名单路径到高德官方主机，不会成为开放代理。
+- 本服务自身的 POI / 路线等 Web 服务调用仍在服务端直接使用 `AMAP_WEB_SERVICE_KEY`，与该代理无关。
 
 ## API 摘要
 

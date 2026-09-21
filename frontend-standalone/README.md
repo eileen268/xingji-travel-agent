@@ -68,7 +68,7 @@ frontend-standalone/
 - 所有真实接口走同源相对路径 `/api/...`（建任务、轮询、取结果、行程列表、全部重规划与编辑接口），统一在 `lib/api.ts` 封装：20 秒常规超时（重规划类 120 秒）、AbortSignal 取消、422 错误指针解析、`REPLAN_*` 用户文案映射。
 - 后端返回的 `DestinationProfile` 在 `toTrip()` 中适配为 UI 模型；未知费用显示"待复核"，未知坐标不显示假数字，未经核验的营业与票价信息不呈现为确定事实。
 - `/trip/demo-trip` 的请求被 `legacyFetch()` 引导到独立的 `/mock-api/*`，与真实后端完全隔离；其他页面不允许回退到 Mock 数据。
-- 开发环境通过 `next.config.ts` 的 rewrites 把 `/api/*` 与 `/amap-security/*` 转发到 `http://localhost:8000`；生产环境由服务端环境变量 `BACKEND_URL` 指定 Railway 地址，在 Vercel 侧转发，浏览器始终同源访问，无需 CORS。
+- 开发环境通过 `next.config.ts` 的 rewrites 把 `/api/*` 与 `/_AMapService/*` 转发到 `http://localhost:8000`；生产环境由服务端环境变量 `BACKEND_URL` 指定 Railway 地址，在 Vercel 侧转发，浏览器始终同源访问，无需 CORS。
 
 ## 环境变量
 
@@ -77,7 +77,7 @@ frontend-standalone/
 | `NEXT_PUBLIC_AMAP_JS_KEY` | `.env.local` / Vercel | 高德 JS API Key，浏览器端可见，需在高德控制台配置域名白名单 |
 | `BACKEND_URL` | 仅 Vercel（**不带** `NEXT_PUBLIC_` 前缀） | 生产环境后端地址，供 rewrites 转发；本地开发默认 `http://localhost:8000` |
 
-高德安全密钥（`securityJsCode`）**不在前端配置**：地图组件把高德安全校验指向同源 `/amap-security/jscode`，经 Next rewrite 转发到后端，由后端持有安全密钥并完成官方推荐的代理换取流程。不配置 JS Key 时，地图自动降级为内置的手绘风格路线预览，其他功能不受影响。
+高德安全密钥（`securityJsCode`）**不在前端配置**：地图组件按高德官方"代理服务器转发"方案把 `window._AMapSecurityConfig.serviceHost` 指向同源前缀 `/_AMapService`，经 Next rewrite 转发到后端；后端在每个转发请求上注入 jscode 并分发到高德主机，完成动态密钥换取与 Web 服务透传。不配置 JS Key 时，地图自动降级为内置的手绘风格路线预览，其他功能不受影响。
 
 ## 本地开发
 
