@@ -622,6 +622,7 @@ Vercel（Next.js）── rewrite ──▶ Railway（FastAPI + asyncio Worker�
 - 前端通过环境变量 `BACKEND_URL`（不带 `NEXT_PUBLIC_` 前缀，不进浏览器 bundle）指定后端地址；本地开发默认转发到 `http://localhost:8000`。
 - 仓库中只保留 `.env.example`；真实 `.env`、`.env.local` 被 `.gitignore` 排除，历史提交中也不包含任何真实密钥。
 - SQLite 数据库存放在 Railway Persistent Volume（`DATABASE_PATH=/data/travel.db`），启动时自动建表迁移；仓库 `backend/data/` 仅附带一份脱敏精简的示例库。
+- 空数据卷首次启动时（库不存在或尚无任务），会自动导入该示例库（兰州、上海+苏州两份示例行程），线上"我的行程"开箱可浏览；一旦产生过真实任务，后续部署不再覆盖，用户数据不受影响。
 
 ---
 

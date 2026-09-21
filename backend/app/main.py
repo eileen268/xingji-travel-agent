@@ -3,6 +3,7 @@ import hashlib
 import json
 import os
 import logging
+import shutil
 import sqlite3
 import uuid
 from contextlib import asynccontextmanager, contextmanager
@@ -41,6 +42,44 @@ logger=logging.getLogger(__name__)
 def database_path():
     path=Path(os.getenv('DATABASE_PATH',str(ROOT/'data/travel.db')))
     return path if path.is_absolute() else ROOT/path
+
+
+SAMPLE_DATABASE=ROOT/'data'/'sample_travel.db'
+
+
+def _database_has_jobs(path: Path) -> bool:
+    """目标库是否已经含有真实任务（jobs 表存在且非空）。"""
+    if not path.exists():
+        return False
+    db=sqlite3.connect(f'file:{path}?mode=ro',uri=True,timeout=10)
+    try:
+        if not db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='jobs'").fetchone():
+            return False
+        return db.execute('SELECT COUNT(*) FROM jobs').fetchone()[0] > 0
+    except sqlite3.Error:
+        return False
+    finally:
+        db.close()
+
+
+def ensure_seed_database():
+    """空数据卷首次启动时导入仓库自带的脱敏示例库；之后永不覆盖真实数据。
+
+    仅当仓库内存在 data/sample_travel.db，且目标库不存在或 jobs 表为空
+    （全新部署、尚无用户创建行程）时才复制。一旦库里有过任意任务，本函数
+    不再做任何事。
+    """
+    target=database_path()
+    if _database_has_jobs(target) or not SAMPLE_DATABASE.exists():
+        return
+    target.parent.mkdir(parents=True,exist_ok=True)
+    for suffix in ('','-wal','-shm'):
+        sidecar=Path(str(target)+suffix)
+        if sidecar.exists():
+            sidecar.unlink()
+    shutil.copy2(SAMPLE_DATABASE,target)
+    logger.info('empty database detected; seeded from data/sample_travel.db',
+                extra={'path':str(target)})
 
 
 @contextmanager
@@ -153,6 +192,7 @@ async def worker():
 
 @asynccontextmanager
 async def lifespan(app):
+    ensure_seed_database()
     migrate(database_path())
     record_execution_event(connect,event_type='worker_started',worker_id=WORKER_ID,operation='worker',
                            details={'resume_reason':'process_start'})
