@@ -136,7 +136,7 @@ $env:ENABLE_DEV_MODES="1"
 - Runtime 由 Nixpacks 依据 `requirements.txt` 自动识别为 Python。
 - Start Command：`uvicorn app.main:app --host 0.0.0.0 --port $PORT`。
 - 挂载 Persistent Volume 到 `/data`，设置 `DATABASE_PATH=/data/travel.db`；首次启动自动建表迁移。
-- **示例数据自动导入**：空数据卷首次启动（目标库不存在，或 `jobs` 表为空）时，自动把仓库内 `data/sample_travel.db`（兰州 4 天、上海+苏州 6 天两份脱敏示例）复制为 `/data/travel.db`，让线上"我的行程"开箱即有可浏览的真实档案；一旦库中出现过任意任务，后续部署永不再覆盖，用户数据不受影响。
+- **示例数据自动导入**：数据卷为空（目标库不存在，或 `jobs` 表为空）时，自动把仓库内 `data/sample_travel.db` 复制为 `/data/travel.db`，让线上"我的行程"开箱即有可浏览的真实档案。当前示例为兰州 1 天（5 个地点均为真实高德 POI，地图可完整标注与连线）与上海+苏州 6 天（含重规划历史）两份脱敏行程。示例库按 sha256 版本管理，卷上 `<数据库名>.seed.json` 记录已导入版本与任务 id：首版旧示例库（地点无坐标的兰州 4 天）会在部署后一次性升级，示例版本落后且卷内仅有示例任务时也会自动更新；一旦库中出现示例之外的真实任务，永不再覆盖，用户数据不受影响。
 - 服务端环境变量：`ZHIPU_API_KEY`、`AMAP_WEB_SERVICE_KEY`（或 `AMAP_API_KEY`）、`AMAP_SECURITY_JS_CODE`、`SERPER_API_KEY`（可选）、`DATABASE_PATH`；生产保持 `ENABLE_DEV_MODES=0`。
 - 健康检查使用根路径 `GET /`（返回服务状态）。
 - 单实例运行：SQLite + 进程内任务队列依赖单一 Worker；横向扩容需要先迁移到 PostgreSQL（Roadmap P3）。

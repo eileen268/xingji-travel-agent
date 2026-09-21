@@ -46,6 +46,7 @@ yarn-error.log*
 *.db-journal
 *.sqlite
 *.sqlite3
+*.seed.json
 !backend/data/sample_travel.db
 
 # ===== 本地素材副本（与 frontend-standalone/public 重复）=====

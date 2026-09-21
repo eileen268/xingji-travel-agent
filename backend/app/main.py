@@ -45,41 +45,79 @@ def database_path():
 
 
 SAMPLE_DATABASE=ROOT/'data'/'sample_travel.db'
+# 首版上线示例库的任务 id，用于一次性升级到坐标完整的新示例库。
+LEGACY_SEED_JOB_IDS={
+    '04276de4-63d0-43c7-9202-b2f2ddd04bbb',  # 旧版兰州（地点无坐标，地图不可定位）
+    '4cbd6e51-635e-4506-9ccd-d1dce557642c',  # 上海+苏州
+}
 
 
-def _database_has_jobs(path: Path) -> bool:
-    """目标库是否已经含有真实任务（jobs 表存在且非空）。"""
+def _list_job_ids(path: Path):
+    """列出目标库中的全部 job id；库或 jobs 表不存在返回空集，无法判定返回 None。"""
     if not path.exists():
-        return False
+        return set()
     db=sqlite3.connect(f'file:{path}?mode=ro',uri=True,timeout=10)
     try:
         if not db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='jobs'").fetchone():
-            return False
-        return db.execute('SELECT COUNT(*) FROM jobs').fetchone()[0] > 0
+            return set()
+        return {row[0] for row in db.execute('SELECT id FROM jobs')}
     except sqlite3.Error:
-        return False
+        return None
     finally:
         db.close()
 
 
-def ensure_seed_database():
-    """空数据卷首次启动时导入仓库自带的脱敏示例库；之后永不覆盖真实数据。
+def _seed_marker_path(target: Path) -> Path:
+    return target.with_name(target.name+'.seed.json')
 
-    仅当仓库内存在 data/sample_travel.db，且目标库不存在或 jobs 表为空
-    （全新部署、尚无用户创建行程）时才复制。一旦库里有过任意任务，本函数
-    不再做任何事。
+
+def ensure_seed_database():
+    """按需把仓库自带的脱敏示例库导入数据卷；任何情况下都不覆盖真实用户数据。
+
+    触发条件（满足其一）：
+    1. 目标库不存在或 jobs 表为空（全新部署）；
+    2. 目标库由首版示例库初始化，任务集合是首版示例 id 的子集（一次性升级）；
+    3. 卷上示例库版本（sample_travel.db 的 sha256）落后，且库里只有示例任务。
+    一旦库中出现示例标记之外的任何任务，即视为已有真实用户数据，不再写入。
+    导入结果记录在 <数据库名>.seed.json，供后续版本判断。
     """
-    target=database_path()
-    if _database_has_jobs(target) or not SAMPLE_DATABASE.exists():
+    if not SAMPLE_DATABASE.exists():
         return
+    target=database_path()
+    job_ids=_list_job_ids(target)
+    if job_ids is None:
+        return
+    sample_hash=hashlib.sha256(SAMPLE_DATABASE.read_bytes()).hexdigest()
+    marker=_seed_marker_path(target)
+    should_seed=False
+    if not job_ids:
+        should_seed=True
+    elif marker.exists():
+        try:
+            recorded=json.loads(marker.read_text(encoding='utf-8'))
+            seeded_ids=set(recorded.get('job_ids',[]))
+            if recorded.get('sample_sha256')!=sample_hash and job_ids<=seeded_ids:
+                should_seed=True
+        except (OSError,json.JSONDecodeError):
+            pass
+    elif job_ids<=LEGACY_SEED_JOB_IDS:
+        should_seed=True
+    if not should_seed:
+        return
+
     target.parent.mkdir(parents=True,exist_ok=True)
     for suffix in ('','-wal','-shm'):
         sidecar=Path(str(target)+suffix)
         if sidecar.exists():
             sidecar.unlink()
     shutil.copy2(SAMPLE_DATABASE,target)
-    logger.info('empty database detected; seeded from data/sample_travel.db',
-                extra={'path':str(target)})
+    seeded_job_ids=sorted(_list_job_ids(target) or [])
+    marker.write_text(json.dumps({'sample_sha256':sample_hash,
+                                  'job_ids':seeded_job_ids,
+                                  'seeded_at':now()},ensure_ascii=False,indent=2),
+                      encoding='utf-8')
+    logger.info('sample database provisioned on empty/seed-only volume',
+                extra={'path':str(target),'jobs':len(seeded_job_ids)})
 
 
 @contextmanager
